@@ -1,0 +1,22 @@
+namespace SchoolManagementSystem.Models
+{
+    public class Exam
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public DateTime AddedDate { get; set; }
+        public DateTime ActualDate { get; set; }
+        public decimal TotalDegree { get; set; }
+        public string ExamUrl { get; set; }
+        public int ClassId { get; set; }
+        public int SubjectId { get; set; }
+        public int TeacherId { get; set; }
+
+        // Many-To-One
+        public Subject Subject { get; set; }
+        // One-To-Many
+        public ICollection<StudentExamDegree> StudentExamDegrees { get; set; }
+
+    
+    }
+}
