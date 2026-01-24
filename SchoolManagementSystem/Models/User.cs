@@ -12,7 +12,7 @@ public class User
     public string Password { get; set; }
     public string ProfilPhotoURL { get; set; }
     public string SSN { get; set; }
-    public int TypeID { get; set; }
+    public byte? TypeID { get; set; }
     public DateTime BirthDate { get; set; }
     public DateTime AddedDate { get; set; }
     public string Governorate { get; set; }
