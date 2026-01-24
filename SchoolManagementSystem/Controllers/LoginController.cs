@@ -21,7 +21,7 @@ namespace SchoolManagementSystem.Controllers
             
             var user = context.Users.FirstOrDefault(
                 u => u.Password == model.Password 
-                && u.Email == model.Email);
+                && u.Email == model.Username);
 
             
 

@@ -6,7 +6,7 @@ namespace SchoolManagementSystem.ViewModel
     {
        
         [Required(ErrorMessage = "اسم المستخدم مطلوب")]
-        public string Email { get; set; }
+        public string Username { get; set; }
 
         [Required(ErrorMessage = "كلمة المرور مطلوبة")]
         [DataType(DataType.Password)]
