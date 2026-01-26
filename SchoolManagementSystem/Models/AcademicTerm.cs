@@ -7,7 +7,7 @@ namespace SchoolManagementSystem.Models
         public string Name { get; set; }
         public byte TermNumber { get; set; }
         public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime? EndDate { get; set; }
 
         // Many-To-One
         public virtual AcademicYear AcademicYear { get; set; }

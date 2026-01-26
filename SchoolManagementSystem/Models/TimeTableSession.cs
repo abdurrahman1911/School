@@ -9,7 +9,6 @@ namespace SchoolManagementSystem.Models
         public byte DayOfWeekOredr { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
-        public bool IsDeleted { get; set; }
 
         // Many-To-One
         public virtual Teacher Teacher { get; set; }

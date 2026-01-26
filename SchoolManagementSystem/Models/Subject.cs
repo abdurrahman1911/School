@@ -4,7 +4,7 @@ namespace SchoolManagementSystem.Models
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public string Code { get; set; }
+        public string? Code { get; set; }
         // One-To-Many
         public virtual ICollection<Exam> Exams { get; set; }
         public virtual ICollection<ExtraSubjectMaterial> ExtraSubjectMaterials { get; set; }

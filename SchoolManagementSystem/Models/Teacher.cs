@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations.Schema;
-
 namespace SchoolManagementSystem.Models
 {
     public class Teacher
@@ -15,6 +13,8 @@ namespace SchoolManagementSystem.Models
         public virtual ICollection<TimeTableSession> TimeTableSessions { get; set; }
         public virtual ICollection<Homework>Homeworks { get; set; }
         public virtual ICollection<TeacherSubject>TeacherSubjects { get; set; }
+        public virtual ICollection<Exam>Exams { get; set; }
         public virtual ICollection<StudentsSubjectsEnrollment> StudentsSubjectsEnrollments { get; set; }
+        public virtual ICollection<ExtraSubjectMaterial> ExtraSubjectsMaterials { get; set; }
     }
 }

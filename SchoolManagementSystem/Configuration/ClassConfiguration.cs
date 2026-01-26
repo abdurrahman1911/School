@@ -17,6 +17,7 @@ namespace SchoolManagementSystem.Configuration
                 .WithMany(g=>g.Classes)
                 .HasForeignKey(c=>c.GradeId)
                 .OnDelete(DeleteBehavior.Restrict);
+            
            
 
 

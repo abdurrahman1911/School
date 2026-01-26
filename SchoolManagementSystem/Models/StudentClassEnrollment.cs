@@ -8,7 +8,6 @@ namespace SchoolManagementSystem.Models
         public int GradeId { get; set; }
         public int AcademicTermId { get; set; }
         public bool IsPassed { get; set; }
-        public bool IsDeleted { get; set; }
 
         // Many-To-One
         public Student Student { get; set; }

@@ -14,6 +14,8 @@ namespace SchoolManagementSystem.Models
 
         // Many-To-One
         public Subject Subject { get; set; }
+        public virtual Teacher Teacher { get; set; }
+        public virtual Class Class { get; set; }
         // One-To-Many
         public ICollection<StudentExamDegree> StudentExamDegrees { get; set; }
 

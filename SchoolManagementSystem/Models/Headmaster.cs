@@ -7,7 +7,7 @@ namespace SchoolManagementSystem.Models
         public DateTime HireDate { get; set; }
         public DateTime? ExiteDate { get; set; }
 
-
+        //One-To-One
         public virtual User User { get; set; }
 
 

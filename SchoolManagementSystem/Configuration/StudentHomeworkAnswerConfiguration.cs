@@ -15,8 +15,7 @@ namespace SchoolManagementSystem.Configuration
                 .WithMany(t => t.StudentHomeworkAnswers)
                 .HasForeignKey(h => h.HomeworkId)
                 .OnDelete(DeleteBehavior.Restrict);
-            builder.HasKey(h => h.ID);
-            builder.Property(h => h.ID).ValueGeneratedOnAdd();
+
             builder
                 .HasOne(h => h.Student)
                 .WithMany(t => t.StudentHomeworkAnswers)

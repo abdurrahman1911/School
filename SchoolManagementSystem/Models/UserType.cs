@@ -1,5 +1,3 @@
-using SchoolManagementSystem.ViewModel;
-
 namespace SchoolManagementSystem.Models
 {
     public class UserType
@@ -9,9 +7,6 @@ namespace SchoolManagementSystem.Models
 
         public virtual ICollection<User> Users { get; set; }
 
-        public static explicit operator UserTypeEnum(UserType v)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

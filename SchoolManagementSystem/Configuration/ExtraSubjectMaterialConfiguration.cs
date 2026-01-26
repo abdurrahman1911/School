@@ -22,6 +22,11 @@ namespace SchoolManagementSystem.Configuration
                 .WithMany(s => s.ExtraSubjectMaterials)
                 .HasForeignKey(s => s.ClassID)
                 .OnDelete(DeleteBehavior.Restrict);
+            builder
+                .HasOne(e=>e.Teacher)
+                .WithMany(t=>t.ExtraSubjectsMaterials)
+                .HasForeignKey(e=>e.TeacherId)
+                .OnDelete(DeleteBehavior.Restrict);
 
         }
     }
