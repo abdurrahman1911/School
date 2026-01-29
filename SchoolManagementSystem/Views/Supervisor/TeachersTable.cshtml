@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "جدول المعلمين";
+}
+
+<link rel="stylesheet" href="~/css/Supervisor/teachersTable.css" />
+
+<div class="layout">
+
+    <!-- المحتوى -->
+    <main class="content">
+        <div class="box">
+
+            <!-- اختيار اسم المعلم -->
+            <div class="selectors single">
+                <label>اختيار اسم المعلم :</label>
+                <select>
+                    <option>محمد أحمد السيد</option>
+                    <option>فاطمة محمود حسن</option>
+                    <option>خالد السيد محمد</option>
+                    <option>مازن محمد عبدالرحمن</option>
+                    <option>روان محمد ياسر</option>
+                    <option>فيروز أحمد محمد</option>
+                    <option>آمنة محمد عبدالله</option>
+                    <option>فريدة أحمد صالح</option>
+                    <option>محمد محمود عبد الرحيم</option>
+                    <option>صالح عبدالله محمد</option>
+                </select>
+            </div>
+
+            <!-- عنوان الجدول -->
+            <h3 class="table-title">
+                جدول المعلم محمد أحمد السيد :
+            </h3>
+
+            <!-- صورة الجدول -->
+            <div class="table-image">
+                <img src="~/images/TeachersTable.png" alt="جدول المعلمين">
+            </div>
+
+        </div>
+    </main>
+
+    <!-- القائمة الجانبية -->
+    <aside class="sidebar">
+
+        <div class="admin">
+            <img src="~/images/supervisorImage.jpg" />
+            <h4>
+                <a asp-controller="Supervisor" asp-action="SupervisorProfile">
+                    أحمد علي
+                </a>
+            </h4>
+        </div>
+
+        <nav>
+            <a asp-controller="Supervisor" asp-action="StudentPage">
+                الطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersPage">
+                المعلمون
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="StudentsTable">
+                جدول الطلاب
+            </a>
+
+            <a asp-controller="Supervisor"
+               asp-action="TeachersTable"
+               class="active">
+                جدول المعلمين
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeacherPerformance">
+                أداء المعلم
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersAbsence">
+                الغياب للمعلمين
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="StudentsAbsence">
+                الغياب للطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="Notes">
+                الملاحظات
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="EditProfile">
+                تعديل البيانات
+            </a>
+        </nav>
+
+        <button class="logout"
+                onclick="location.href='@Url.Action("Index","Home")'">
+            تسجيل الخروج
+        </button>
+
+    </aside>
+
+</div>

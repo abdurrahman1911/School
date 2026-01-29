@@ -1,0 +1,244 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #eef2f5;
+}
+
+/* الهيكل */
+.layout {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+}
+
+/* المحتوى */
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* العنوان */
+.page-title {
+    margin-bottom: 20px;
+}
+
+    .page-title .icon {
+        margin-right: 8px;
+    }
+
+/* الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background: #f3f6f9;
+}
+/* زر */
+.btn {
+    padding: 10px 25px;
+    background: #8aa9c2;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background: #7696b2;
+    }
+
+/* القائمة الجانبية */
+
+/* القائمة الجانبية */
+.sidebar {
+    width: 250px;
+    background: #9fb7c9;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* المشرف */
+.admin {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+    .admin img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .admin h4 {
+        margin: 2px 0;
+    }
+
+        .admin h4 a {
+            text-decoration: none;
+            color: #000;
+        }
+
+            .admin h4 a:hover {
+                font-size: 17.5px;
+            }
+
+/* روابط القائمة */
+nav {
+    width: 100%;
+}
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        background: #c8d8e4;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+        nav a.active {
+            background: #7fa3bf;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #b4c8d8;
+        }
+
+/* تسجيل الخروج */
+.logout {
+    margin-top: auto;
+    padding: 10px;
+    width: 100%;
+    background: #7a97ad;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+
+    .logout:hover {
+        background: #395c76;
+    }
+
+/* ===== Popup ===== */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+    .modal-content input,
+    .modal-content select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .modal-content label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+/* المرحلة + الصف */
+.form-row.double {
+    display: flex;
+    gap: 10px;
+}
+
+    .form-row.double > div {
+        width: 50%;
+    }
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+    .modal-actions button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .modal-actions .confirm {
+        background: #8aa9c2;
+    }
+
+    .modal-actions .cancel {
+        background: #ccc;
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        nav a {
+            width: 45%;
+            margin: 5px;
+        }
+}

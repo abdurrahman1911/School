@@ -1,0 +1,13 @@
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\studentsTable.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\teachersPage.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\studentPage.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\notes.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\editProfile.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\studentsAbsence.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\supervisorProfile.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\editProfile.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\teachersPage.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\teacherPerformance.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\teachersTable.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\studentPage.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\teachersAbsence.css

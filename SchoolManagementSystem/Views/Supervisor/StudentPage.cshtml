@@ -1,0 +1,165 @@
+﻿@{
+    ViewData["Title"] = "إدارة الطلاب";
+}
+
+<link rel="stylesheet" href="~/css/Supervisor/studentPage.css" />
+
+<div class="layout">
+
+    <!-- المحتوى -->
+    <main class="content">
+        <div class="box">
+
+            <div class="selectors">
+                <div>
+                    <label>اختيار المرحلة</label>
+                    <select>
+                        <option>رياض أطفال</option>
+                        <option>المرحلة الابتدائية</option>
+                        <option>المرحلة الإعدادية</option>
+                        <option>المرحلة الثانوية</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>اختيار الصف</label>
+                    <select>
+                        <option>الصف الأول</option>
+                        <option>الصف الثاني</option>
+                        <option>الصف الثالث</option>
+                        <option>الصف الرابع</option>
+                        <option>الصف الخامس</option>
+                        <option>الصف السادس</option>
+                    </select>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>اسم الطالب / الطالبة</th>
+                    </tr>
+                </thead>
+                <tbody id="studentsTable">
+                    <tr><td>محمد أحمد السيد</td></tr>
+                    <tr><td>فاطمة محمود حسن</td></tr>
+                    <tr><td>خالد السيد محمد</td></tr>
+                    <tr><td>مازن محمد عبدالرحمن</td></tr>
+                    <tr><td>روان محمد ياسر</td></tr>
+                </tbody>
+            </table>
+
+            <button class="btn" onclick="openModal()">إضافة طالب</button>
+
+        </div>
+    </main>
+
+    <!-- القائمة الجانبية -->
+    <aside class="sidebar">
+
+        <div class="admin">
+            <img src="~/images/supervisorImage.jpg" />
+            <h4>
+                <a asp-controller="Supervisor" asp-action="SupervisorProfile">
+                    أحمد علي
+                </a>
+            </h4>
+        </div>
+
+        <nav>
+            <a asp-controller="Supervisor" asp-action="StudentPage" class="active">
+                الطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersPage">
+                المعلمون
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="StudentsTable">
+                جدول الطلاب
+            </a>
+
+            <a asp-controller="Supervisor"
+               asp-action="TeachersTable">
+                جدول المعلمين
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeacherPerformance">
+                أداء المعلم
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersAbsence">
+                الغياب للمعلمين
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="StudentsAbsence">
+                الغياب للطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="Notes">
+                الملاحظات
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="EditProfile">
+                تعديل البيانات
+            </a>
+        </nav>
+
+        <button class="logout"
+                onclick="location.href='@Url.Action("Index","Home")'">
+            تسجيل الخروج
+        </button>
+
+    </aside>
+
+
+</div>
+
+<!-- Popup إضافة طالب -->
+<div class="modal" id="addStudentModal">
+    <div class="modal-content">
+        <h3>إضافة طالب</h3>
+
+        <label>اختيار المرحلة</label>
+        <select>
+            <option>المرحلة الابتدائية</option>
+            <option>المرحلة الإعدادية</option>
+            <option>المرحلة الثانوية</option>
+        </select>
+
+        <div class="form-row double">
+            <select>
+                <option>الصف الأول</option>
+                <option>الصف الثاني</option>
+                <option>الصف الثالث</option>
+                <option>الصف الرابع</option>
+                <option>الصف الخامس</option>
+                <option>الصف السادس</option>
+            </select>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+        </div>
+
+        <input type="text" id="studentName" placeholder="اسم الطالب">
+
+        <div class="form-row double">
+            <input type="text" placeholder="رقم هاتف الطالب">
+            <input type="text" placeholder="رقم هاتف ولي الأمر">
+        </div>
+
+        <div class="modal-actions">
+            <button class="confirm" onclick="addStudent()">إضافة الطالب</button>
+            <button class="cancel" onclick="closeModal()">إلغاء</button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Supervisor/studentPage.js"></script>
+}

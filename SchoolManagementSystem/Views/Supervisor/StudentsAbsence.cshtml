@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Title"] = "الغياب للطلاب";
+}
+
+<link rel="stylesheet" href="~/css/Supervisor/studentsAbsence.css" />
+
+<div class="layout">
+
+    <!-- المحتوى -->
+    <main class="content">
+        <div class="box">
+
+            <h3 class="title">الغياب</h3>
+
+            <!-- الاختيارات -->
+            <div class="selectors">
+                <div>
+                    <label>اختيار المرحلة</label>
+                    <select>
+                        <option>رياض أطفال</option>
+                        <option>المرحلة الابتدائية</option>
+                        <option>المرحلة الإعدادية</option>
+                        <option>المرحلة الثانوية</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>اختيار الصف</label>
+                    <select>
+                        <option>الصف الأول</option>
+                        <option>الصف الثاني</option>
+                        <option>الصف الثالث</option>
+                        <option>الصف الرابع</option>
+                        <option>الصف الخامس</option>
+                        <option>الصف السادس</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- جدول الغياب -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>اسم الطالب / الطالبة</th>
+                        <th>حاضر</th>
+                        <th>غائب</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>محمد أحمد السيد</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>فاطمة محمود حسن</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>خالد السيد محمد</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>مازن محمد عبدالرحمن</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>روان محمد ياسر</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+
+    <!-- القائمة الجانبية -->
+    <aside class="sidebar">
+
+        <div class="admin">
+            <img src="~/images/supervisorImage.jpg" />
+            <h4>
+                <a asp-controller="Supervisor" asp-action="SupervisorProfile">
+                    أحمد علي
+                </a>
+            </h4>
+        </div>
+
+        <nav>
+            <a asp-controller="Supervisor" asp-action="StudentPage">
+                الطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersPage">
+                المعلمون
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="StudentsTable">
+                جدول الطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersTable">
+                جدول المعلمين
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeacherPerformance">
+                أداء المعلم
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="TeachersAbsence">
+                الغياب للمعلمين
+            </a>
+
+            <a asp-controller="Supervisor"
+               asp-action="StudentsAbsence"
+               class="active">
+                الغياب للطلاب
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="Notes">
+                الملاحظات
+            </a>
+
+            <a asp-controller="Supervisor" asp-action="EditProfile">
+                تعديل البيانات
+            </a>
+        </nav>
+
+        <button class="logout"
+                onclick="location.href='@Url.Action("Index","Home")'">
+            تسجيل الخروج
+        </button>
+
+    </aside>
+
+</div>

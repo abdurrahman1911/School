@@ -1,0 +1,161 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #eef2f5;
+}
+
+/* ================= الهيكل ================= */
+.layout {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+}
+
+/* ================= المحتوى ================= */
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+/* ================= العنوان ================= */
+.table-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .table-title.center {
+        text-align: center;
+    }
+
+/* ================= جدول الملاحظات ================= */
+.notes-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+    .notes-table th {
+        background: #b7d0e4;
+        padding: 12px;
+        font-weight: bold;
+    }
+
+    .notes-table td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .notes-table tr:last-child td {
+        border-bottom: none;
+    }
+
+/* ================= القائمة الجانبية ================= */
+
+/* القائمة الجانبية */
+.sidebar {
+    width: 250px;
+    background: #9fb7c9;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* المشرف */
+.admin {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+    .admin img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .admin h4 {
+        margin: 2px 0;
+    }
+
+        .admin h4 a {
+            text-decoration: none;
+            color: #000;
+        }
+
+            .admin h4 a:hover {
+                font-size: 17.5px;
+            }
+
+/* روابط القائمة */
+nav {
+    width: 100%;
+}
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+        background: #c8d8e4;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+        nav a.active {
+            background: #7fa3bf;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #b4c8d8;
+        }
+
+/* تسجيل الخروج */
+.logout {
+    margin-top: auto;
+    padding: 10px;
+    width: 100%;
+    background: #7a97ad;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+
+    .logout:hover {
+        background: #395c76;
+    }
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
