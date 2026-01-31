@@ -632,3 +632,4 @@ D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\SchoolManageme
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\SchoolManagementSystem.genruntimeconfig.cache
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\ref\SchoolManagementSystem.dll
 >>>>>>> 5db9ddf638471a9eff52e483535b1573033fbf02
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net9.0\compressed\6ceerfgb54-ddahyzl8vv.gz

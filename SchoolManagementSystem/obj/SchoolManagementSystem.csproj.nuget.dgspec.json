@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "packagesPath": "C:\\Users\\MG\\.nuget\\packages\\",
         "outputPath": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
-=======
-    "D:\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {}
-  },
-  "projects": {
-    "D:\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-        "projectName": "SchoolManagementSystem",
-        "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
->>>>>>> 5db9ddf638471a9eff52e483535b1573033fbf02
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\MG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 5db9ddf638471a9eff52e483535b1573033fbf02
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -62,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -102,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
