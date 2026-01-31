@@ -1,27 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Final Project\\SchoolManagementSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\attendance.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\attendance.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -29,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,66 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAEoCAAAAAAAAAAAewGUCAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-01-31T19:00:48.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvx4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-31T00:50:19.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "editProfile.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAuwH4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-31T01:13:11.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "attendance.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-01-31T00:59:29.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Attendance.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-31T00:49:45.16Z",
-              "EditorCaption": ""
             }
           ]
         }
