@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>di3tdr0zwk</Fingerprint>
-      <Integrity>BfAz+3IP+UYmX0/Dd4m2rKkd7XM1IPuUqVa2B8prCLU=</Integrity>
+      <Fingerprint>ddahyzl8vv</Fingerprint>
+      <Integrity>wWxx7n/JvjQYeB83lUg8U69LJh4eWPQHAvwCfS5tfq8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\SchoolManager\editProfile.css'))</OriginalItemSpec>

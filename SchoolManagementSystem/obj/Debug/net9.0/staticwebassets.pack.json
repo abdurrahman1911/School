@@ -1,375 +1,375 @@
 {
   "Files": [
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
       "PackagePath": "staticwebassets\\SchoolManagementSystem.obhsv3xtbe.bundle.scp.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\attendance.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\editProfile.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\home.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\home.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\home.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\schoolManagerProfile.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\schoolManagerProfile.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\schoolManagerProfile.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\students.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\students.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\students.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\successFailure.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\successFailure.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\successFailure.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\supervisors.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\supervisors.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\supervisors.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\teachers.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\teachers.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\teachers.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\editProfile.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\editProfile.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\editProfile.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\notes.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\notes.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\notes.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentPage.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentPage.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\studentPage.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsAbsence.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsAbsence.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\studentsAbsence.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsTable.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsTable.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\studentsTable.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\supervisorProfile.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\supervisorProfile.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\supervisorProfile.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teacherPerformance.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teacherPerformance.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\teacherPerformance.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersAbsence.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersAbsence.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\teachersAbsence.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersPage.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersPage.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\teachersPage.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersTable.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersTable.css",
       "PackagePath": "staticwebassets\\css\\Supervisor\\teachersTable.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\site.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\schoolManagerImage.jpg",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\schoolManagerImage.jpg",
       "PackagePath": "staticwebassets\\images\\schoolManagerImage.jpg"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\studentsTable.png",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\studentsTable.png",
       "PackagePath": "staticwebassets\\images\\studentsTable.png"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\supervisorImage.jpg",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\supervisorImage.jpg",
       "PackagePath": "staticwebassets\\images\\supervisorImage.jpg"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\teachersTable.png",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\teachersTable.png",
       "PackagePath": "staticwebassets\\images\\teachersTable.png"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\attendance.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\editProfile.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\editProfile.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\editProfile.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\home.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\home.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\home.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\students.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\students.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\students.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\successFailure.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\successFailure.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\successFailure.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\supervisors.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\supervisors.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\supervisors.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\teachers.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\teachers.js",
       "PackagePath": "staticwebassets\\js\\SchoolManager\\teachers.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\editProfile.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\editProfile.js",
       "PackagePath": "staticwebassets\\js\\Supervisor\\editProfile.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\studentPage.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\studentPage.js",
       "PackagePath": "staticwebassets\\js\\Supervisor\\studentPage.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\teachersPage.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\teachersPage.js",
       "PackagePath": "staticwebassets\\js\\Supervisor\\teachersPage.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
