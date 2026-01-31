@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SchoolManagementSystem.Data;
 using SchoolManagementSystem.ViewModel;
+using SchoolManagementSystem.Services;
 
 namespace SchoolManagementSystem.Controllers
 {
@@ -11,7 +12,7 @@ namespace SchoolManagementSystem.Controllers
         {
             return View("Login");
         }
-        AppDbContext context = new();
+       
         [HttpPost]
         public IActionResult Login(LoginViewModel model)
         {
@@ -20,14 +21,13 @@ namespace SchoolManagementSystem.Controllers
                 return View(model);
             }
 
-            var user = context.Users.FirstOrDefault(
-                u => u.Password == model.Password
-                && u.Email == model.Email);
+            var user = clsDB.DBContext.Users.FirstOrDefault(u=> u.SSN == model.SSN);
 
 
-            if (user == null)
+
+            if (user == null || clsBCrypt.VerifyPassword(model.Password, user.Password)==false)
             {
-                ModelState.AddModelError("", "كلمه المروراو اسم المستخدم خطا");
+                ModelState.AddModelError("", "كلمه المروراو الرقم القومي خطا");
 
                 return View();
             }
@@ -35,76 +35,41 @@ namespace SchoolManagementSystem.Controllers
                 var type = (UserTypeEnum)user.TypeID;
                 if (type == UserTypeEnum.Supervisor)
                 {
-                    var supervisor = context.Supervisors.FirstOrDefault(s => s.UserId == user.ID);
+                    var supervisor = clsDB.DBContext.Supervisors.FirstOrDefault(s => s.UserId == user.ID);
                     return View("Supervisor", supervisor);
 
                 }
                 if (type == UserTypeEnum.Headmaster)
                 {
-                    var headmaster = context.Headmasters.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", headmaster);
+                    var headmaster = clsDB.DBContext.Headmasters.FirstOrDefault(s => s.UserId == user.ID);
+                    return View("Headmaster", headmaster);
 
                 }
                 if (type == UserTypeEnum.Student)
                 {
-                    var student = context.Students.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", student);
+                    var student = clsDB.DBContext.Students.FirstOrDefault(s => s.UserId == user.ID);
+                    return View("Student", student);
 
                 }
                 if (type == UserTypeEnum.Teacher)
                 {
-                    var teacher = context.Teachers.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", teacher);
+                    var teacher = clsDB.DBContext.Teachers.FirstOrDefault(s => s.UserId == user.ID);
+                    return View("Teacher", teacher);
 
                 }
                 if (type == UserTypeEnum.Parent)
                 {
-                    var parent = context.Parents.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", parent);
+                    var parent = clsDB.DBContext.Parents.FirstOrDefault(s => s.UserId == user.ID);
+                    return View("Parent", parent);
 
                 }
                 if (type == UserTypeEnum.Admin)
                 {
-                    var admin = context.Headmasters.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", admin);
+                    var admin = clsDB.DBContext.Headmasters.FirstOrDefault(s => s.UserId == user.ID);
+                    return View("Admin", admin);
 
                 }
-                if (type == UserTypeEnum.Supervisor)
-                {
-                    var supervisor = context.Supervisors.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", supervisor);
-
-                }
-                if (type == UserTypeEnum.Headmaster)
-                {
-                    var headmaster = context.Headmasters.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", headmaster);
-
-                }
-                if (type == UserTypeEnum.Student)
-                {
-                    var student = context.Students.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", student);
-
-                }
-                if (type == UserTypeEnum.Teacher)
-                {
-                    var teacher = context.Teachers.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", teacher);
-
-                }
-                if (type == UserTypeEnum.Parent)
-                {
-                    var parent = context.Parents.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", parent);
-
-                }
-                if (type == UserTypeEnum.Admin)
-                {
-                    var admin = context.Headmasters.FirstOrDefault(s => s.UserId == user.ID);
-                    return View("Supervisor", admin);
-
-                }
+             
             
             return View();
 
