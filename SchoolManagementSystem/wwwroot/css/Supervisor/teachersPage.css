@@ -38,10 +38,6 @@ body {
     margin-bottom: 20px;
 }
 
-    .page-title .icon {
-        margin-right: 8px;
-    }
-
 /* الجدول */
 table {
     width: 100%;
@@ -57,7 +53,8 @@ th, td {
 th {
     background: #f3f6f9;
 }
-/* زر */
+
+/* الأزرار */
 .btn {
     padding: 10px 25px;
     background: #8aa9c2;
@@ -70,7 +67,20 @@ th {
         background: #7696b2;
     }
 
-/* القائمة الجانبية */
+    /* زرار confirm للـ modal */
+    .btn.confirm {
+        background: #8aa9c2;
+        color: #fff;
+    }
+
+        .btn.confirm:hover {
+            background: #7696b2;
+        }
+
+    /* زرار cancel للـ modal */
+    .btn.cancel {
+        background: #ccc;
+    }
 
 /* القائمة الجانبية */
 .sidebar {
@@ -154,12 +164,12 @@ nav {
         background: #395c76;
     }
 
-/* ===== Popup ===== */
+/* ===== Popup Modal ===== */
 .modal {
+    display: none; /* مخفي افتراضياً */
     position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.4);
-    display: none;
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -174,29 +184,13 @@ nav {
     text-align: center;
 }
 
-    .modal-content input,
-    .modal-content select {
+    .modal-content input {
         width: 100%;
         padding: 10px;
         margin-bottom: 15px;
     }
 
-    .modal-content label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-    }
-
-/* المرحلة + الصف */
-.form-row.double {
-    display: flex;
-    gap: 10px;
-}
-
-    .form-row.double > div {
-        width: 50%;
-    }
-
+/* أزرار داخل modal */
 .modal-actions {
     display: flex;
     justify-content: center;
@@ -212,7 +206,12 @@ nav {
 
     .modal-actions .confirm {
         background: #8aa9c2;
+        color: #fff;
     }
+
+        .modal-actions .confirm:hover {
+            background: #7696b2;
+        }
 
     .modal-actions .cancel {
         background: #ccc;

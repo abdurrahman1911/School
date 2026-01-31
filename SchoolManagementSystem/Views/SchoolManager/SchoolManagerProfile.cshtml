@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>بيانات المدير</title>
+    <link rel="stylesheet" href="~/css/SchoolManager/schoolManagerProfile.css">
+</head>
+<body>
+
+    <div class="layout">
+
+        <!-- القائمة الجانبية -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="../images/schoolManagerImage.jpg" alt="مدير المدرسة" class="manager-img">
+                <h4>
+                    <a href="../schoolManagerProfile/schoolManagerProfile.html">أحمد علي</a>
+                </h4>
+            </div>
+
+            <ul class="menu">
+                <li><a href="../home/home.html">الصفحة الرئيسية</a></li>
+                <li><a href="../students/students.html">الطلاب</a></li>
+                <li><a href="../teachers/teachers.html">المعلمين</a></li>
+                <li><a href="../supervisors/supervisors.html">المشرفين</a></li>
+                <li><a href="../successFailure/successFailure.html">النجاح والرسوب</a></li>
+                <li><a href="../attendance/attendance.html">الغياب والحضور</a></li>
+                <li><a href="../editProfile/editProfile.html">تعديل البيانات</a></li>
+            </ul>
+
+            <div class="logout-container">
+                <button class="logout" onclick="window.location.href='../../about.html'">تسجيل الخروج</button>
+            </div>
+        </aside>
+
+        <!-- المحتوى -->
+        <main class="content">
+            <div class="profile-card">
+
+                <!-- صورة المدير -->
+                <div class="profile-image">
+                    <img src="../images/schoolManagerImage.jpg" alt="Manager">
+                </div>
+
+                <!-- بيانات المدير -->
+                <div class="profile-info">
+
+                    <!-- الاسم + الوظيفة -->
+                    <div class="name-role">
+                        <h2>أحمد علي</h2>
+                        <span class="role">مدير المدرسة</span>
+                    </div>
+
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span>البريد الإلكتروني :</span>
+                            <p>ahmed.manager@school.com</p>
+                        </div>
+
+                        <div class="info-item">
+                            <span>رقم الهاتف :</span>
+                            <p>01098765432</p>
+                        </div>
+
+                        <div class="info-item">
+                            <span>المدرسة :</span>
+                            <p>مدرسة الأوائل</p>
+                        </div>
+
+                        <div class="info-item">
+                            <span>تاريخ الانضمام :</span>
+                            <p>01 / 09 / 2020</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+
+</body>
+</html>

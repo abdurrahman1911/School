@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>النجاح والرسوب</title>
+    <link rel="stylesheet" href="~/css/SchoolManager/successFailure.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="layout">
+
+        <!-- القائمة الجانبية -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="../images/schoolManagerImage.jpg" alt="مدير المدرسة" class="manager-img">
+                <h4>
+                    <a href="../schoolManagerProfile/schoolManagerProfile.html">أحمد علي</a>
+                </h4>
+            </div>
+
+            <ul class="menu">
+                <li><a href="../home/home.html">الصفحة الرئيسية</a></li>
+                <li><a href="../students/students.html">الطلاب</a></li>
+                <li><a href="../teachers/teachers.html">المعلمين</a></li>
+                <li><a href="../supervisors/supervisors.html">المشرفين</a></li>
+                <li class="active"><a href="../successFailure/successFailure.html">النجاح والرسوب</a></li>
+                <li><a href="../attendance/attendance.html">الغياب والحضور</a></li>
+                <li><a href="../editProfile/editProfile.html">تعديل البيانات</a></li>
+            </ul>
+
+            <div class="logout-container">
+                <button class="logout" onclick="window.location.href='../../about.html'">تسجيل الخروج</button>
+            </div>
+        </aside>
+
+        <!-- المحتوى -->
+        <main class="content">
+
+            <div class="top-bar">
+                <h2>النجاح و الرسوب</h2>
+
+                <div class="filters">
+                    <select id="stageSelect">
+                        <option value="kg">رياض الأطفال</option>
+                        <option value="primary" selected>المرحلة الابتدائية</option>
+                        <option value="prep">المرحلة الإعدادية</option>
+                        <option value="secondary">المرحلة الثانوية</option>
+                    </select>
+
+                    <select id="periodSelect">
+                        <option value="month" selected>This Month</option>
+                        <option value="year">This Year</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <canvas id="successChart"></canvas>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="~/js/SchoolManager/successFailure.js"></script>
+</body>
+</html>

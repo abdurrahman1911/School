@@ -1,0 +1,233 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial;
+}
+
+body {
+    background: #eef3f6;
+    overflow: hidden;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    width: 230px;
+    background: #0f4c6a;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.manager-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 8px;
+}
+
+.profile h4 {
+    margin: 2px 0;
+}
+
+    .profile h4 a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+        .profile h4 a:hover {
+            font-size: 17.5px;
+        }
+
+
+.menu {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: #1e6d92;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .menu li.active a,
+        .menu li a:hover {
+            background: #0f3b50;
+        }
+
+.logout {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1e6d92;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .logout:hover {
+        background-color: #0f3b50;
+    }
+/* ===== Content ===== */
+.content {
+    margin-right: 230px;
+    width: calc(100% - 230px);
+    height: 100vh;
+    overflow-y: auto;
+    padding: 18px;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    background: #f4f8fb;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #1e6d92;
+    margin-bottom: 12px;
+}
+
+/* ===== Teachers ===== */
+.teachers-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+    .teachers-list li {
+        background: #fff;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #d0d7de;
+        text-align: center;
+    }
+
+/* ===== Images ===== */
+.full-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* ===== Performance ===== */
+.performance-box canvas {
+    width: 100% !important;
+    height: 320px !important;
+}
+
+.notes-title {
+    margin-top: 20px;
+}
+
+.notes {
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+/* ================= Responsive ================= */
+
+/* 🔹 Large tablets */
+@media (max-width: 1200px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 🔹 Tablets */
+@media (max-width: 992px) {
+    .teachers-list {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+/* 🔹 Mobile */
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: auto;
+    }
+
+        .menu a {
+            white-space: nowrap;
+            font-size: 14px;
+            padding: 8px 12px;
+        }
+
+    .content {
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .profile-card {
+        padding: 15px;
+    }
+}
+
+/* 🔹 Small Mobile */
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 18px;
+    }
+
+    .notes {
+        height: 120px;
+    }
+}

@@ -28,6 +28,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Attendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxBdHRlbmRhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/SchoolManagerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTY2hvb2xNYW5hZ2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Students.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTdHVkZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/SuccessFailure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTdWNjZXNzRmFpbHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Supervisors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTdXBlcnZpc29ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Teachers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxUZWFjaGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Final Project/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

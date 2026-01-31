@@ -4,8 +4,11 @@
 }
 
 body {
+    background: #eef2f5;
     margin: 0;
     background: #eef2f5;
+    direction: rtl; 
+    text-align: right;
 }
 
 /* الهيكل */
@@ -13,6 +16,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     min-height: 100vh;
+     flex-direction: row-reverse; 
 }
 
 /* المحتوى */
@@ -81,6 +85,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: right;
 }
 
 /* المشرف */

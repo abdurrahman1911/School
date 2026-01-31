@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>بيانات الطلاب</title>
+    <link rel="stylesheet" href="~/css/SchoolManager/students.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="layout">
+
+        <!-- ===== Sidebar ===== -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="../images/schoolManagerImage.jpg" alt="مدير المدرسة" class="manager-img">
+                <h4>
+                    <a href="../schoolManagerProfile/schoolManagerProfile.html">أحمد علي</a>
+                </h4>
+            </div>
+
+            <ul class="menu">
+                <li><a href="../home/home.html">الصفحة الرئيسية</a></li>
+                <li class="active"><a href="../students/students.html">الطلاب</a></li>
+                <li><a href="../teachers/teachers.html">المعلمين</a></li>
+                <li><a href="../supervisors/supervisors.html">المشرفين</a></li>
+                <li><a href="../successFailure/successFailure.html">النجاح والرسوب</a></li>
+                <li><a href="../attendance/attendance.html">الغياب والحضور</a></li>
+                <li><a href="../editProfile/editProfile.html">تعديل البيانات</a></li>
+            </ul>
+            <button class="logout" onclick="window.location.href='../../about.html'">تسجيل الخروج</button>
+        </aside>
+
+        <!-- ===== Content ===== -->
+        <main class="content">
+
+            <div class="profile-card">
+
+                <!-- ===== Filters Bar ===== -->
+                <section class="box filters-bar">
+                    <div class="filter-item">
+                        <span class="filter-label">اختيار المرحلة:</span>
+                        <select>
+                            <option>المرحلة الابتدائية</option>
+                            <option>المرحلة الإعدادية</option>
+                            <option>المرحلة الثانوية</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-item">
+                        <span class="filter-label">اختيار الصف:</span>
+                        <select>
+                            <option>الصف السادس</option>
+                            <option>الصف الخامس</option>
+                            <option>الصف الرابع</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-item numbers">
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <span class="slash">/</span>
+                        <select>
+                            <option>6</option>
+                        </select>
+                    </div>
+                </section>
+
+                <!-- ===== Students List ===== -->
+                <section class="box">
+                    <h2 class="section-title">اسم الطلبة</h2>
+                    <ul class="students-list">
+                        <li>محمد أحمد السيد</li>
+                        <li>فاطمة محمود حسن</li>
+                        <li>خالد السيد محمد</li>
+                        <li>مازن محمد عبدالعظيم</li>
+                        <li>روان محمد ياسر</li>
+                        <li>فيروز أحمد محمد</li>
+                        <li>آمنة محمد عبدالله</li>
+                        <li>فريدة أحمد صالح</li>
+                        <li>محمد محمود عبدالرحيم</li>
+                        <li>صالح عبدالله محمد</li>
+                    </ul>
+                </section>
+
+                <!-- ===== Schedule Image ===== -->
+                <section class="box">
+                    <h2 class="section-title">الجدول الدراسي</h2>
+                    <img src="../images/studentsTable.png" class="full-img" alt="الجدول الدراسي">
+                </section>
+
+            </div>
+
+            <!-- ===== Grades Card ===== -->
+            <div class="profile-card">
+
+                <h2 class="grades-title">درجات الطلاب</h2>
+
+                <!-- Filters -->
+                <section class="box filters-bar">
+                    <div class="filter-item">
+                        <span>اختيار المرحلة:</span>
+                        <select><option>المرحلة الابتدائية</option></select>
+                    </div>
+                    <div class="filter-item">
+                        <span>اختيار الصف:</span>
+                        <select><option>الصف السادس</option></select>
+                    </div>
+                    <div class="filter-item numbers">
+                        <select><option>1</option></select>
+                        <span>/</span>
+                        <select><option>6</option></select>
+                    </div>
+                    <div class="filter-item">
+                        <span>اختيار الطالب:</span>
+                        <select><option>محمد أحمد السيد</option></select>
+                    </div>
+                    <div class="filter-item">
+                        <span>اختيار المادة:</span>
+                        <select>
+                            <option>العلوم</option>
+                            <option>اللغة العربية</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <select><option>اختبارات منتصف الفصل الدراسي الأول</option></select>
+                    </div>
+                </section>
+
+                <!-- Grades Table -->
+                <section class="box">
+                    <table class="grades-table">
+                        <thead>
+                            <tr>
+                                <th>اسم الطالب/ة</th>
+                                <th>الدرجة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>محمد أحمد السيد</td><td>29 / 30</td></tr>
+                            <tr><td>فاطمة محمود حسن</td><td>28 / 30</td></tr>
+                            <tr><td>خالد السيد محمد</td><td>28 / 30</td></tr>
+                            <tr><td>مازن محمد عبدالعظيم</td><td>30 / 30</td></tr>
+                            <tr><td>روان محمد ياسر</td><td>29 / 30</td></tr>
+                            <tr><td>فيروز أحمد محمد</td><td>27 / 30</td></tr>
+                            <tr><td>آمنة محمد عبدالله</td><td>29 / 30</td></tr>
+                            <tr><td>فريدة أحمد صالح</td><td>29 / 30</td></tr>
+                            <tr><td>محمد محمود عبدالرحيم</td><td>29 / 30</td></tr>
+                            <tr><td>صالح عبدالله محمد</td><td>30 / 30</td></tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- Attendance Chart -->
+                <section class="box">
+                    <h2 class="section-title">نسبة الحضور والغياب</h2>
+                    <canvas id="attendanceChart"></canvas>
+                </section>
+
+            </div>
+
+        </main>
+    </div>
+
+    <!-- JS -->
+    <script src="~/js/SchoolManager/students.js"></script>
+</body>
+</html>

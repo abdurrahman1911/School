@@ -1,0 +1,217 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial;
+}
+
+body {
+    background: #eef3f6;
+    overflow: hidden;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    width: 230px;
+    background: #0f4c6a;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.manager-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 8px;
+}
+
+.profile h4 {
+    margin: 2px 0;
+}
+
+    .profile h4 a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+        .profile h4 a:hover {
+            font-size: 17.5px;
+        }
+
+
+.menu {
+    list-style: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: #1e6d92;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .menu li.active a,
+        .menu li a:hover {
+            background: #0f3b50;
+        }
+
+.logout {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1e6d92;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .logout:hover {
+        background-color: #0f3b50;
+    }
+
+/* ===== Content ===== */
+.content {
+    margin-right: 230px;
+    width: calc(100% - 230px);
+    padding: 18px;
+    overflow-y: auto;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.box {
+    background: #f4f8fb;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 19px;
+    color: #1e6d92;
+    margin-bottom: 12px;
+}
+
+/* ===== Supervisors List ===== */
+.teachers-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+    .teachers-list li {
+        background: #fff;
+        border: 1px solid #d0d7de;
+        padding: 8px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+/* ===== Add Supervisor Centered ===== */
+.add-supervisor-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.add-supervisor {
+    width: 100%;
+    max-width: 520px; /* أكبر شوية */
+    text-align: center;
+}
+
+    .add-supervisor input {
+        width: 100%;
+        padding: 14px; /* أكبر */
+        font-size: 16px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    .add-supervisor button {
+        width: 160px; /* أصغر من input */
+        padding: 8px;
+        font-size: 14px;
+        border: none;
+        background: #1e6d92;
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+        .add-supervisor button:hover {
+            background: #0f3b50;
+        }
+
+
+/* ===== Performance ===== */
+.performance-box canvas {
+    width: 100% !important;
+    height: 280px !important;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+    .teachers-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu {
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .content {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .add-supervisor button {
+        width: 100%;
+    }
+}

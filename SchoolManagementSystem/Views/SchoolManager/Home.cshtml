@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>لوحة تحكم مدير المدرسة</title>
+    <link rel="stylesheet" href="~/css/SchoolManager/home.css">
+</head>
+<body>
+
+    <div class="layout">
+
+        <!-- القائمة الجانبية -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="../images/schoolManagerImage.jpg" alt="مدير المدرسة" class="manager-img">
+                <h4>
+                    <a href="../schoolManagerProfile/schoolManagerProfile.html">أحمد علي</a>
+                </h4>
+            </div>
+            <ul class="menu">
+                <li class="active"><a href="../home/home.html">الصفحة الرئيسية</a></li>
+                <li><a href="../students/students.html">الطلاب</a></li>
+                <li><a href="../teachers/teachers.html">المعلمين</a></li>
+                <li><a href="../supervisors/supervisors.html">المشرفين</a></li>
+                <li><a href="../successFailure/successFailure.html">النجاح والرسوب</a></li>
+                <li><a href="../attendance/attendance.html">الغياب والحضور</a></li>
+                <li><a href="../editProfile/editProfile.html">تعديل البيانات</a></li>
+            </ul>
+
+            <div class="logout-container">
+                <button class="logout" onclick="window.location.href='../../about.html'">تسجيل الخروج</button>
+            </div>
+        </aside>
+
+        <!-- المحتوى -->
+        <main class="content">
+            <div class="stats">
+                <div class="stat-card">
+                    <span class="number">42</span>
+                    <span class="label">المعلمين</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">30</span>
+                    <span class="label">المشرفين</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">325</span>
+                    <span class="label">الطلاب</span>
+                </div>
+            </div>
+
+            <!-- جراف المشرفين -->
+            <section class="chart-section">
+                <div class="section-header">
+                    <h3>أداء المشرفين</h3>
+                    <select class="chart-select" data-chart="supervisorsChart">
+                        <option value="week">This Week</option>
+                        <option value="month">This Month</option>
+                    </select>
+                </div>
+                <div class="chart" id="supervisorsChart"></div>
+            </section>
+
+            <!-- جراف المعلمين -->
+            <section class="chart-section">
+                <div class="section-header">
+                    <h3>أداء المعلمين</h3>
+                    <select class="chart-select" data-chart="teachersChart">
+                        <option value="week">This Week</option>
+                        <option value="month">This Month</option>
+                    </select>
+                </div>
+                <div class="chart" id="teachersChart"></div>
+            </section>
+
+            <!-- جراف الطلاب -->
+            <section class="chart-section">
+                <div class="section-header">
+                    <h3>أداء الطلاب</h3>
+                    <select class="chart-select" data-chart="studentsChart">
+                        <option value="week">This Week</option>
+                        <option value="month">This Month</option>
+                    </select>
+                </div>
+                <div class="chart" id="studentsChart"></div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="~/js/SchoolManager/home.js"></script>
+</body>
+</html>
