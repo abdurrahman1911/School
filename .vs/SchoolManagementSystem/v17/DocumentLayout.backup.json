@@ -19,20 +19,8 @@
       "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\viewmodel\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,20 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T09:19:38.407Z",
-              "IsPinned": true
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -65,7 +48,7 @@
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Services\\AdminService.cs",
               "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Services\\AdminService.cs",
               "RelativeToolTip": "SchoolManagementSystem\\Services\\AdminService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T13:50:06.971Z",
               "EditorCaption": ""
@@ -80,8 +63,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Services\\ParentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T13:50:01.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T13:50:01.87Z"
             },
             {
               "$type": "Document",
@@ -93,8 +75,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\ViewModel\\AdminViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T13:50:00.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T13:50:00.272Z"
             },
             {
               "$type": "Document",
@@ -106,45 +87,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\ViewModel\\StudentViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T13:49:58.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2026-01-31T13:49:58.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-31T13:40:34.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T09:34:55.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Services\\UserService.cs",
