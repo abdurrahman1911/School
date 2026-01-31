@@ -1,15 +1,16 @@
+using Microsoft.SqlServer.Server;
 using SchoolManagementSystem.Models;
 
 public class User
 {
     public int ID { get; set; }
     public string FirstName { get; set; }
-    public string? SecondName { get; set; }
+    public string SecondName { get; set; }
     public string? ThirdName { get; set; }
     public string LastName { get; set; }
     public string Phone { get; set; }
-    public string Email { get; set; }
-    public string? Password { get; set; }
+    public string? Email { get; set; }
+    public string Password { get; set; }
     public string? ProfilPhotoURL { get; set; }
     public string SSN { get; set; }
     public byte TypeID { get; set; }
@@ -39,4 +40,6 @@ public class User
     public virtual ICollection<Note> WrittenNotes { get; set; } = new List<Note>();
     public virtual ICollection<Note> ReceivedNotes { get; set; } = new List<Note>();
     public virtual ICollection<Absence> Absences { get; set; }
+
+    
 }

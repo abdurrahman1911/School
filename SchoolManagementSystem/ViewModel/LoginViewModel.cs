@@ -5,8 +5,8 @@ namespace SchoolManagementSystem.ViewModel
     public class LoginViewModel
     {
        
-        [Required(ErrorMessage = "اسم المستخدم مطلوب")]
-        public string Email { get; set; }
+        [Required(ErrorMessage = "الرقم القومي او جواز السفر مطلوب")]
+        public string SSN { get; set; }
 
         [Required(ErrorMessage = "كلمة المرور مطلوبة")]
         [DataType(DataType.Password)]
