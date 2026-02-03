@@ -1,94 +1,96 @@
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\home.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\editProfile.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\teachersPage.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teacherPerformance.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\editProfile.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\site.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\studentPage.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\editProfile.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\site.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\supervisorProfile.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\supervisors.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersTable.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\schoolManagerProfile.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\home.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentPage.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\teachers.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\LICENSE.md
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\editProfile.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsTable.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\notes.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\successFailure.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\LICENSE.txt
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\students.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\favicon.ico
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\attendance.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\successFailure.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\teachers.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsAbsence.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersAbsence.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\students.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\supervisors.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersPage.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\attendance.css
-E:\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\sidebar-layout.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\home.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\editProfile.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\teachersPage.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teacherPerformance.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\editProfile.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\site.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\studentPage.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\editProfile.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\site.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\supervisorProfile.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\supervisors.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersTable.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\schoolManagerProfile.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\home.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentPage.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\teachers.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\editProfile.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsTable.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\notes.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\successFailure.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\LICENSE.txt
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\students.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\favicon.ico
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\attendance.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\successFailure.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\teachers.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsAbsence.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersAbsence.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\students.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\supervisors.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersPage.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\attendance.css
+D:\Final Project\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 wwwroot\css\SchoolManager\attendance.css
 wwwroot\css\SchoolManager\editProfile.css
 wwwroot\css\SchoolManager\home.css
 wwwroot\css\SchoolManager\schoolManagerProfile.css
+wwwroot\css\SchoolManager\sidebar-layout.css
 wwwroot\css\SchoolManager\students.css
 wwwroot\css\SchoolManager\successFailure.css
 wwwroot\css\SchoolManager\supervisors.css

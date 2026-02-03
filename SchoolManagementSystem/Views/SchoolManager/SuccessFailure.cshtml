@@ -1,40 +1,50 @@
-﻿<!DOCTYPE html>
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>النجاح والرسوب</title>
-    <link rel="stylesheet" href="~/css/SchoolManager/successFailure.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>@ViewData["النجاح والرسوب"]</title>
+
+    <link rel="stylesheet" href="~/css/SchoolManager/sidebar-layout.css" />
+
+    <link rel="stylesheet" href="~/css/SchoolManager/successFailure.css" />
 </head>
 <body>
 
     <div class="layout">
 
-        <!-- القائمة الجانبية -->
         <aside class="sidebar">
             <div class="profile">
-                <img src="../images/schoolManagerImage.jpg" alt="مدير المدرسة" class="manager-img">
+                <img src="~/images/schoolManagerImage.jpg" class="manager-img">
                 <h4>
-                    <a href="../schoolManagerProfile/schoolManagerProfile.html">أحمد علي</a>
+                    <a asp-controller="SchoolManager"
+                       asp-action="SchoolManagerProfile">
+                        أحمد علي
+                    </a>
                 </h4>
             </div>
 
             <ul class="menu">
-                <li><a href="../home/home.html">الصفحة الرئيسية</a></li>
-                <li><a href="../students/students.html">الطلاب</a></li>
-                <li><a href="../teachers/teachers.html">المعلمين</a></li>
-                <li><a href="../supervisors/supervisors.html">المشرفين</a></li>
-                <li class="active"><a href="../successFailure/successFailure.html">النجاح والرسوب</a></li>
-                <li><a href="../attendance/attendance.html">الغياب والحضور</a></li>
-                <li><a href="../editProfile/editProfile.html">تعديل البيانات</a></li>
+                <li><a asp-controller="SchoolManager" asp-action="Home">الصفحة الرئيسية</a></li>
+                <li><a asp-controller="SchoolManager" asp-action="Students">الطلاب</a></li>
+                <li><a asp-controller="SchoolManager" asp-action="Teachers">المعلمين</a></li>
+                <li><a asp-controller="SchoolManager" asp-action="Supervisors">المشرفين</a></li>
+                <li class="active"><a asp-controller="SchoolManager" asp-action="SuccessFailure">النجاح والرسوب</a></li>
+                <li><a asp-controller="SchoolManager" asp-action="Attendance">الغياب والحضور</a></li>
+                <li><a asp-controller="SchoolManager" asp-action="EditProfile">تعديل البيانات</a></li>
             </ul>
 
-            <div class="logout-container">
-                <button class="logout" onclick="window.location.href='../../about.html'">تسجيل الخروج</button>
-            </div>
+            <a asp-controller="Home"
+               asp-action="About"
+               class="logout">
+                تسجيل الخروج
+            </a>
         </aside>
 
-        <!-- المحتوى -->
         <main class="content">
 
             <div class="top-bar">
@@ -58,11 +68,12 @@
             <div class="chart-card">
                 <canvas id="successChart"></canvas>
             </div>
-
         </main>
 
     </div>
 
-    <script src="~/js/SchoolManager/successFailure.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="@Url.Content("~/js/SchoolManager/successFailure.js")" defer></script>
+
 </body>
 </html>
