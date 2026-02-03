@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدرجات - محمود محمد</title>
+    <meta name="description" content="درجات الطالب - بوابة الطالب الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Student/student_styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمود محمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Student" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
+                <a asp-controller="Student" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
+                <a asp-controller="Student" asp-action="Grades" class="nav-item active">الدرجات</a>
+                <a asp-controller="Student" asp-action="Attendance" class="nav-item">الحضور والغياب</a>
+                <a asp-controller="Student" asp-action="Tests" class="nav-item">الاختبارات</a>
+                <a asp-controller="Student" asp-action="Level" class="nav-item">المستوى</a>
+                <a asp-controller="Student" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Student" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Grades Section -->
+            <section class="grades-section">
+                <h2 class="grades-title">درجات الطالب/ة :</h2>
+
+                <!-- Level Selector -->
+                <div class="level-selector-wrapper">
+                    <select id="levelSelector" class="level-selector">
+                        <option value="midterm1" selected>اختبارات منتصف الفصل الدراسي الأول</option>
+                        <option value="final1">اختبارات نهاية الفصل الدراسي الأول</option>
+                        <option value="midterm2">اختبارات منتصف الفصل الدراسي الثاني</option>
+                        <option value="final2">اختبارات نهاية الفصل الدراسي الثاني</option>
+                    </select>
+                    <svg class="selector-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+
+                <!-- Result Card -->
+                <div class="result-card">
+                    <h3 class="result-label">النتيجة</h3>
+                    <p class="result-value passed">ناجح</p>
+                </div>
+
+                <!-- Grades Table -->
+              <div class="data-table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>المادة</th>
+                            <th>أعمال السنة</th>
+                            <th>اختبار نصف الفصل</th>
+                            <th>اختبار نهاية الفصل</th>
+                            <th>المجموع</th>
+                            <th>التقدير</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الرياضيات</td>
+                            <td>28/30</td>
+                            <td>18/20</td>
+                            <td>45/50</td>
+                            <td>91/100</td>
+                            <td><span class="status-badge present">ممتاز</span></td>
+                        </tr>
+                        <tr>
+                            <td>اللغة العربية</td>
+                            <td>27/30</td>
+                            <td>17/20</td>
+                            <td>43/50</td>
+                            <td>87/100</td>
+                            <td><span class="status-badge present">جيد جداً</span></td>
+                        </tr>
+                        <tr>
+                            <td>اللغة الإنجليزية</td>
+                            <td>29/30</td>
+                            <td>19/20</td>
+                            <td>47/50</td>
+                            <td>95/100</td>
+                            <td><span class="status-badge present">ممتاز</span></td>
+                        </tr>
+                        <tr>
+                            <td>الفيزياء</td>
+                            <td>25/30</td>
+                            <td>16/20</td>
+                            <td>40/50</td>
+                            <td>81/100</td>
+                            <td><span class="status-badge late">جيد</span></td>
+                        </tr>
+                        <tr>
+                            <td>الكيمياء</td>
+                            <td>26/30</td>
+                            <td>18/20</td>
+                            <td>44/50</td>
+                            <td>88/100</td>
+                            <td><span class="status-badge present">جيد جداً</span></td>
+                        </tr>
+                        <tr>
+                            <td>الأحياء</td>
+                            <td>28/30</td>
+                            <td>19/20</td>
+                            <td>46/50</td>
+                            <td>93/100</td>
+                            <td><span class="status-badge present">ممتاز</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="~/js/Student/student_script.js"></script>
+</body>
+
+</html>

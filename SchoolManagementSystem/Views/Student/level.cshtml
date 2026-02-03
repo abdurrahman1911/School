@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المستوى - محمود محمد</title>
+    <meta name="description" content="مستوى الطالب الأكاديمي - بوابة الطالب الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Student/student_styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمود محمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Student" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
+                <a asp-controller="Student" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
+                <a asp-controller="Student" asp-action="Grades" class="nav-item">الدرجات</a>
+                <a asp-controller="Student" asp-action="Attendance" class="nav-item">الحضور والغياب</a>
+                <a asp-controller="Student" asp-action="Tests" class="nav-item">الاختبارات</a>
+                <a asp-controller="Student" asp-action="Level" class="nav-item active">المستوى</a>
+                <a asp-controller="Student" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Student" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Level Section -->
+            <section class="level-section">
+                <h2 class="level-title">المستوى :</h2>
+
+                <!-- Period Selector -->
+                <div class="period-selector-wrapper">
+                    <select id="periodSelector" class="period-selector">
+                        <option value="this-month" selected>This Month ▼</option>
+                        <option value="last-month">Last Month</option>
+                        <option value="semester">This Semester</option>
+                        <option value="year">This Year</option>
+                    </select>
+                </div>
+
+                <!-- Chart Container -->
+                <div class="chart-container">
+                    <canvas id="levelChart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="~/js/Student/student_script.js"></script>
+    <script>
+        // Chart data
+        const chartData = {
+            'this-month': [85, 78, 82, 75, 80, 88, 72, 90],
+            'last-month': [80, 75, 78, 70, 85, 82, 68, 88],
+            'semester': [82, 76, 80, 72, 82, 85, 70, 89],
+            'year': [83, 77, 81, 73, 81, 86, 71, 88]
+        };
+
+        const subjects = [
+            'تكنولوجيا المعلومات',
+            'الأحياء',
+            'الكيمياء',
+            'اللغة الانجليزية',
+            'اللغة العربية',
+            'التربية الاسلامية',
+            'الفيزياء',
+            'الرياضيات'
+        ];
+
+        // Create chart
+        const ctx = document.getElementById('levelChart').getContext('2d');
+        let levelChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: subjects,
+                datasets: [{
+                    label: 'المستوى',
+                    data: chartData['this-month'],
+                    backgroundColor: 'rgba(93, 158, 207, 0.8)',
+                    borderColor: 'rgba(93, 158, 207, 1)',
+                    borderWidth: 1,
+                    borderRadius: 4,
+                    barThickness: 40
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            font: {
+                                family: 'Cairo',
+                                size: 11
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                family: 'Cairo',
+                                size: 10
+                            },
+                            maxRotation: 45,
+                            minRotation: 45
+                        },
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Update chart on period change
+        document.getElementById('periodSelector').addEventListener('change', function () {
+            levelChart.data.datasets[0].data = chartData[this.value];
+            levelChart.update();
+        });
+    </script>
+</body>
+</html>

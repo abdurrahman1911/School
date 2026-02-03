@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة ولي الأمر - محمد أحمد</title>
+    <meta name="description" content="بوابة ولي الأمر الإلكترونية - نظام إدارة المدرسة">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Parent/parent_styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمد أحمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Parent" asp-action="Index" class="nav-item active">الصفحة الرئيسية</a>
+                <a asp-controller="Parent" asp-action="Performance" class="nav-item">أداء الطلاب</a>
+                <a asp-controller="Parent" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
+                <a asp-controller="Parent" asp-action="Grades" class="nav-item">الدرجات</a>
+                <a asp-controller="Parent" asp-action="Attendance" class="nav-item">الحضور</a>
+                <a asp-controller="Parent" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Parent" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Parent Header -->
+            <div class="parent-header">
+                <h1 class="parent-title">ولي الأمر الأستاذ : <span class="parent-name">محمد أحمد خالد</span></h1>
+            </div>
+
+            <!-- Children Cards Section -->
+            <section class="children-section">
+                <div class="children-grid">
+                    <!-- Child 1-->
+                    <div class="child-card selected" onclick="selectChild('salma')">
+                        <div class="child-image">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face"
+                                alt="سلمى محمد">
+                        </div>
+                        <div class="child-info">
+                            <h3 class="child-name">سلمى محمد</h3>
+                            <p class="child-grade">الصف السادس</p>
+                        </div>
+                    </div>
+
+                    <!-- Child 2-->
+                    <div class="child-card" onclick="selectChild('ahmed')">
+                        <div class="child-image">
+                            <img src="https://images.unsplash.com/photo-1540479859555-17af45c78602?w=150&h=150&fit=crop&crop=face"
+                                alt="أحمد محمد">
+                        </div>
+                        <div class="child-info">
+                            <h3 class="child-name">أحمد محمد</h3>
+                            <p class="child-grade">الصف التاسع</p>
+                        </div>
+                    </div>
+
+                    <!-- Child 3-->
+                    <div class="child-card" onclick="selectChild('mahmoud')">
+                        <div class="child-image">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+                                alt="محمود محمد">
+                        </div>
+                        <div class="child-info">
+                            <h3 class="child-name">محمود محمد</h3>
+                            <p class="child-grade">الصف الحادي عشر</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Bar -->
+            <div class="contact-bar">
+                <div class="contact-info">
+                    <span class="contact-label">للتواصل مع المعلم :</span>
+                    <div class="student-select-wrapper">
+                        <select id="student-select" class="student-select">
+                            <option value="">محمد احمد السيد</option>
+                            <option value="salma">سلمى محمد</option>
+                            <option value="ahmed">أحمد محمد</option>
+                            <option value="mahmoud">محمود محمد</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="phone-info">
+                    <span class="phone-label">رقم الهاتف :</span>
+                    <span class="phone-number">0123456789</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/Parent/parent_script.js"></script>
+    <script>
+        function selectChild(childId) {
+            localStorage.setItem('selectedChild', childId);
+            window.location.href = 'performance.html?child=' + childId;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الجدول الدراسي - بوابة ولي الأمر</title>
+    <meta name="description" content="الجدول الدراسي للطلاب - بوابة ولي الأمر الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Parent/parent_styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمد أحمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Parent" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
+                <a asp-controller="Parent" asp-action="Performance" class="nav-item">أداء الطلاب</a>
+                <a asp-controller="Parent" asp-action="Schedule" class="nav-item active">الجدول الدراسي</a>
+                <a asp-controller="Parent" asp-action="Grades" class="nav-item">الدرجات</a>
+                <a asp-controller="Parent" asp-action="Attendance" class="nav-item">الحضور</a>
+                <a asp-controller="Parent" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Parent" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">الجدول الدراسي</h1>
+                <div class="child-selector">
+                    <label class="child-selector-label">اختر الطالب:</label>
+                    <select id="child-select" class="child-selector-dropdown" onchange="changeChild()">
+                        <option value="salma">سلمى محمد - الصف السادس</option>
+                        <option value="ahmed">أحمد محمد - الصف التاسع</option>
+                        <option value="mahmoud" selected>محمود محمد - الصف الحادي عشر</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Weekly Schedule -->
+            <h2 class="section-title">الجدول الأسبوعي</h2>
+            <div class="data-table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>الحصة / اليوم</th>
+                            <th>الأحد</th>
+                            <th>الاثنين</th>
+                            <th>الثلاثاء</th>
+                            <th>الأربعاء</th>
+                            <th>الخميس</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>الأولى</strong><br>8:00 - 8:45</td>
+                            <td>رياضيات</td>
+                            <td>فيزياء</td>
+                            <td>كيمياء</td>
+                            <td>رياضيات</td>
+                            <td>أحياء</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الثانية</strong><br>8:50 - 9:35</td>
+                            <td>لغة عربية</td>
+                            <td>رياضيات</td>
+                            <td>فيزياء</td>
+                            <td>لغة إنجليزية</td>
+                            <td>كيمياء</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الثالثة</strong><br>9:40 - 10:25</td>
+                            <td>لغة إنجليزية</td>
+                            <td>لغة عربية</td>
+                            <td>رياضيات</td>
+                            <td>فيزياء</td>
+                            <td>لغة عربية</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الاستراحة</strong><br>10:25 - 10:45</td>
+                            <td colspan="5" style="background-color: #f5f5f5;">استراحة</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الرابعة</strong><br>10:45 - 11:30</td>
+                            <td>أحياء</td>
+                            <td>كيمياء</td>
+                            <td>لغة عربية</td>
+                            <td>أحياء</td>
+                            <td>رياضيات</td>
+                        </tr>
+                        <tr>
+                            <td><strong>الخامسة</strong><br>11:35 - 12:20</td>
+                            <td>كيمياء</td>
+                            <td>لغة إنجليزية</td>
+                            <td>أحياء</td>
+                            <td>كيمياء</td>
+                            <td>لغة إنجليزية</td>
+                        </tr>
+                        <tr>
+                            <td><strong>السادسة</strong><br>12:25 - 1:10</td>
+                            <td>فيزياء</td>
+                            <td>أحياء</td>
+                            <td>لغة إنجليزية</td>
+                            <td>لغة عربية</td>
+                            <td>فيزياء</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/Parent/parent_script.js"></script>
+    <script>
+        function changeChild() {
+            const selectedChild = document.getElementById('child-select').value;
+            localStorage.setItem('selectedChild', selectedChild);
+            location.reload();
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedChild = localStorage.getItem('selectedChild');
+            if (savedChild) {
+                document.getElementById('child-select').value = savedChild;
+            }
+        });
+    </script>
+</body>
+
+</html>

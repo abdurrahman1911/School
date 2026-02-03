@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أداء الطلاب - بوابة ولي الأمر</title>
+    <meta name="description" content="متابعة أداء الطلاب - بوابة ولي الأمر الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Parent/parent_styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمد أحمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Parent" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
+                <a asp-controller="Parent" asp-action="Performance" class="nav-item active">أداء الطلاب</a>
+                <a asp-controller="Parent" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
+                <a asp-controller="Parent" asp-action="Grades" class="nav-item">الدرجات</a>
+                <a asp-controller="Parent" asp-action="Attendance" class="nav-item">الحضور</a>
+                <a asp-controller="Parent" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Parent" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">أداء الطلاب</h1>
+                <div class="child-selector">
+                    <label class="child-selector-label">اختر الطالب:</label>
+                    <select id="child-select" class="child-selector-dropdown" onchange="changeChild()">
+                        <option value="salma">سلمى محمد - الصف السادس</option>
+                        <option value="ahmed">أحمد محمد - الصف التاسع</option>
+                        <option value="mahmoud" selected>محمود محمد - الصف الحادي عشر</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Performance Overview -->
+            <div class="performance-grid">
+                <div class="performance-card">
+                    <div class="performance-icon excellent">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="performance-value">92%</div>
+                    <div class="performance-label">المعدل العام</div>
+                </div>
+
+                <div class="performance-card">
+                    <div class="performance-icon good">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <div class="performance-value">95%</div>
+                    <div class="performance-label">نسبة الحضور</div>
+                </div>
+
+                <div class="performance-card">
+                    <div class="performance-icon good">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                    </div>
+                    <div class="performance-value">88%</div>
+                    <div class="performance-label">الواجبات المسلمة</div>
+                </div>
+
+                <div class="performance-card">
+                    <div class="performance-icon average">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <div class="performance-value">3</div>
+                    <div class="performance-label">اختبارات قادمة</div>
+                </div>
+            </div>
+
+            <!-- Recent Grades -->
+            <h2 class="section-title">آخر الدرجات</h2>
+            <div class="data-table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>المادة</th>
+                            <th>نوع الاختبار</th>
+                            <th>الدرجة</th>
+                            <th>التاريخ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الرياضيات</td>
+                            <td>اختبار شهري</td>
+                            <td>28/30</td>
+                            <td>2026-01-15</td>
+                        </tr>
+                        <tr>
+                            <td>اللغة العربية</td>
+                            <td>اختبار قصير</td>
+                            <td>18/20</td>
+                            <td>2026-01-14</td>
+                        </tr>
+                        <tr>
+                            <td>الفيزياء</td>
+                            <td>اختبار شهري</td>
+                            <td>25/30</td>
+                            <td>2026-01-12</td>
+                        </tr>
+                        <tr>
+                            <td>الكيمياء</td>
+                            <td>اختبار عملي</td>
+                            <td>19/20</td>
+                            <td>2026-01-10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/Parent/parent_script.js"></script>
+    <script>
+        function changeChild() {
+            const selectedChild = document.getElementById('child-select').value;
+            localStorage.setItem('selectedChild', selectedChild);
+            //then we will  reload the data for selected child
+            location.reload();
+        }
+
+        // Load selected child on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedChild = localStorage.getItem('selectedChild');
+            if (savedChild) {
+                document.getElementById('child-select').value = savedChild;
+            }
+        });
+    </script>
+</body>
+
+</html>

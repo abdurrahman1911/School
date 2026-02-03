@@ -6,14 +6,27 @@ namespace SchoolManagementSystem.Controllers
     {
         public IActionResult Index()
         {
-            return View("Home");
+            return View();
         }
-        
-      
 
+        public IActionResult About()
+        {
+            return View();
+        }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
 
+        public IActionResult ForgotPassword()
+        {
+            return View("forgot_password");
+        }
 
-
+        public IActionResult ResetPassword()
+        {
+            return View("reset_password");
+        }
     }
 }
