@@ -1,3 +1,6 @@
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -11,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="~/css/Main/main_styles.css">
+    <link rel="stylesheet" href="@Url.Content("~/css/Main/main_styles.css")">
 </head>
 
 <body>
@@ -31,9 +34,9 @@
             <header class="header">
                 <!-- Logo -->
                 <div class="logo-container">
-                    <img src="~/images/logo.png" alt="School Logo" class="school-logo">
+                    <img src="@Url.Content("~/images/logo.png")" alt="School Logo" class="school-logo">
                     <div class="logo-text">
-                        <span class="logo-title"><img src="~/images/name.png"
+                        <span class="logo-title"><img src="@Url.Content("~/images/name.png")"
                                 width="200px"></span>
                         <span class="logo-subtitle">AL-AWAEL SCHOOLS</span>
                     </div>
@@ -61,7 +64,7 @@
                             <i class="fab fa-tiktok"></i>
                         </a>
                     </div>
-                    <a href="login.html" class="login-btn">
+                    <a asp-controller="Home" asp-action="Login" class="login-btn">
                         <i class="fas fa-sign-in-alt"></i>
                         تسجيل الدخول
                     </a>
@@ -113,7 +116,7 @@
                 </div>
 
                 <div class="cta-container">
-                    <a href="login.html" class="cta-btn primary">
+                    <a asp-controller="Home" asp-action="Login" class="cta-btn primary">
                         <i class="fas fa-sign-in-alt"></i>
                         تسجيل الدخول
                     </a>
@@ -123,7 +126,7 @@
             <!-- Footer -->
             <footer class="footer">
                 <div class="footer-logo">
-                    <img src="~/images/logo.png" alt="School Logo"
+                    <img src="@Url.Content("~/images/logo.png")" alt="School Logo"
                         class="footer-emblem">
                     <span class="footer-text">© 2026 مدارس الأوائل الأهلية - جميع الحقوق محفوظة</span>
                 </div>
