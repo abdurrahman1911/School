@@ -1,0 +1,208 @@
+﻿@{
+    ViewData["Title"] = "الواجبات";
+}
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+<link rel="stylesheet" href="~/css/Teacher/assignments.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Side navigation bar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">أ</div>
+                <span>المعلم: يوسف</span>     
+            </div>
+        </div>
+            
+        <!-- Navigation links -->
+        <ul class="nav-links">
+            <li><a asp-controller="Teacher" asp-action="Teacherdashboard">الصفحة الرئيسية</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Students">الطلاب</a></li>
+            <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
+            <li><a asp-controller="Teacher" asp-action="Grades">الدرجات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Attendance">الحضور</a></li>
+            <li><a asp-controller="Teacher" asp-action="Assignments" class="active">الواجبات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main content -->
+    <div class="main-content" id="mainContent">
+        <div class="page active" id="assignments">
+            <div class="header">
+                <h1><i class="fas fa-tasks"></i> إدارة الواجبات</h1>
+                <div class="header-actions">
+                    <button class="btn add-assignment-btn" id="addAssignmentBtn">
+                        <i class="fas fa-plus"></i> إضافة واجب جديد
+                    </button>
+                </div>
+            </div>
+
+            <!-- Filters section -->
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="assignmentLevelFilter"><i class="fas fa-graduation-cap"></i> المستوى:</label>
+                        <select id="assignmentLevelFilter" class="filter-select">
+                            <option value="all">جميع المستويات</option>
+                            <option value="primary">المدرسة الابتدائية</option>
+                            <option value="preparatory">المدرسة الإعدادية</option>
+                            <option value="secondary">المدرسة الثانوية</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="assignmentClassFilter"><i class="fas fa-users"></i> الفصل:</label>
+                        <select id="assignmentClassFilter" class="filter-select">
+                            <option value="all">جميع الفصول</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="assignmentSubjectFilter"><i class="fas fa-book"></i> المادة:</label>
+                        <select id="assignmentSubjectFilter" class="filter-select">
+                            <option value="all">جميع المواد</option>
+                            <option value="math">الرياضيات</option>
+                            <option value="arabic">اللغة العربية</option>
+                            <option value="english">اللغة الإنجليزية</option>
+                            <option value="science">العلوم</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="assignmentStatusFilter"><i class="fas fa-filter"></i> الحالة:</label>
+                        <select id="assignmentStatusFilter" class="filter-select">
+                            <option value="all">جميع الحالات</option>
+                            <option value="pending">قيد الانتظار</option>
+                            <option value="completed">مكتمل</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <button class="btn" id="applyAssignmentFilter">
+                            <i class="fas fa-filter"></i> تطبيق الفلتر
+                        </button>
+                        <button class="btn btn-cancel" id="clearAssignmentFilter">
+                            <i class="fas fa-times"></i> إعادة التعيين
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assignments statistics -->
+            <div class="attendance-stats">
+                <div class="stat-card">
+                    <div class="stat-icon" style="background-color: var(--primary-color);">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="totalAssignments">0</h3>
+                        <p>إجمالي الواجبات</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon present">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="submittedAssignments">0</h3>
+                        <p>الواجبات المكتملة</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon absent">
+                        <i class="fas fa-calendar-times"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="overdueAssignments">0</h3>
+                        <p>الواجبات المتأخرة</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assignments table -->
+            <div class="table-container">
+                <h2 id="assignmentsTitle">قائمة الواجبات</h2>
+                
+                <table class="data-table assignments-table">
+                    <thead>
+                        <tr>
+                            <th>اسم الواجب</th>
+                            <th>المادة</th>
+                            <th>تاريخ البدء</th>
+                            <th>تاريخ الاستحقاق</th>
+                            <th>الملف المرفق</th>
+                            <th></th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="assignmentsTableBody">
+                        <!-- Will be filled with data -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="assignment-row-template">
+        <tr>
+            <td class="js-name">تعلم الحروف</td>
+            <td class="js-subject">اللغة العربية</td>
+            <td class="js-start-date">15-10-2025</td>
+            <td class="js-end-date">18-10-2025</td>
+            <td class="js-attachment">
+                <a href="#" class="file-attachment" title="letters.pdf">
+                    <i class="fas fa-paperclip"></i> letters.pdf
+                </a>
+            </td>
+            <td>
+                <span class="status js-status status-completed">مكتمل</span>
+            </td>
+            <td class="actions">
+                <button class="btn btn-small edit-assignment-btn js-edit-btn" data-id="1">
+                    <i class="fas fa-edit"></i>
+                </button>
+                <button class="btn btn-small btn-danger delete-assignment-btn js-delete-btn" data-id="1">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </td>
+        </tr>
+    </template>
+
+    <template id="empty-table-template">
+        <tr>
+            <td colspan="7" class="empty-state-container">
+                <i class="fas fa-tasks"></i>
+                <h3 class="js-empty-msg">لم يتم العثور على واجبات</h3>
+                <p>انقر على زر "إضافة واجب جديد" لإضافة واجبات</p>
+            </td>
+        </tr>
+    </template>
+
+    <!-- Modals container -->
+    <div id="modals-container"></div>
+
+    <!-- External data file -->
+    <script src="~/js/Teacher/data.js"></script>
+
+    <!-- Assignments JavaScript file -->
+    <script src="~/js/Teacher/assignments.js"></script>
+</body>
+</html>

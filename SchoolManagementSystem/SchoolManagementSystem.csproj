@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Teacher - Copy\**" />
+    <Content Remove="Views\Teacher - Copy\**" />
+    <EmbeddedResource Remove="Views\Teacher - Copy\**" />
+    <None Remove="Views\Teacher - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="appsettings.json" />
   </ItemGroup>
 

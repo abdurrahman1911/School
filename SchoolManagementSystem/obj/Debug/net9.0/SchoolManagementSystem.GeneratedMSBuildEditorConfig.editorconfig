@@ -1,5 +1,7 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
@@ -9,117 +11,189 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolManagementSystem
 build_property.RootNamespace = SchoolManagementSystem
-build_property.ProjectDir = E:\SchoolManagementSystem\SchoolManagementSystem\
+build_property.ProjectDir = C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\SchoolManagementSystem\SchoolManagementSystem
+build_property.MSBuildProjectDirectory = C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Home/Home.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Addadmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkYWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Attendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXR0ZW5kYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Editdata.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGRhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Successandfailure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VjY2Vzc2FuZGZhaWx1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Supervisors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VwZXJ2aXNvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Admin/Teachers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGVhY2hlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Home/Privacy.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Login/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Attendance.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Attendance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxBdHRlbmRhbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/EditProfile.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Home.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/SchoolManagerProfile.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/SchoolManagerProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTY2hvb2xNYW5hZ2VyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Students.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Students.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTdHVkZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/SuccessFailure.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/SuccessFailure.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTdWNjZXNzRmFpbHVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Supervisors.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Supervisors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxTdXBlcnZpc29ycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Teachers.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/SchoolManager/Teachers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sTWFuYWdlclxUZWFjaGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/Error.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/EditProfile.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/Notes.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/Notes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxOb3Rlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/StudentPage.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/StudentPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxTdHVkZW50UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/StudentsAbsence.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/StudentsAbsence.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxTdHVkZW50c0Fic2VuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/StudentsTable.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/StudentsTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxTdHVkZW50c1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/SupervisorProfile.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/SupervisorProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxTdXBlcnZpc29yUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeacherPerformance.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeacherPerformance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxUZWFjaGVyUGVyZm9ybWFuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeachersAbsence.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeachersAbsence.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxUZWFjaGVyc0Fic2VuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeachersPage.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeachersPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxUZWFjaGVyc1BhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeachersTable.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Supervisor/TeachersTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJ2aXNvclxUZWFjaGVyc1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/_ViewImports.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Assignments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBc3NpZ25tZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Attendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBdHRlbmRhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Exams.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxFeGFtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Grades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxHcmFkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Schedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxTY2hlZHVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxTZXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Students.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxTdHVkZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Teacher/Teacherdashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/_ViewStart.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/yousef/Desktop/final project edit/SchoolManagementSystem/SchoolManagementSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-asyxypky5p

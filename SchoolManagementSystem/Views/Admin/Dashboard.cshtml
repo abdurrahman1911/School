@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewData["Title"] = "الصفحة الرئيسية";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/Admin/dashboard.css"/>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <style>
+    .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 5px 0;
+}
+
+.nav-links a {
+    display: flex !important;
+    align-items: center !important;
+    padding: 15px 20px !important;
+    color: white !important;
+    text-decoration: none !important;
+    transition: var(--transition) !important;
+    border-right: 4px solid transparent !important;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-right-color: white !important;
+}
+
+.nav-links i {
+    margin-left: 10px !important;
+    width: 25px !important;
+    text-align: center !important;
+}
+    .nav-links a.logout:hover {
+        background-color: rgba(255, 0, 0, 0.15);
+        border-right-color: red;
+    }
+    </style>
+
+</head>
+<body>
+    <!-- Side navigation bar -->
+    <nav class="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">ص</div>
+                <span>صالح الشمري</span>  
+            </div>
+        </div>
+        
+       <ul class="nav-links">
+    <li><a asp-controller="Admin" asp-action="Dashboard" class="active">الصفحة الرئيسية</a></li>
+    <li><a asp-controller="Admin" asp-action="Successandfailure">النجاح والرسوب</a></li>
+    <li><a asp-controller="Admin" asp-action="Attendance">الحضور والغياب</a></li>
+    <li><a asp-controller="Admin" asp-action="Student">الطلاب</a></li>
+    <li><a asp-controller="Admin" asp-action="Teachers">المعلمين</a></li>
+    <li><a asp-controller="Admin" asp-action="Supervisors">المشرفين</a></li>
+    <li><a asp-controller="Admin" asp-action="Addadmin" >اضافة مدير</a></li>
+    <li><a asp-controller="Admin" asp-action="Editdata">تعديل البيانات</a></li>
+    <li><a asp-controller="Admin" asp-action="Logout">تسجيل الخروج</a></li>
+</ul>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="main-content" id="mainContent">
+        <div class="page active" id="home">
+            <div class="content-header">
+                <h1><i class="fas fa-home"></i> الصفحة الرئيسية</h1>
+            </div>
+
+            <!-- Teacher information card -->
+            <div class="teacher-card-simple">
+                
+                    <div class="card-header-simple">
+                    <div class="school-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="school-title">
+                        <h2>مدرسة الأوائل</h2>
+                        
+                    </div>
+                </div>
+                <div class="card-content-simple">
+                    <div class="teacher-info-main">
+                        <div class="teacher-name">
+                          <h3>صالح الشمري</h3>
+                        </div>
+                        
+                        <div class="teacher-details">
+                            <div class="detail-row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">البريد الإلكتروني:</span>
+                                    <span class="detail-value">saleh@alawael.edu.sa</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-phone"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">رقم الهاتف:</span>
+                                    <span class="detail-value">+966 55 123 4567</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-school"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">المدرسة:</span>
+                                    <span class="detail-value">مدرسة الأوائل الأهلية</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-calendar-alt"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">تاريخ الانضمام:</span>
+                                    <span class="detail-value">2023 / 08 / 15</span>
+                                </div>
+                            </div>
+                            
+                        
+                            
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

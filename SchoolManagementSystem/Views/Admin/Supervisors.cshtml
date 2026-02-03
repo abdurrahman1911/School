@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "قائمة المشرفين";
+}
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>قائمة المشرفين</title>
+    <link rel="stylesheet" href="~/css/Admin/supervisors.css"/>
+
+        <style>
+    .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 5px 0;
+}
+
+.nav-links a {
+    display: flex !important;
+    align-items: center !important;
+    padding: 15px 20px !important;
+    color: white !important;
+    text-decoration: none !important;
+    transition: var(--transition) !important;
+    border-right: 4px solid transparent !important;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-right-color: white !important;
+}
+
+.nav-links i {
+    margin-left: 10px !important;
+    width: 25px !important;
+    text-align: center !important;
+}
+    .nav-links a.logout:hover {
+        background-color: rgba(255, 0, 0, 0.15);
+        border-right-color: red;
+    }
+    </style>
+
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">ص</div>
+                 <span>صالح الشمري</span>    
+            </div>
+        </div>
+        
+         <ul class="nav-links">
+    <li><a asp-controller="Admin" asp-action="Dashboard" >الصفحة الرئيسية</a></li>
+    <li><a asp-controller="Admin" asp-action="Successandfailure">النجاح والرسوب</a></li>
+    <li><a asp-controller="Admin" asp-action="Attendance">الحضور والغياب</a></li>
+    <li><a asp-controller="Admin" asp-action="Student">الطلاب</a></li>
+    <li><a asp-controller="Admin" asp-action="Teachers">المعلمين</a></li>
+    <li><a asp-controller="Admin" asp-action="Supervisors" class="active">المشرفين</a></li>
+    <li><a asp-controller="Admin" asp-action="Addadmin" >اضافة مدير</a></li>
+    <li><a asp-controller="Admin" asp-action="Editdata">تعديل البيانات</a></li>
+    <li><a asp-controller="Admin" asp-action="Logout">تسجيل الخروج</a></li>
+</ul>
+    </nav>
+
+    <main class="main-content">
+        <header class="content-header">
+            <h1>قائمة المشرفين</h1>
+            <div class="header-info">
+            </div>
+        </header>
+
+        <div class="content-body">
+            <div class="students-table">
+                <table id="supervisorsTable">
+                    <thead>
+                        <tr>
+                            <th>اسم المشرف/ة</th>
+                            <th>الحضور</th>
+                            <th>الأداء</th>
+                            <th>التقييم</th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="supervisorsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <div id="supervisorDetailsForm" class="form-popup" style="display: none;">
+        <div class="form-content">
+            <h3>بيانات المشرف</h3>
+            <form id="supervisorForm">
+                <div class="form-group">
+                    <label for="detailName">اسم المشرف:</label>
+                    <input type="text" id="detailName" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailNumber">رقم الهوية:</label>
+                    <input type="text" id="detailNumber" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailPhone">رقم الهاتف:</label>
+                    <input type="text" id="detailPhone" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailRole">الدور الوظيفي:</label>
+                    <input type="text" id="detailRole" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailAttendance">نسبة الحضور:</label>
+                    <input type="text" id="detailAttendance" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailPerformance">التقييم:</label>
+                    <input type="text" id="detailPerformance" readonly>
+                </div>
+                <div class="form-buttons">
+                    <button type="button" id="closeDetailsBtn" class="btn cancel-btn">إغلاق</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="attendanceForm" class="form-popup" style="display: none;">
+        <div class="form-content">
+            <h3>حضور المشرف</h3>
+            <div id="attendanceContent">
+            </div>
+            <div class="form-buttons">
+                <button type="button" id="closeAttendanceBtn" class="btn cancel-btn">إغلاق</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/Admin/supervisors.js"></script>
+</body>
+</html>
