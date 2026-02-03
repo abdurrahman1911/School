@@ -1,0 +1,237 @@
+﻿
+
+@{
+    ViewData["Title"] = "الصفحة الرئيسية";
+}
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+
+ <link rel="stylesheet" href="~/css/Teacher/main.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+   
+</head>
+<body>
+    <!-- Mobile menu button -->
+    <input type="checkbox" id="mobileMenu" class="mobile-menu-checkbox">
+    <label for="mobileMenu" class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- Side navigation bar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">أ</div>
+                <span>المعلم: يوسف</span>     
+            </div>
+        </div>
+        
+        <!-- Navigation links -->
+       <ul class="nav-links">
+            <li><a asp-controller="Teacher" asp-action="Teacherdashboard">الصفحة الرئيسية</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main"class="active">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Students">الطلاب</a></li>
+            <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
+            <li><a asp-controller="Teacher" asp-action="Grades">الدرجات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Attendance">الحضور</a></li>
+            <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div class="main-content" id="mainContent">
+        <div class="page active" id="home">
+            <div class="header">
+                <h1>الصفحة الرئيسية</h1>
+            </div>
+
+            <!-- Administration notes section for teacher -->
+            <div class="admin-notes-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-comment-alt"></i> ملاحظات الإدارة</h2>
+                    <span class="badge">4 ملاحظات</span>
+                </div>
+                
+                <!-- Administration notes list -->
+                <div class="admin-notes-list" id="adminNotesList">
+                    <!-- Note 1 -->
+                    <input type="checkbox" id="read-note-1" class="read-checkbox">
+                    <div class="admin-note-card">
+                        <div class="note-card-header">
+                            <div class="note-sender">
+                                <div class="sender-avatar">أ</div>
+                                <div class="sender-info">
+                                    <h4>الإدارة المدرسية</h4>
+                                    <span class="note-time"><i class="far fa-clock"></i> <span>اليوم 10:30 ص</span></span>
+                                    <span class="unread-indicator">● غير مقروء</span>
+                                </div>
+                            </div>
+                            <div class="note-date-time">
+                                <div class="note-date">15 أكتوبر 2025</div>
+                            </div>
+                        </div>
+                        <div class="note-title">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <span>اجتماع طارئ للمعلمين</span>
+                        </div>
+                        <div class="note-content">
+                            <p>يُرجى حضور جميع المعلمين اجتماعاً طارئاً يوم الثلاثاء القادم في قاعة الاجتماعات الرئيسية الساعة 11 صباحاً. سيكون الاجتماع لمناقشة الاستعدادات للفصل الدراسي القادم والخطط التعليمية الجديدة.</p>
+                        </div>
+                        <div class="note-actions">
+                            <label for="read-note-1" class="btn-mark-read" tabindex="0">
+                                <i class="fas fa-check"></i> تمت القراءة
+                            </label>
+                            <span class="read-status">مقروء</span>
+                            <span class="note-tag important-tag">مهم</span>
+                        </div>
+                    </div>
+
+                    <!-- Note 2 -->
+                    <input type="checkbox" id="read-note-2" class="read-checkbox" checked>
+                    <div class="admin-note-card">
+                        <div class="note-card-header">
+                            <div class="note-sender">
+                                <div class="sender-avatar">أ</div>
+                                <div class="sender-info">
+                                    <h4>الإدارة المدرسية</h4>
+                                    <span class="note-time"><i class="far fa-clock"></i> <span>أمس 03:15 م</span></span>
+                                </div>
+                            </div>
+                            <div class="note-date-time">
+                                <div class="note-date">14 أكتوبر 2025</div>
+                            </div>
+                        </div>
+                        <div class="note-title">
+                            <i class="fas fa-info-circle"></i>
+                            <span>تحديث نظام الدرجات</span>
+                        </div>
+                        <div class="note-content">
+                            <p>تم تحديث نظام إدخال الدرجات. يُرجى مراجعة الدليل الجديد في قسم المساعدة. التحديث الجديد يتضمن إضافة ميزات جديدة لتسهيل عملية إدخال الدرجات وتقارير الأداء.</p>
+                        </div>
+                        <div class="note-actions">
+                            <label for="read-note-2" class="btn-mark-read" tabindex="0">
+                                <i class="fas fa-check"></i> تمت القراءة
+                            </label>
+                            <span class="read-status">مقروء</span>
+                        </div>
+                    </div>
+
+                    <!-- Note 3 -->
+                    <input type="checkbox" id="read-note-3" class="read-checkbox">
+                    <div class="admin-note-card">
+                        <div class="note-card-header">
+                            <div class="note-sender">
+                                <div class="sender-avatar">أ</div>
+                                <div class="sender-info">
+                                    <h4>الإدارة المدرسية</h4>
+                                    <span class="note-time"><i class="far fa-clock"></i> <span>قبل ساعة</span></span>
+                                    <span class="unread-indicator">● غير مقروء</span>
+                                </div>
+                            </div>
+                            <div class="note-date-time">
+                                <div class="note-date">15 أكتوبر 2025</div>
+                            </div>
+                        </div>
+                        <div class="note-title">
+                            <i class="fas fa-info-circle"></i>
+                            <span>موعد تسليم التقارير</span>
+                        </div>
+                        <div class="note-content">
+                            <p>آخر موعد لتسليم تقارير منتصف الفصل هو يوم الخميس 20 أكتوبر 2025. يُرجى الانتباه لهذا الموعد والتأكد من إكمال جميع التقارير المطلوبة وتسليمها في الوقت المحدد.</p>
+                        </div>
+                        <div class="note-actions">
+                            <label for="read-note-3" class="btn-mark-read" tabindex="0">
+                                <i class="fas fa-check"></i> تمت القراءة
+                            </label>
+                            <span class="read-status">مقروء</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Note 4 -->
+                    <input type="checkbox" id="read-note-4" class="read-checkbox">
+                    <div class="admin-note-card">
+                        <div class="note-card-header">
+                            <div class="note-sender">
+                                <div class="sender-avatar">أ</div>
+                                <div class="sender-info">
+                                    <h4>الإدارة المدرسية</h4>
+                                    <span class="note-time"><i class="far fa-clock"></i> <span>اليوم 09:00 ص</span></span>
+                                    <span class="unread-indicator">● غير مقروء</span>
+                                </div>
+                            </div>
+                            <div class="note-date-time">
+                                <div class="note-date">15 أكتوبر 2025</div>
+                            </div>
+                        </div>
+                        <div class="note-title">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>فعاليات اليوم الوطني</span>
+                        </div>
+                        <div class="note-content">
+                            <p>سيتم تنظيم فعاليات خاصة باليوم الوطني يوم الأربعاء القادم. يُرجى من المعلمين المشاركة في التجهيز للفعاليات وتشجيع الطلاب على المشاركة في الأنشطة المقررة.</p>
+                        </div>
+                        <div class="note-actions">
+                            <label for="read-note-4" class="btn-mark-read" tabindex="0">
+                                <i class="fas fa-check"></i> تمت القراءة
+                            </label>
+                            <span class="read-status">مقروء</span>
+                            <span class="note-tag important-tag">مهم</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest updates section -->
+            <div class="updates-section">
+                <h2><i class="fas fa-history"></i> آخر التحديثات</h2>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>التاريخ</th>
+                                <th>النشاط</th>
+                                <th>الحالة</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>15-10-2025</td>
+                                <td>تم رفع درجات اختبار الرياضيات</td>
+                                <td><span class="status status-completed">مكتمل</span></td>
+                            </tr>
+                            <tr>
+                                <td>14-10-2025</td>
+                                <td>تم تسجيل حضور الطلاب</td>
+                                <td><span class="status status-completed">مكتمل</span></td>
+                            </tr>
+                            <tr>
+                                <td>13-10-2025</td>
+                                <td>تم إضافة واجب جديد للغة العربية</td>
+                                <td><span class="status status-completed">مكتمل</span></td>
+                            </tr>
+                            <tr>
+                                <td>12-10-2025</td>
+                                <td>تم إضافة اختبار جديد للعلوم</td>
+                                <td><span class="status status-upcoming">قادم</span></td>
+                            </tr>
+                            <tr>
+                                <td>11-10-2025</td>
+                                <td>تم تحديث بيانات الطلاب</td>
+                                <td><span class="status status-completed">مكتمل</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

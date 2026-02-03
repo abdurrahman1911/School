@@ -1,0 +1,210 @@
+﻿@{
+    ViewData["Title"] = "الحضور والغياب";
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+<link rel="stylesheet" href="~/css/Teacher/attendance.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">أ</div>
+                <span>المعلم: يوسف</span>     
+            </div>
+        </div>
+        
+        <ul class="nav-links">
+      
+            <li><a asp-controller="Teacher" asp-action="Teacherdashboard">الصفحة الرئيسية</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Students">الطلاب</a></li>
+            <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
+            <li><a asp-controller="Teacher" asp-action="Grades">الدرجات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Attendance"class="active">الحضور</a></li>
+            <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+
+    <!-- phone menu button-->
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- main content-->
+    <div class="main-content" id="mainContent">
+        <div class="page active" id="attendance">
+            <div class="header">
+                <h1><i class="fas fa-clipboard-check"></i> إدارة الحضور والغياب</h1>
+                <div class="header-actions">
+                    <button class="btn" id="addNoteToAllBtn">
+                        <i class="fas fa-plus"></i> إضافة ملاحظة للجميع
+                    </button>
+                </div>
+            </div>
+
+            <!-- filters section-->
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="attendanceLevelFilter"><i class="fas fa-graduation-cap"></i> المستوى:</label>
+                        <select id="attendanceLevelFilter" class="filter-select">
+                            <option value="all">جميع المستويات</option>
+                            <option value="primary">المدرسة الابتدائية</option>
+                            <option value="preparatory">المدرسة الإعدادية</option>
+                            <option value="secondary">المدرسة الثانوية</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="attendanceClassFilter"><i class="fas fa-users"></i> الفصل:</label>
+                        <select id="attendanceClassFilter" class="filter-select">
+                            <option value="all">جميع الفصول</option>
+                            <option value="class1">الصف الأول</option>
+                            <option value="class2">الصف الثاني</option>
+                            <option value="class3">الصف الثالث</option>
+                            <option value="class4">الصف الرابع</option>
+                            <option value="class5">الصف الخامس</option>
+                            <option value="class6">الصف السادس</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="attendanceDateFilter"><i class="fas fa-calendar"></i> التاريخ:</label>
+                        <input type="date" id="attendanceDateFilter" class="filter-select" value="">
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="hasNotesFilter"><i class="fas fa-sticky-note"></i> الملاحظات:</label>
+                        <select id="hasNotesFilter" class="filter-select">
+                            <option value="all">جميع الطلاب</option>
+                            <option value="with">مع ملاحظات</option>
+                            <option value="without">بدون ملاحظات</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <button class="btn" id="applyAttendanceFilter">
+                            <i class="fas fa-filter"></i> تطبيق الفلتر
+                        </button>
+                        <button class="btn btn-cancel" id="clearAttendanceFilter">
+                            <i class="fas fa-times"></i> إعادة التعيين
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--attendance statistics-->
+            <div class="attendance-stats">
+                <div class="stat-card">
+                    <div class="stat-icon students">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="totalStudentsCount">0</h3>
+                        <p>إجمالي الطلاب</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon notes">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="studentsWithNotesCount">0</h3>
+                        <p>طلاب مع ملاحظات</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon today">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="todayNotesCount">0</h3>
+                        <p>ملاحظات اليوم</p>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon total">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="totalNotesCount">0</h3>
+                        <p>إجمالي الملاحظات</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- list of attendance -->
+            <div class="table-container">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <button class="btn" id="exportNotesBtn">
+                        <i class="fas fa-file-export"></i> تصدير الملاحظات
+                    </button>
+                </div>
+                
+                <table class="data-table attendance-table">
+                    <thead>
+                        <tr>
+                            <th>اسم الطالب</th>
+                            <th>الفصل</th>
+                            <th>آخر تحديث</th>
+                            <th>الملاحظات</th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendanceTableBody">
+                        <!-- Will be filled with data -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="attendance-row-template">
+        <tr>
+            <td class="js-name">اسم الطالب</td>
+            <td class="js-grade">الصف الأول</td>
+            <td class="js-date">15-10-2025</td>
+            <td>
+                <div class="notes-display js-notes empty">لا توجد ملاحظات</div>
+            </td>
+            <td class="actions">
+                <button class="btn btn-small js-add-btn" data-id="1001">
+                    <i class="fas fa-plus"></i> إضافة ملاحظة
+                </button>
+                <button class="btn btn-small btn-cancel js-view-btn" data-id="1001">
+                    <i class="fas fa-eye"></i> عرض
+                </button>
+            </td>
+        </tr>
+    </template>
+
+    <template id="empty-table-template">
+        <tr>
+            <td colspan="5" class="empty-state-container">
+                <i class="fas fa-clipboard-check"></i>
+                <h3 class="js-empty-msg">لا توجد سجلات</h3>
+                <p>قم بإضافة ملاحظات للطلاب</p>
+            </td>
+        </tr>
+    </template>
+
+    <!-- Modals container -->
+    <div id="modals-container"></div>
+
+    <!-- JavaScript file -->
+    <script src="~/js/Teacher/attendance.js"></script>
+</body>
+</html>

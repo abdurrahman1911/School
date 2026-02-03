@@ -1,0 +1,184 @@
+﻿@{
+    ViewData["Title"] = "الطلاب";
+}
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+
+  <link rel="stylesheet" href="~/css/Teacher/students.css"/>
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Sidebar navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">أ</div>
+                <span>المعلم: يوسف</span>     
+            </div>
+        </div>
+        
+        <!-- Navigation links -->
+     <ul class="nav-links">
+            <li><a asp-controller="Teacher" asp-action="Teacherdashboard">الصفحة الرئيسية</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Students" class="active">الطلاب</a></li>
+            <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
+            <li><a asp-controller="Teacher" asp-action="Grades">الدرجات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Attendance">الحضور</a></li>
+            <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main content -->
+    <main class="main-content">
+        <header class="content-header">
+            <h1>قائمة الطلاب</h1>
+        </header>
+
+        <div class="content-body">
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label for="stageSelect">اختيار المرحلة:</label>
+                    <select id="stageSelect">
+                        <option value="primary" selected>المرحلة الإبتدائية</option>
+                        <option value="middle">المرحلة المتوسطة</option>
+                        <option value="secondary">المرحلة الثانوية</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="classSelect">اختيار الصف:</label>
+                    <select id="classSelect">
+                        <option value="1">الصف الأول</option>
+                        <option value="2">الصف الثاني</option>
+                        <option value="3">الصف الثالث</option>
+                        <option value="4">الصف الرابع</option>
+                        <option value="5">الصف الخامس</option>
+                        <option value="6" selected>الصف السادس</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Students table -->
+            <div class="students-table">
+                <table id="studentsTable">
+                    <thead>
+                        <tr>
+                            <th>اسم الطالب/ة</th>
+                            <th>الحضور</th>
+                            <th>الأداء</th>
+                            <th>الدرجات</th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentsTableBody">
+                        <!-- Will be filled with data -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Student details display form -->
+    <div id="studentDetailsForm" class="form-popup" style="display: none;">
+        <div class="form-content">
+            <h3 id="formTitle">بيانات الطالب</h3>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label for="detailName">اسم الطالب:</label>
+                    <input type="text" id="detailName" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailNumber">رقم الطالب:</label>
+                    <input type="text" id="detailNumber" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailFatherNumber">رقم ولي الأمر:</label>
+                    <input type="text" id="detailFatherNumber" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailAttendance">نسبة الحضور:</label>
+                    <input type="text" id="detailAttendance" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="detailGrade">الدرجة:</label>
+                    <input type="text" id="detailGrade" readonly>
+                </div>
+                <div class="form-buttons">
+                    <button type="button" id="closeDetailsBtn" class="btn cancel-btn">إغلاق</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Attendance form -->
+    <div id="attendanceForm" class="form-popup" style="display: none;">
+        <div class="form-content">
+            <h3>حضور الطالب</h3>
+            <div id="attendanceContent">
+                <!-- Will be filled with data -->
+            </div>
+            <div class="form-buttons">
+                <button type="button" id="closeAttendanceBtn" class="btn cancel-btn">إغلاق</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grades form -->
+    <div id="gradesForm" class="form-popup" style="display: none;">
+        <div class="form-content">
+            <h3>درجات الطالب</h3>
+            <div id="gradesContent">
+                <!-- Will be filled with data -->
+            </div>
+            <div class="form-buttons">
+                <button type="button" id="closeGradesBtn" class="btn cancel-btn">إغلاق</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit student form -->
+    <div id="editStudentForm" class="form-popup" style="display: none;">
+        <div class="form-content">
+            <h3>تعديل بيانات الطالب</h3>
+            <form id="editForm">
+                <div class="form-group">
+                    <label for="editName">اسم الطالب:</label>
+                    <input type="text" id="editName" required>
+                </div>
+                <div class="form-group">
+                    <label for="editNumber">رقم الطالب:</label>
+                    <input type="text" id="editNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="editFatherNumber">رقم ولي الأمر:</label>
+                    <input type="text" id="editFatherNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="editAttendance">نسبة الحضور:</label>
+                    <input type="number" id="editAttendance" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="editGrade">الدرجة:</label>
+                    <input type="number" id="editGrade" min="0" max="100" required>
+                </div>
+                <input type="hidden" id="editStudentId">
+                <div class="form-buttons">
+                    <button type="submit" class="btn save-btn">حفظ</button>
+                    <button type="button" id="cancelEditBtn" class="btn cancel-btn">إلغاء</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/js/Teacher/students.js"></script>
+</body>
+</html>

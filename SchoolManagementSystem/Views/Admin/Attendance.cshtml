@@ -1,0 +1,138 @@
+﻿
+
+@{
+    ViewData["Title"] = "الحضور والغياب";
+}
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+      <link rel="stylesheet" href="~/css/Admin/attendance.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>الغياب والحضور</title>
+  
+
+        <style>
+    .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 5px 0;
+}
+
+.nav-links a {
+    display: flex !important;
+    align-items: center !important;
+    padding: 15px 20px !important;
+    color: white !important;
+    text-decoration: none !important;
+    transition: var(--transition) !important;
+    border-right: 4px solid transparent !important;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-right-color: white !important;
+}
+
+.nav-links i {
+    margin-left: 10px !important;
+    width: 25px !important;
+    text-align: center !important;
+}
+    .nav-links a.logout:hover {
+        background-color: rgba(255, 0, 0, 0.15);
+        border-right-color: red;
+    }
+    </style>
+
+</head>
+<body>
+    <!-- Side navigation bar -->
+    <nav class="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">ص</div>
+                <span>صالح الشمري</span>  
+            </div>
+        </div>
+        
+        <!-- Navigation links -->
+      <ul class="nav-links">
+    <li><a asp-controller="Admin" asp-action="Dashboard">الصفحة الرئيسية</a></li>
+    <li><a asp-controller="Admin" asp-action="Successandfailure">النجاح والرسوب</a></li>
+    <li><a asp-controller="Admin" asp-action="Attendance" class="active">الحضور والغياب</a></li>
+    <li><a asp-controller="Admin" asp-action="Student">الطلاب</a></li>
+    <li><a asp-controller="Admin" asp-action="Teachers">المعلمين</a></li>
+    <li><a asp-controller="Admin" asp-action="Supervisors">المشرفين</a></li>
+    <li><a asp-controller="Admin" asp-action="Addadmin" >اضافة مدير</a></li>
+    <li><a asp-controller="Admin" asp-action="Editdata">تعديل البيانات</a></li>
+    <li><a asp-controller="Admin" asp-action="Logout">تسجيل الخروج</a></li>
+</ul>
+    </nav>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <header class="content-header">
+            <h1>الغياب والحضور</h1>
+            <div class="header-info">
+                <!-- Header information -->
+            </div>
+        </header>
+
+        <div class="content-body">
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label for="stageSelect">اختيار المرحلة:</label>
+                    <select id="stageSelect">
+                        <option value="primary" selected>المرحلة الإبتدائية</option>
+                        <option value="middle">المرحلة المتوسطة</option>
+                        <option value="secondary">المرحلة الثانوية</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="monthSelect">اختيار الشهر:</label>
+                    <select id="monthSelect">
+                        <option value="january">يناير</option>
+                        <option value="february">فبراير</option>
+                        <option value="march">مارس</option>
+                        <option value="april">أبريل</option>
+                        <option value="may">مايو</option>
+                        <option value="june">يونيو</option>
+                        <option value="july">يوليو</option>
+                        <option value="august">أغسطس</option>
+                        <option value="september">سبتمبر</option>
+                        <option value="october" selected>أكتوبر</option>
+                        <option value="november">نوفمبر</option>
+                        <option value="december">ديسمبر</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <h2 id="currentStage">المرحلة الإبتدائية - أكتوبر</h2>
+            </div>
+
+            <!-- Chart section -->
+            <div class="chart-container">
+                <div id="attendanceChart"></div>
+            </div>
+
+            <div class="separator"></div>
+        </div>
+    </main>
+
+    <script src="~/js/Admin/attendance.js"></script>
+</body>
+</html>

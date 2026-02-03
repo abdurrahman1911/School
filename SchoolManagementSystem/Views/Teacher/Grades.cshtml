@@ -1,0 +1,205 @@
+﻿@{
+    ViewData["Title"] = "الدرجات";
+}
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/Teacher/grades.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Side navigation bar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">أ</div>
+                <span>المعلم: يوسف</span>     
+            </div>
+        </div>
+        
+        <!-- Navigation links -->
+         <ul class="nav-links">
+            <li><a asp-controller="Teacher" asp-action="Teacherdashboard">الصفحة الرئيسية</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Students">الطلاب</a></li>
+            <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
+            <li><a asp-controller="Teacher" asp-action="Grades"class="active">الدرجات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Attendance">الحضور</a></li>
+            <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main content -->
+    <div class="main-content" id="mainContent">
+        <div class="page active" id="grades">
+            <div class="header">
+                <h1><i class="fas fa-chart-bar"></i> إدارة الدرجات</h1>
+                <div class="header-actions">
+                    <button class="btn" id="addGradeBtn">
+                        <i class="fas fa-plus"></i> إضافة درجة جديدة
+                    </button>
+                </div>
+            </div>
+
+            <!-- Filters section -->
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="gradeSubjectFilter"><i class="fas fa-book"></i> المادة:</label>
+                        <select id="gradeSubjectFilter" class="filter-select">
+                            <option value="all">جميع المواد</option>
+                            <option value="math">الرياضيات</option>
+                            <option value="arabic">اللغة العربية</option>
+                            <option value="science">العلوم</option>
+                            <option value="english">اللغة الإنجليزية</option>
+                            <option value="history">التاريخ</option>
+                            <option value="geography">الجغرافيا</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="gradeLevelFilter"><i class="fas fa-graduation-cap"></i> المستوى:</label>
+                        <select id="gradeLevelFilter" class="filter-select">
+                            <option value="all">جميع المستويات</option>
+                            <option value="primary">المدرسة الابتدائية</option>
+                            <option value="preparatory">المدرسة الإعدادية</option>
+                            <option value="secondary">المدرسة الثانوية</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="gradeClassFilter"><i class="fas fa-users"></i> الفصل:</label>
+                        <select id="gradeClassFilter" class="filter-select">
+                            <option value="all">جميع الفصول</option>
+                            <option value="class1">الصف الأول</option>
+                            <option value="class2">الصف الثاني</option>
+                            <option value="class3">الصف الثالث</option>
+                            <option value="class4">الصف الرابع</option>
+                            <option value="class5">الصف الخامس</option>
+                            <option value="class6">الصف السادس</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <button class="btn" id="applyGradeFilter">
+                            <i class="fas fa-filter"></i> تطبيق الفلتر
+                        </button>
+                        <button class="btn btn-cancel" id="clearGradeFilter">
+                            <i class="fas fa-times"></i> إعادة التعيين
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grades statistics -->
+            <div class="grade-stats" id="gradeStatsSection">
+                <div class="grade-stat-card">
+                    <div class="stat-icon students">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="gradeStudentCount">0</h3>
+                        <p>عدد الطلاب</p>
+                    </div>
+                </div>
+                
+                <div class="grade-stat-card">
+                    <div class="stat-icon average">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="gradeAverage">0</h3>
+                        <p>متوسط الدرجات</p>
+                    </div>
+                </div>
+                
+                <div class="grade-stat-card">
+                    <div class="stat-icon highest">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 id="gradeHighest">0</h3>
+                        <p>أعلى درجة</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grades table -->
+            <div class="table-container">
+                <h2 id="gradesTitle">درجات الطلاب</h2>
+                
+                <table class="data-table grades-table">
+                    <thead>
+                        <tr>
+                            <th>اسم الطالب</th>
+                            <th>المادة</th>
+                            <th>الدرجة</th>
+                            <th>التقييم</th>
+                            <th>التاريخ</th>
+                            <th>الإجراءات</th>
+                        </tr>
+                    </thead>
+                    <tbody id="gradesTableBody">
+                        <!-- Will be filled by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="grade-row-template">
+        <tr>
+            <td class="js-name">اسم الطالب</td>
+            <td class="js-subject">المادة</td>
+            <td>
+                <span class="grade-score js-grade-score">95</span>
+                <div class="grade-progress">
+                    <div class="grade-progress-bar js-progress-bar" style="width: 95%"></div>
+                </div>
+            </td>
+            <td class="js-rating">ممتاز</td>
+            <td class="js-date">2023-10-15</td>
+            <td class="actions">
+                <button class="btn btn-small edit-student-grade-btn js-edit-btn" data-id="1001">
+                    <i class="fas fa-edit"></i> تعديل
+                </button>
+                <button class="btn btn-small btn-cancel js-delete-btn" data-id="1001">
+                    <i class="fas fa-trash"></i> حذف
+                </button>
+            </td>
+        </tr>
+    </template>
+
+    <template id="empty-table-template">
+        <tr>
+            <td colspan="6" class="empty-state-container">
+                <i class="fas fa-chart-bar"></i>
+                <h3 class="js-empty-msg">لم يتم العثور على درجات</h3>
+                <p>قم بإضافة درجات جديدة للطلاب</p>
+                <button class="btn" id="emptyAddGradeBtn" style="margin-top: 15px;">
+                    <i class="fas fa-plus"></i> إضافة درجة جديدة
+                </button>
+            </td>
+        </tr>
+    </template>
+
+    <!-- Modals container -->
+    <div id="modals-container"></div>
+
+    <!-- JavaScript file -->
+    <script src="~/js/Teacher/grads.js"></script>
+</body>
+</html>

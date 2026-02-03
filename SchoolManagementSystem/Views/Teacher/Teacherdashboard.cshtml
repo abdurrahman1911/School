@@ -1,0 +1,116 @@
+﻿ @{
+    ViewData["Title"] = "معلومات المعلم";
+}
+
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+ 
+ <link rel="stylesheet" href="~/css/Teacher/teacher-dashboard.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Side navigation bar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <div class="user-info">
+                <div class="user-avatar">أ</div>
+                <span>المعلم: يوسف</span>     
+            </div>
+        </div>
+        
+        <!-- Navigation links -->
+     <ul class="nav-links">
+            <li><a asp-controller="Teacher" asp-action="Teacherdashboard" class="active">الصفحة الرئيسية</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Students">الطلاب</a></li>
+            <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
+            <li><a asp-controller="Teacher" asp-action="Grades">الدرجات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Attendance">الحضور</a></li>
+            <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main content -->
+    <div class="main-content" id="mainContent">
+        <div class="page active" id="home">
+            <div class="header">
+                <h1><i class="fas fa-home"></i> الصفحة الرئيسية</h1>
+            </div>
+
+            <!-- Teacher information card -->
+            <div class="teacher-card-simple">
+                <div class="card-header-simple">
+                    <div class="school-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="school-title">
+                        <h2>مدرسة الأوائل</h2>
+                    </div>
+                </div>
+
+                <div class="card-content-simple">
+                    <div class="teacher-info-main">
+                        <div class="teacher-name">
+                            <h3>يوسف أحمد محمد</h3>
+                        </div>
+                        
+                        <div class="teacher-details">
+                            <div class="detail-row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">البريد الإلكتروني:</span>
+                                    <span class="detail-value">youssef.ahmed@alawael.edu.sa</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-phone"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">رقم الهاتف:</span>
+                                    <span class="detail-value">+966 55 123 4567</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-school"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">المدرسة:</span>
+                                    <span class="detail-value">مدرسة الأوائل الأهلية</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-calendar-alt"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">تاريخ الانضمام:</span>
+                                    <span class="detail-value">2023 / 08 / 15</span>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-row">
+                                <i class="fas fa-book"></i>
+                                <div class="detail-content">
+                                    <span class="detail-label">المادة الدراسية:</span>
+                                    <span class="detail-value">علوم - المرحلة الثانوية</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
