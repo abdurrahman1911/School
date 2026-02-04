@@ -750,7 +750,6 @@ namespace SchoolManagementSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
@@ -773,6 +772,7 @@ namespace SchoolManagementSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
@@ -787,6 +787,7 @@ namespace SchoolManagementSystem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecondName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Street")
