@@ -40,6 +40,7 @@ namespace SchoolManagementSystem.Data
         public DbSet<TeacherSubject> TeacherSubjects { get; set; }
         public DbSet<StudentExamDegree> StudentExamDegrees { get; set; }
         public DbSet<StudentHomeworkAnswer> StudentHomeworkAnswers { get; set; }
+        public DbSet<UserUserType> UserUserTypes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -13,7 +13,6 @@ public class User
     public string Password { get; set; }
     public string? ProfilPhotoURL { get; set; }
     public string SSN { get; set; }
-    public byte TypeID { get; set; }
     public DateTime BirthDate { get; set; }
     public DateTime AddedDate { get; set; }
     public string Governorate { get; set; }
@@ -32,14 +31,14 @@ public class User
     public virtual Headmaster Headmaster { get; set; }  
 
     // Many-To-One
-    public virtual UserType UserType { get; set; }    
     
     // One-to-Many
 
-    public virtual ICollection<Log> Logs { get; set; } = new List<Log>();
-    public virtual ICollection<Note> WrittenNotes { get; set; } = new List<Note>();
-    public virtual ICollection<Note> ReceivedNotes { get; set; } = new List<Note>();
+    public virtual ICollection<Log> Logs { get; set; } 
+    public virtual ICollection<Note> WrittenNotes { get; set; } 
+    public virtual ICollection<Note> ReceivedNotes { get; set; } 
     public virtual ICollection<Absence> Absences { get; set; }
+    public virtual ICollection<UserUserType> UserUserTypes { get;set; }
 
     
 }

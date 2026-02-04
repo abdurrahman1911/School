@@ -32,8 +32,10 @@ namespace SchoolManagementSystem.Controllers
               
                 return View("~/Views/Home/Login.cshtml",model);
             }
+            var x = clsDB.DBContext.UserUserTypes.FirstOrDefault(u => u.UserId == user.ID && model.UserType == u.UserTypeId);
+            
 
-                var type = (UserTypeEnum)user.TypeID;
+                var type = (UserTypeEnum)model.UserType;
                 if (type == UserTypeEnum.Supervisor)
                 {
                     var supervisor = clsDB.DBContext.Supervisors.FirstOrDefault(s => s.UserId == user.ID);

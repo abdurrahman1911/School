@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using SchoolManagementSystem.ViewModel;
@@ -60,7 +60,6 @@ namespace SchoolManagementSystem.Services
               Password = hashedPassword,
               ProfilPhotoURL = model.ProfilePhotoURL,
               SSN = model.SSN,
-              TypeID = typeId,
               BirthDate = model.BirthDate,
               AddedDate = model.AddedDate,
               Governorate = model.Governorate,
