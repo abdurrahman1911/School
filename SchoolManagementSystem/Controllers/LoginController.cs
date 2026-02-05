@@ -33,8 +33,12 @@ namespace SchoolManagementSystem.Controllers
                 return View("~/Views/Home/Login.cshtml",model);
             }
             var x = clsDB.DBContext.UserUserTypes.FirstOrDefault(u => u.UserId == user.ID && model.UserType == u.UserTypeId);
-            
+            if (x == null) {
+                ModelState.AddModelError("", "ليس مسموح لك بالدخول بهذا التخصص ");
 
+                return View("~/Views/Home/Login.cshtml", model);
+            }
+                
                 var type = (UserTypeEnum)model.UserType;
                 if (type == UserTypeEnum.Supervisor)
                 {
