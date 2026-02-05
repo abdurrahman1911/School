@@ -13,7 +13,7 @@ namespace SchoolManagementSystem.ViewModel
         public string Password { get; set; }
 
         public bool RememberMe { get; set; }
-        public byte UserType { get; set; } = 2;
+        public byte UserType { get; set; } = 6;
 
 
     }
