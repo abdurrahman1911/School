@@ -1,4 +1,4 @@
-/* //////////////////////////////////////// Login, Forget password, reset password pages /////////////////////////////////////// */
+﻿/*  //////////////////////////////////////// Login, Forget password, reset password pages ///////////////////////////////////////  */
 
 * {
     margin: 0;
@@ -260,6 +260,66 @@ body {
     box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.15);
 }
 
+/* Select Styling - Simplified */
+select.form-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    color: #fff !important;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 42px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23d4af37' d='M1 0l5 8 5-8z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left 12px center;
+    background-size: 12px;
+    padding-left: 35px;
+}
+
+select.form-input:hover {
+    border-color: #d4af37;
+}
+
+select.form-input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: #d4af37;
+    box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.15);
+}
+
+select.form-input option {
+    background: #2d3e52;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px 0;
+    min-height: 40px;
+    line-height: 1.5;
+}
+
+select.form-input option:checked {
+    background: #d4af37;
+    color: #1a2b4a;
+    font-weight: 800;
+}
+
+.input-wrapper select.form-input::after {
+    display: none;
+}
+
+.input-wrapper select.form-input ~ .select-arrow {
+    display: none;
+}
+
 .toggle-password {
     position: absolute;
     left: 15px;
@@ -388,6 +448,107 @@ body {
     color: #d4af37;
 }
 
+/* ========== VALIDATION STYLES ========== */
+
+/* Validation Error Messages */
+.text-danger {
+    color: #ff3333;
+    font-size: 14px;
+    font-weight: 700;
+    display: none;
+    margin-top: 8px;
+    padding: 10px 12px;
+    background: rgba(255, 51, 51, 0.15);
+    border-radius: 8px;
+    border-left: 4px solid #ff3333;
+    animation: slideDown 0.3s ease;
+    line-height: 1.5;
+}
+
+.text-danger.show {
+    display: block;
+}
+
+.text-danger::before {
+    content: '✕ ';
+    margin-right: 6px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Input with error state - DISABLED */
+/*
+.form-input.input-validation-error:focus {
+    box-shadow: 0 0 0 5px rgba(255, 51, 51, 0.25), inset 0 0 0 2px rgba(255, 51, 51, 0.4) !important;
+    border-color: #ff3333 !important;
+    background: rgba(255, 51, 51, 0.08) !important;
+}
+*/
+
+/* Error icon animation */
+.form-group.has-error .input-icon {
+    color: #ff3333 !important;
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-3px);
+    }
+    75% {
+        transform: translateX(3px);
+    }
+}
+
+
+/* Validation summary container */
+.validation-summary-errors {
+    background: rgba(255, 51, 51, 0.1);
+    border: 2px solid #ff3333;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    animation: slideDown 0.3s ease;
+}
+
+.validation-summary-errors h2 {
+    color: #ff3333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.validation-summary-errors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.validation-summary-errors li {
+    color: #ff3333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.validation-summary-errors li::before {
+    content: '✕ ';
+    margin-right: 8px;
+    font-weight: 900;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .login-container {
@@ -415,6 +576,10 @@ body {
     .form-input {
         padding: 10px 35px 10px 15px;
         height: 40px;
+    }
+
+    select.form-input {
+        padding-left: 15px !important;
     }
 }
 

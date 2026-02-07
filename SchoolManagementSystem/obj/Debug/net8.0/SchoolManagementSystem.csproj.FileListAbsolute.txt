@@ -273,10 +273,10 @@ E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\refint\SchoolM
 E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.pdb
 E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.genruntimeconfig.cache
 E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\ref\SchoolManagementSystem.dll
-E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.SchoolManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props
-E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.SchoolManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.SchoolManagementSystem.props
-E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SchoolManagementSystem.props
-E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SchoolManagementSystem.props
-E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.pack.json
 E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\swae.build.ex.cache
