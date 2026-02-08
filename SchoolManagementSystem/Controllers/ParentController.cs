@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SchoolManagementSystem.Controllers
 {
-    [Authorize]
+    [Authorize (Roles="Parent")]
     public class ParentController : Controller
     {
         public IActionResult Index()

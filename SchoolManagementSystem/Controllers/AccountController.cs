@@ -37,13 +37,14 @@ namespace SchoolManagementSystem.Controllers
                 ModelState.AddModelError("", "ليس مسموح لك بالدخول بهذا التخصص");
                 return View("Login", model);
             }
-
+            var u = clsDB.DBContext.UserTypes
+                .FirstOrDefault(u => u.ID ==userType.UserTypeId );
             //Claims
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.FirstName),
                 new Claim(ClaimTypes.NameIdentifier, user.ID.ToString()),
-                new Claim(ClaimTypes.Role, model.UserType.ToString()),
+                new Claim(ClaimTypes.Role, u.TypeName.ToString()),
                 new Claim("UserTypeId", model.UserType.ToString())
             };
 

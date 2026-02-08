@@ -6,7 +6,7 @@ using SchoolManagementSystem.ViewModel;
 
 namespace SchoolManagementSystem.Controllers
 {
-    [Authorize]
+    [Authorize (Roles ="Admin")] 
     public class AdminController : Controller
     {
         [HttpGet]

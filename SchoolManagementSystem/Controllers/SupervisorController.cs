@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SchoolManagementSystem.Controllers
 {
-    [Authorize]
+    [Authorize (Roles ="Supervisor")]
 
     public class SupervisorController : Controller
     {
