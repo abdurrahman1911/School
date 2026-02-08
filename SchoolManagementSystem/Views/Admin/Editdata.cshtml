@@ -14,54 +14,12 @@
     <title>تعديل البيانات</title>
     <link rel="stylesheet" href="~/css/Admin/edit-data.css"/>
 
-
-      <style>
-    .nav-links {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-   .nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    margin: 5px 0;
-}
-
-.nav-links a {
-    display: flex !important;
-    align-items: center !important;
-    padding: 15px 20px !important;
-    color: white !important;
-    text-decoration: none !important;
-    transition: var(--transition) !important;
-    border-right: 4px solid transparent !important;
-}
-
-.nav-links a:hover,
-.nav-links a.active {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    border-right-color: white !important;
-}
-
-.nav-links i {
-    margin-left: 10px !important;
-    width: 25px !important;
-    text-align: center !important;
-}
-
-    .nav-links a.logout:hover {
-        background-color: rgba(255, 0, 0, 0.15);
-        border-right-color: red;
-    }
-    </style>
+ 
 
 </head>
 <body>
     <!-- Side navigation bar -->
-    <nav class="sidebar">
+  <aside class="sidebar">    
         <div class="logo">
             <div class="user-info">
                 <div class="user-avatar">ص</div>
@@ -79,62 +37,58 @@
     <li><a asp-controller="Admin" asp-action="Supervisors">المشرفين</a></li>
     <li><a asp-controller="Admin" asp-action="Addadmin" >اضافة مدير</a></li>
     <li><a asp-controller="Admin" asp-action="Editdata" class="active">تعديل البيانات</a></li>
-    <li><a asp-controller="Admin" asp-action="Logout">تسجيل الخروج</a></li>
 </ul>
-    </nav>
+<a asp-controller="Home"
+               asp-action="About"
+               class="logout">
+                تسجيل الخروج
+            </a>
+        </aside>
 
     <!-- Main content -->
-    <main class="main-content">
-        <header class="content-header">
-            <h1>تعديل البيانات الشخصية</h1>
-        </header>
 
-        <div class="content-body">
-            <!-- Password change form in the center of the screen -->
-            <div class="password-container-center">
-                <div class="password-form-wrapper">
-                    <h2 class="password-title">تغيير كلمة المرور</h2>
-                    
-                    <div class="password-form">
-                        <div class="form-group">
-                            <label for="currentPassword">كلمة المرور الحالية:</label>
-                            <div class="input-with-icon">
-                                <input type="password" id="currentPassword" placeholder="أدخل كلمة المرور الحالية">
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="newPassword">كلمة المرور الجديدة:</label>
-                            <div class="input-with-icon">
-                                <input type="password" id="newPassword" placeholder="أدخل كلمة المرور الجديدة">
-                            </div>
-                            <div class="password-hint">
-                                <!-- Password hints -->
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="confirmPassword">تأكيد كلمة المرور:</label>
-                            <div class="input-with-icon">
-                                <input type="password" id="confirmPassword" placeholder="أكد كلمة المرور الجديدة">
-                            </div>
-                        </div>
-                        
-                        <div class="form-actions">
-                            <button type="submit" class="btn save-btn">
-                                حفظ التغييرات
-                            </button>
-                        </div>
-                        
-                        <!-- Confirmation message -->
-                        <div class="confirmation-message" style="background-color: rgba(76, 175, 80, 0.1); border-right: 3px solid #4CAF50; padding: 15px; margin-top: 20px; border-radius: 6px; color: #2e7d32;">
-                            <i class="fas fa-check-circle"></i>
-                            <span>تم تحديث كلمة المرور بنجاح</span>
-                        </div>
+   
+     <main class="content">
+        <div class="box">
+
+            <h3 class="title">تعديل كلمة المرور</h3>
+
+            <form>
+                <div class="form-group">
+                    <label>كلمة المرور الحالية</label>
+                    <div class="password-field">
+                        <input type="password" id="currentPassword" placeholder="ادخل كلمة المرور الحالية">
+                        <span class="toggle" onclick="togglePassword('currentPassword', this)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </span>
                     </div>
                 </div>
-            </div>
+
+                <div class="form-group">
+                    <label>كلمة المرور الجديدة</label>
+                    <div class="password-field">
+                        <input type="password" id="newPassword" placeholder="ادخل كلمة المرور الجديدة">
+                        <span class="toggle" onclick="togglePassword('newPassword', this)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>تأكيد كلمة المرور</label>
+                    <div class="password-field">
+                        <input type="password" id="confirmPassword" placeholder="اعد كتابة كلمة المرور الجديدة">
+                        <span class="toggle" onclick="togglePassword('confirmPassword', this)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <button type="submit" class="save-btn">حفظ التعديلات</button>
+            </form>
+
         </div>
     </main>
+    <script src="~/js/Admin/edit-data.js"></script>
 </body>
 </html>
