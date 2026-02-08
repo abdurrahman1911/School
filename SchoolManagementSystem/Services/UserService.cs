@@ -6,6 +6,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace SchoolManagementSystem.Services
 {
+    
     public enum UserTypeEnum
     {
         Student = 1, Teacher, Parent, Admin, Supervisor, Headmaster

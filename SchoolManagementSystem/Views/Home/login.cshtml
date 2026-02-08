@@ -40,9 +40,16 @@
         <!-- Login Card -->
         <div class="login-card">
             <h2 class="login-title">تسجيل الدخول</h2>
+            <div asp-validation-summary="ModelOnly"
+                 class="alert alert-danger"
+                 id="loginError"
+                 role="alert">
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <!-- Login Form -->
-            <form id="loginForm" method="post" asp-action="Login" asp-controller="Login">
+            <form id="loginForm" method="post" asp-action="Login" asp-controller="Account">
+               
                 <!-- User Role -->
                 <div class="form-group" id="userTypeGroup">
                     <label for="userType" class="form-label">الدور الوظيفي</label>
@@ -54,8 +61,9 @@
                                 asp-validation-class="input-validation-error">
                             <option value="">-- اختر الدور الوظيفي --</option>
                             <option value="1">طالب</option>
-                            <option value="2">ولي أمر</option>
-                            <option value="3">معلم</option>
+                            <option value="2">معلم</option>
+                            <option value="3">ولي أمر</option>
+                            
                             <option value="4">مشرف</option>
                             <option value="5">مدير المدرسة</option>
                             <option value="6">صاحب المدرسة</option>

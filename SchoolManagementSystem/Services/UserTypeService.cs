@@ -13,6 +13,8 @@ namespace SchoolManagementSystem.Services
             };
             clsDB.DBContext.Add(userType);
         }
-        
+       
+
+
     }
 }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SchoolManagementSystem.Models;
 using SchoolManagementSystem.Services;
@@ -5,6 +6,7 @@ using SchoolManagementSystem.ViewModel;
 
 namespace SchoolManagementSystem.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         [HttpGet]

@@ -1,4 +1,4 @@
-@{
+﻿@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -38,7 +38,8 @@
                 <a asp-controller="Parent" asp-action="Assignments" class="nav-item">الواجبات</a>
                 <a asp-controller="Parent" asp-action="Edit" class="nav-item">تعديل البيانات</a>
             </nav>
-            <button class="logout-btn">تسجيل الخروج</button>
+            
+            <li><a asp-controller="Account" asp-action="Logout" class="active">تسجيل الخروج</a></li>
         </aside>
 
         <!-- Main Content -->
