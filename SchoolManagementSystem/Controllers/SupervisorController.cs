@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SchoolManagementSystem.Controllers
 {
+    [Authorize (Roles ="Supervisor")]
+
     public class SupervisorController : Controller
     {
         public IActionResult EditProfile()

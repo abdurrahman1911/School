@@ -1,0 +1,196 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحضور - بوابة ولي الأمر</title>
+    <meta name="description" content="سجل حضور الطلاب - بوابة ولي الأمر الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@Url.Content("~/css/Parent/parent_styles.css")">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمد أحمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Parent" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
+                <a asp-controller="Parent" asp-action="Performance" class="nav-item">أداء الطلاب</a>
+                <a asp-controller="Parent" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
+                <a asp-controller="Parent" asp-action="Grades" class="nav-item">الدرجات</a>
+                <a asp-controller="Parent" asp-action="Attendance" class="nav-item active">الحضور</a>
+                <a asp-controller="Parent" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Parent" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">سجل الحضور والغياب</h1>
+                <div class="child-selector">
+                    <label class="child-selector-label">اختر الطالب:</label>
+                    <select id="child-select" class="child-selector-dropdown" onchange="changeChild()">
+                        <option value="salma">سلمى محمد - الصف السادس</option>
+                        <option value="ahmed">أحمد محمد - الصف التاسع</option>
+                        <option value="mahmoud" selected>محمود محمد - الصف الحادي عشر</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Attendance Summary -->
+            <div class="performance-grid">
+                <div class="performance-card">
+                    <div class="performance-icon excellent">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="performance-value">85</div>
+                    <div class="performance-label">أيام الحضور</div>
+                </div>
+
+                <div class="performance-card">
+                    <div class="performance-icon needs-improvement">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="15" y1="9" x2="9" y2="15"></line>
+                            <line x1="9" y1="9" x2="15" y2="15"></line>
+                        </svg>
+                    </div>
+                    <div class="performance-value">3</div>
+                    <div class="performance-label">أيام الغياب</div>
+                </div>
+
+                <div class="performance-card">
+                    <div class="performance-icon good">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 20V10"></path>
+                            <path d="M12 20V4"></path>
+                            <path d="M6 20v-6"></path>
+                        </svg>
+                    </div>
+                    <div class="performance-value">95%</div>
+                    <div class="performance-label">نسبة الحضور</div>
+                </div>
+            </div>
+
+            <!-- Attendance Details -->
+            <h2 class="section-title">سجل الحضور - هذا الأسبوع</h2>
+            <div class="data-table-wrapper">
+                <table class="data-table">
+                     <thead>
+                            <tr>
+                                <th>اليوم</th>
+                                <th>التاريخ</th>
+                                <th>الحضور</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>الأحد</td>
+                                <td>15-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الاثنين</td>
+                                <td>16-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الثلاثاء</td>
+                                <td>17-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الأربعاء</td>
+                                <td>18-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الخميس</td>
+                                <td>19-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon absent">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/Parent/parent_script.js"></script>
+    <script>
+        function changeChild() {
+            const selectedChild = document.getElementById('child-select').value;
+            localStorage.setItem('selectedChild', selectedChild);
+            location.reload();
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedChild = localStorage.getItem('selectedChild');
+            if (savedChild) {
+                document.getElementById('child-select').value = savedChild;
+            }
+        });
+    </script>
+</body>
+
+</html>

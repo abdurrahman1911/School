@@ -1,4 +1,4 @@
-﻿using SchoolManagementSystem.Models;
+using SchoolManagementSystem.Models;
 using SchoolManagementSystem.ViewModel;
 using System.Transactions;
 
@@ -35,7 +35,8 @@ namespace SchoolManagementSystem.Services
                     int userID = UserService.AddBaseUser(model, (byte)UserTypeEnum.Supervisor);
 
                     AddSupervisor(model, userID);
-
+                    UserTypeService.AddUserType(userID, (byte)UserTypeEnum.Supervisor);
+                    clsDB.DBContext.SaveChanges();
                     scope.Complete();
                 }
 

@@ -1,0 +1,133 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحضور والغياب - محمود محمد</title>
+    <meta name="description" content="سجل الحضور والغياب - بوابة الطالب الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@Url.Content("~/css/Student/student_styles.css")">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="user-info">
+                <div class="user-avatar-small">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
+                    </svg>
+                </div>
+                <span class="user-name">محمود محمد</span>
+            </div>
+            <nav class="nav-menu">
+                <a asp-controller="Student" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
+                <a asp-controller="Student" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
+                <a asp-controller="Student" asp-action="Grades" class="nav-item">الدرجات</a>
+                <a asp-controller="Student" asp-action="Attendance" class="nav-item active">الحضور والغياب</a>
+                <a asp-controller="Student" asp-action="Tests" class="nav-item">الاختبارات</a>
+                <a asp-controller="Student" asp-action="Level" class="nav-item">المستوى</a>
+                <a asp-controller="Student" asp-action="Assignments" class="nav-item">الواجبات</a>
+                <a asp-controller="Student" asp-action="Edit" class="nav-item">تعديل البيانات</a>
+            </nav>
+            <button class="logout-btn">تسجيل الخروج</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Attendance Section -->
+            <section class="attendance-section">
+                <h2 class="attendance-title">الحضور :</h2>
+
+                <!-- Attendance Table -->
+                <div class="attendance-table-wrapper">
+                    <table class="attendance-table">
+                        <thead>
+                            <tr>
+                                <th>اليوم</th>
+                                <th>التاريخ</th>
+                                <th>الحضور</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>الأحد</td>
+                                <td>15-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الاثنين</td>
+                                <td>16-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الثلاثاء</td>
+                                <td>17-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الأربعاء</td>
+                                <td>18-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon present">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <polyline points="20 6 9 17 4 12"></polyline>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>الخميس</td>
+                                <td>19-10-2025</td>
+                                <td class="status-cell">
+                                    <span class="status-icon absent">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3">
+                                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="~/js/Student/student_script.js"></script>
+</body>
+
+</html>

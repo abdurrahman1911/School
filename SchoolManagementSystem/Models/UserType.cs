@@ -5,8 +5,8 @@ namespace SchoolManagementSystem.Models
         public Byte ID { get; set; }
         public string TypeName { get; set; }
 
-        public virtual ICollection<User> Users { get; set; }
+        //One-To-Many
+        public ICollection<UserUserType> UserUserTypes { get; set; }
 
-        
     }
 }

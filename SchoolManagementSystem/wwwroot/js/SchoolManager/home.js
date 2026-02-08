@@ -48,3 +48,4 @@ document.querySelectorAll('.chart-select').forEach(select => {
 ['supervisorsChart', 'teachersChart', 'studentsChart'].forEach(chartId => {
     renderChart(chartId, 'week');
 });
+

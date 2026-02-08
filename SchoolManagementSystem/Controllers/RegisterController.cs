@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using SchoolManagementSystem.Data;
 using SchoolManagementSystem.Models;
 using SchoolManagementSystem.Services;
@@ -155,32 +155,7 @@ namespace SchoolManagementSystem.Controllers
 
         
 
-        [HttpPost]
-        public IActionResult RegisterAdmin(AdminViewModel admin)
-        {
-            if (!ModelState.IsValid)
-            {
-                return View(admin);
-            }
-
-            if (!AdminService.AddNewAdmin(admin))
-            {
-                //failed
-
-
-
-                return View(admin);
-            }
-
-
-
-            //added successfully
-            return View();
-
-
-
-
-        }
+        
 
 
      
