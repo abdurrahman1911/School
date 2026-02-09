@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Supervisor\\TeachersTable.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolManagementSystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Supervisor\\TeachersTable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +34,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+              "RelativeToolTip": "SchoolManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-09T11:49:26.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TeachersTable.cshtml",
-              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml",
               "RelativeDocumentMoniker": "Views\\Supervisor\\TeachersTable.cshtml",
-              "ToolTip": "C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml",
+              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml",
               "RelativeToolTip": "Views\\Supervisor\\TeachersTable.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-01T13:51:40.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TeachersTable.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Supervisor\\TeachersTable.cshtml.cs",
-              "ToolTip": "C:\\Users\\yousef\\Desktop\\final project edit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml.cs",
+              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersTable.cshtml.cs",
               "RelativeToolTip": "Views\\Supervisor\\TeachersTable.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T13:51:34.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T13:51:34.259Z"
             }
           ]
         }

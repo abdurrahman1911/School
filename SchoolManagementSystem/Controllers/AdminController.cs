@@ -6,7 +6,7 @@ using SchoolManagementSystem.ViewModel;
 
 namespace SchoolManagementSystem.Controllers
 {
-    [Authorize (Roles ="Admin")] 
+    // [Authorize (Roles ="Admin")] 
     public class AdminController : Controller
     {
         [HttpGet]
@@ -14,6 +14,7 @@ namespace SchoolManagementSystem.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Addadmin(AdminViewModel admin)
         {
@@ -25,67 +26,26 @@ namespace SchoolManagementSystem.Controllers
             if (!AdminService.AddNewAdmin(admin))
             {
                 //failed
-
-
-
                 return View(admin);
             }
 
-
-
             //added successfully
             return View();
-            return View();
-        }
-        public IActionResult Attendance()
-        {
-            return View();
         }
 
-        public IActionResult Dashboard()
-        {
-            return View();
-        }
+        public IActionResult Attendance() => View();
 
-        public IActionResult Editdata()
-        {
-            return View();
-        }
+        public IActionResult Dashboard() => View();
+
+        public IActionResult Editdata() => View();
 
 
-        public IActionResult Logout()
-        {
-            return View();
-        }
+        public IActionResult Student() => View();
 
+        public IActionResult Successandfailure() => View();
 
+        public IActionResult Supervisors() => View();
 
-        public IActionResult Student()
-        {
-            return View();
-        }
-
-
-        public IActionResult Successandfailure()
-        {
-            return View();
-        }
-
-
-        public IActionResult Supervisors()
-        {
-            return View();
-        }
-
-
-
-        public IActionResult Teachers()
-        {
-            return View();
-        }
-
-
-
-
+        public IActionResult Teachers() => View();
     }
 }

@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\Controllers",
     "\\Views",
+    "\\Views\\Supervisor",
     "\\Views\\Teacher"
   ],
-  "SelectedNode": "\\Views\\Teacher\\ssignments.cshtml",
+  "SelectedNode": "\\SchoolManagementSystem.csproj",
   "PreviewInSolutionExplorer": false
 }
