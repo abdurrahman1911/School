@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SchoolManagementSystem.Controllers
 {
-    // [Authorize (Roles ="Teacher")]
+    [Authorize (Roles ="Teacher")]
     public class TeacherController : Controller
     {
         public IActionResult Assignments() => View();

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\schoolmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\schoolmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\schoolmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\yousef\\desktop\\finalprojectedit\\schoolmanagementsystem\\schoolmanagementsystem\\views\\teacher\\exams.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\teacher\\exams.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -126,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -139,19 +139,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Attendance.cshtml",
-              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
-              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwCwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:15:39.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Addadmin.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Addadmin.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Addadmin.cshtml",
@@ -159,8 +146,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Addadmin.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:11:43.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:11:43.447Z"
             },
             {
               "$type": "Document",
@@ -170,14 +156,14 @@
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\TeacherController.cs",
               "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\TeacherController.cs",
               "RelativeToolTip": "SchoolManagementSystem\\Controllers\\TeacherController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T14:16:18.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ParentController.cs",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\ParentController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\ParentController.cs",
@@ -185,25 +171,24 @@
               "RelativeToolTip": "SchoolManagementSystem\\Controllers\\ParentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T15:18:36.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T15:18:36.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\AdminController.cs",
               "RelativeToolTip": "SchoolManagementSystem\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T14:21:51.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\StudentController.cs",
@@ -211,12 +196,36 @@
               "RelativeToolTip": "SchoolManagementSystem\\Controllers\\StudentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T15:18:28.694Z",
+              "WhenOpened": "2026-02-09T15:18:28.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SchoolManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\SchoolManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+              "RelativeToolTip": "SchoolManagementSystem\\SchoolManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-02T14:44:57.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Attendance.cshtml",
+              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
+              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Attendance.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-01T17:15:39.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Dashboard.cshtml",
@@ -224,12 +233,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Dashboard.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:15:56.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:15:56.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Editdata.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Editdata.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Editdata.cshtml",
@@ -237,12 +245,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Editdata.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:16:11.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:16:11.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Student.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Student.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Student.cshtml",
@@ -250,12 +257,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Student.cshtml",
               "ViewState": "AgIAABMAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:17:04.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:17:04.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Logout.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Logout.cshtml",
@@ -263,12 +269,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Logout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:16:29.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:16:29.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Supervisors.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Supervisors.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Supervisors.cshtml",
@@ -276,12 +281,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Supervisors.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-02T17:08:09.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T17:08:09.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Successandfailure.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Successandfailure.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Successandfailure.cshtml",
@@ -289,12 +293,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Successandfailure.cshtml",
               "ViewState": "AgIAAJkAAAAAAAAAAAAAAKkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-02T17:09:47.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T17:09:47.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Teachers.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Admin\\Teachers.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Admin\\Teachers.cshtml",
@@ -302,12 +305,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Admin\\Teachers.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:17:54.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:17:54.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Assignments.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Assignments.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Assignments.cshtml",
@@ -315,12 +317,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Assignments.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T16:54:18.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T16:54:18.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Attendance.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Attendance.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Attendance.cshtml",
@@ -328,12 +329,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Attendance.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T16:57:46.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T16:57:46.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Grades.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Grades.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Grades.cshtml",
@@ -341,12 +341,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Grades.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAkwCkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:21:09.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:21:09.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Exams.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Exams.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Exams.cshtml",
@@ -354,12 +353,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Exams.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-02T15:29:15.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T15:29:15.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Main.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Main.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Main.cshtml",
@@ -367,12 +365,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Main.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:24:55.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:24:55.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Logout.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Logout.cshtml",
@@ -380,12 +377,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Logout.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:23:35.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:23:35.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Schedule.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Schedule.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Schedule.cshtml",
@@ -393,12 +389,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Schedule.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T17:26:25.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T17:26:25.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Setting.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Setting.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Setting.cshtml",
@@ -406,12 +401,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Setting.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-02T15:48:59.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T15:48:59.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Students.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Students.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Students.cshtml",
@@ -419,12 +413,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Students.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T18:09:30.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T18:09:30.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Teacherdashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Teacher\\Teacherdashboard.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Teacher\\Teacherdashboard.cshtml",
@@ -432,12 +425,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Views\\Teacher\\Teacherdashboard.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-01T18:11:59.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T18:11:59.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\AccountController.cs",
@@ -445,12 +437,11 @@
               "RelativeToolTip": "SchoolManagementSystem\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAowFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T17:06:06.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T17:06:06.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Program.cs",
@@ -458,21 +449,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwB8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T17:09:31.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SchoolManagementSystem.csproj",
-              "DocumentMoniker": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\SchoolManagementSystem.csproj",
-              "ToolTip": "C:\\Users\\yousef\\Desktop\\finalprojectedit\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
-              "RelativeToolTip": "SchoolManagementSystem\\SchoolManagementSystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-02T14:44:57.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T17:09:31.858Z"
             },
             {
               "$type": "Document",
