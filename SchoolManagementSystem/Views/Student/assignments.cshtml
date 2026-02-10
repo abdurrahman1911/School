@@ -39,7 +39,9 @@
                 <a asp-controller="Student" asp-action="Assignments" class="nav-item active">الواجبات</a>
                 <a asp-controller="Student" asp-action="Edit" class="nav-item">تعديل البيانات</a>
             </nav>
-            <button class="logout-btn">تسجيل الخروج</button>
+            <a href="@Url.Action("Index", "Home")" class="logout-btn">
+                تسجيل الخروج
+            </a>
         </aside>
 
         <!-- Main Content -->
