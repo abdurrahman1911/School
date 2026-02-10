@@ -175,7 +175,7 @@
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Parent.cs",
               "ToolTip": "C:\\Users\\NOUR SOFT\\Desktop\\\u0632\u0647\u0642\u0642\u0642\u0642\u0642\u0642\u0642\u062A\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Parent.cs",
               "RelativeToolTip": "SchoolManagementSystem\\Models\\Parent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T01:55:01.289Z",
               "EditorCaption": ""
@@ -188,7 +188,7 @@
               "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\NOUR SOFT\\Desktop\\\u0632\u0647\u0642\u0642\u0642\u0642\u0642\u0642\u0642\u062A\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Student.cs",
               "RelativeToolTip": "SchoolManagementSystem\\Models\\Student.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wBAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T01:54:49.702Z",
               "EditorCaption": ""
@@ -203,8 +203,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Models\\User.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T01:52:56.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T01:52:56.843Z"
             },
             {
               "$type": "Document",
@@ -216,8 +215,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAP4UAAAAAAAAAAAswAQVAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-02-10T01:49:58.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T01:49:58.641Z"
             },
             {
               "$type": "Document",
@@ -229,8 +227,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T01:28:13.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T01:28:13.502Z"
             },
             {
               "$type": "Document",
@@ -290,8 +287,7 @@
               "RelativeToolTip": "SchoolManagementSystem\\SchoolManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-02T14:44:57.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T14:44:57.593Z"
             },
             {
               "$type": "Document",
