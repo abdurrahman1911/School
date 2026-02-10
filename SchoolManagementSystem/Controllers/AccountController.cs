@@ -9,16 +9,16 @@ namespace SchoolManagementSystem.Controllers
 {
     public class AccountController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
-            return View("Login");
+            return RedirectToAction("Login", "Home");
         }
 
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (!ModelState.IsValid)
-                return View("Login", model);
+                return View("~/Views/Home/Login.cshtml", model);
 
             var user = clsDB.DBContext.Users
                 .FirstOrDefault(u => u.SSN == model.SSN);
@@ -26,7 +26,7 @@ namespace SchoolManagementSystem.Controllers
             if (user == null || user.Password != model.Password)
             {
                 ModelState.AddModelError("", "كلمة المرور أو الرقم القومي خطأ");
-                return View("Login", model);
+                return View("~/Views/Home/Login.cshtml", model);
             }
 
             var userType = clsDB.DBContext.UserUserTypes
@@ -35,7 +35,7 @@ namespace SchoolManagementSystem.Controllers
             if (userType == null)
             {
                 ModelState.AddModelError("", "ليس مسموح لك بالدخول بهذا التخصص");
-                return View("Login", model);
+                return View("~/Views/Home/Login.cshtml", model);
             }
             var u = clsDB.DBContext.UserTypes
                 .FirstOrDefault(u => u.ID ==userType.UserTypeId );
@@ -44,7 +44,7 @@ namespace SchoolManagementSystem.Controllers
             {
                 new Claim(ClaimTypes.Name, user.FirstName),
                 new Claim(ClaimTypes.NameIdentifier, user.ID.ToString()),
-                new Claim(ClaimTypes.Role, u.TypeName.ToString()),
+                new Claim(ClaimTypes.Role, ((UserTypeEnum)model.UserType).ToString()),
                 new Claim("UserTypeId", model.UserType.ToString())
             };
 

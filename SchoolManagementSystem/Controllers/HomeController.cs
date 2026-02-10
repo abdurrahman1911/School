@@ -1,15 +1,19 @@
 using Microsoft.AspNetCore.Mvc;
+using SchoolManagementSystem.Models;
+using System.Diagnostics;
 
 namespace SchoolManagementSystem.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
         {
-            return View();
+            _logger = logger;
         }
 
-        public IActionResult About()
+        public IActionResult Index()
         {
             return View();
         }
@@ -27,6 +31,22 @@ namespace SchoolManagementSystem.Controllers
         public IActionResult ResetPassword()
         {
             return View("reset_password");
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

@@ -12,35 +12,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="@Url.Content("~/css/Parent/parent_styles.css")">
+    <link rel="stylesheet" href="~/css/Parent/parent_styles.css" asp-append-version="true">
 </head>
 
 <body>
     <div class="container">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
-            <div class="user-info">
-                <div class="user-avatar-small">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="1.5">
-                        <circle cx="12" cy="8" r="4" />
-                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
-                    </svg>
+            <div class="logo">
+                <div class="user-info">
+                    <div class="user-avatar">م</div>
+                    <span>محمد أحمد</span>
                 </div>
-                <span class="user-name">محمد أحمد</span>
             </div>
-            <nav class="nav-menu">
-                <a asp-controller="Parent" asp-action="Index" class="nav-item">الصفحة الرئيسية</a>
-                <a asp-controller="Parent" asp-action="Performance" class="nav-item">أداء الطلاب</a>
-                <a asp-controller="Parent" asp-action="Schedule" class="nav-item">الجدول الدراسي</a>
-                <a asp-controller="Parent" asp-action="Grades" class="nav-item">الدرجات</a>
-                <a asp-controller="Parent" asp-action="Attendance" class="nav-item active">الحضور</a>
-                <a asp-controller="Parent" asp-action="Assignments" class="nav-item">الواجبات</a>
-                <a asp-controller="Parent" asp-action="Edit" class="nav-item">تعديل البيانات</a>
-            </nav>
-            <a href="@Url.Action("Index", "Home")" class="logout-btn">
-                تسجيل الخروج
-            </a>
+            <ul class="nav-links">
+                <li><a asp-controller="Parent" asp-action="Index">الصفحة الرئيسية</a></li>
+                <li><a asp-controller="Parent" asp-action="Performance">أداء الطلاب</a></li>
+                <li><a asp-controller="Parent" asp-action="Schedule">الجدول الدراسي</a></li>
+                <li><a asp-controller="Parent" asp-action="Grades">الدرجات</a></li>
+                <li><a asp-controller="Parent" asp-action="Attendance" class="active">الحضور</a></li>
+                <li><a asp-controller="Parent" asp-action="Assignments">الواجبات</a></li>
+                <li><a asp-controller="Parent" asp-action="Edit">تعديل البيانات</a></li>
+            </ul>
+            <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
         </aside>
 
         <!-- Main Content -->

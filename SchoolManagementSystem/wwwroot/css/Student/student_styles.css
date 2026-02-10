@@ -7,10 +7,9 @@
 
 body {
     font-family: 'Cairo', sans-serif;
-    background-color: #eff3ff;
+    background-color: #f5f5f5;
     min-height: 100vh;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 16px;
     direction: rtl;
 }
 
@@ -23,97 +22,118 @@ body {
     gap: 20px;
 }
 
-/* Sidebar Styles for all student pages*/
+/* Sidebar Styles */
 .sidebar {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(129, 172, 205, 0.46);
-    gap: 17px;
-    padding-top: 30px;
+    width: 230px;
+    background: #4387AB !important;
+    color: #fff !important;
+    padding: 20px 15px;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh;
+}
+
+.sidebar .logo {
+    padding: 25px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .user-info {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 10px;
-    padding: 10px;
     justify-content: center;
-    border-radius: 25px;
 }
 
-.user-name {
-    font-size: 12px;
-    color: black;
-    font-weight: bold;
-}
-
-.user-avatar-small {
-    width: 35px;
-    height: 35px;
-    background-color: #e2effc;
+.user-avatar {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: #fff !important;
 }
 
-.user-avatar-small svg {
-    width: 20px;
-    height: 20px;
-    color: #5a9aa8;
+.nav-links {
+    list-style: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    flex: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-.nav-menu {
+.nav-links li {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+}
+
+.nav-links li a {
+    display: block !important;
+    padding: 12px !important;
+    background: #2a719d !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+    text-decoration: none !important;
+    transition: 0.3s !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.nav-links li a.active {
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.nav-links li a:hover {
+    background: #0d3f56 !important;
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+.logout {
+    margin-top: auto !important;
+    padding: 12px !important;
+    background: #2a719d !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    display: block !important;
+}
+
+.logout:hover {
+    background: #0d3f56 !important;
+    color: #fff !important;
+}
+
+/* Adjusting container and main content for unified scrolling */
+.container {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
 }
 
-.nav-item {
-    padding: 10px 15px;
-    text-decoration: none;
-    color: white;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    text-align: center;
-}
-
-.nav-item:hover {
-    background-color: #5d9ecf75;
-    color: white;
-}
-
-.nav-item.active {
-    background-color: #5d9ecf75;
-}
-
-.logout-btn {
-    margin-top: auto;
-    padding: 12px 20px;
-    background-color: #5d9ecf75;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-family: 'Cairo', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.logout-btn:hover {
-    background-color: #356b9475;
-}
-
-/* Main Content Styles for all student pages (all the page except the sidebar)*/
 .main-content {
     flex: 1;
     background-color: #ffffff;
-    border-radius: 20px;
+    min-height: 100vh;
     padding: 40px;
 }
 

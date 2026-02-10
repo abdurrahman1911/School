@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SchoolManagementSystem.Controllers
 {
-    [Authorize (Roles ="Student")]
-
+    [Authorize(Roles = "Student")]
     public class StudentController : Controller
     {
         public IActionResult Index()
