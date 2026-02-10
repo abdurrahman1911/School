@@ -48,7 +48,7 @@
             <section class="children-section">
                 <div class="children-grid">
                     <!-- Child 1-->
-                    <div class="child-card selected" onclick="selectChild('salma')">
+                    <div class="child-card" onclick="selectChildLocal('salma')">
                         <div class="child-image">
                             <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face"
                                 alt="سلمى محمد">
@@ -60,7 +60,7 @@
                     </div>
 
                     <!-- Child 2-->
-                    <div class="child-card" onclick="selectChild('ahmed')">
+                    <div class="child-card" onclick="selectChildLocal('ahmed')">
                         <div class="child-image">
                             <img src="https://images.unsplash.com/photo-1540479859555-17af45c78602?w=150&h=150&fit=crop&crop=face"
                                 alt="أحمد محمد">
@@ -72,7 +72,7 @@
                     </div>
 
                     <!-- Child 3-->
-                    <div class="child-card" onclick="selectChild('mahmoud')">
+                    <div class="child-card" onclick="selectChildLocal('mahmoud')">
                         <div class="child-image">
                             <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
                                 alt="محمود محمد">
@@ -90,8 +90,7 @@
                 <div class="contact-info">
                     <span class="contact-label">للتواصل مع المعلم :</span>
                     <div class="student-select-wrapper">
-                        <select id="student-select" class="student-select">
-                            <option value="">محمد احمد السيد</option>
+                        <select id="student-select" class="student-select" onchange="syncSelection(this.value)">
                             <option value="salma">سلمى محمد</option>
                             <option value="ahmed">أحمد محمد</option>
                             <option value="mahmoud">محمود محمد</option>
@@ -106,39 +105,12 @@
         </main>
     </div>
 
-    <script src="@Url.Content("~/js/Parent/parent_script.js")"></script>
+    <script src="~/js/Parent/parent_script.js"></script>
     <script>
-        function selectChild(childId) {
-            localStorage.setItem('selectedChild', childId);
-            const url = '@Url.Action("Performance", "Parent")' + '?child=' + childId;
-            window.location.href = url;
+        // Override for Index page card logic
+        function selectChildLocal(childId) {
+            selectChild(childId, '@Url.Action("Performance", "Parent")');
         }
-
-        document.addEventListener('DOMContentLoaded', function () {
-            let savedChild = localStorage.getItem('selectedChild');
-            
-            // If no child is saved, default to 'salma'
-            if (!savedChild) {
-                savedChild = 'salma';
-                localStorage.setItem('selectedChild', savedChild);
-            }
-
-            // Sync the contact bar select
-            const studentSelect = document.getElementById('student-select');
-            if (studentSelect) {
-                studentSelect.value = savedChild;
-            }
-
-            // Highlight the correct card and remove 'selected' from others
-            const cards = document.querySelectorAll('.child-card');
-            cards.forEach(card => {
-                card.classList.remove('selected');
-                // Check if this card's onclick contains the savedChild ID
-                if (card.getAttribute('onclick').includes(`'${savedChild}'`)) {
-                    card.classList.add('selected');
-                }
-            });
-        });
     </script>
 </body>
 

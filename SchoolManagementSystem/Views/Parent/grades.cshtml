@@ -47,7 +47,7 @@
                     <select id="child-select" class="child-selector-dropdown" onchange="changeChild()">
                         <option value="salma">سلمى محمد - الصف السادس</option>
                         <option value="ahmed">أحمد محمد - الصف التاسع</option>
-                        <option value="mahmoud" selected>محمود محمد - الصف الحادي عشر</option>
+                        <option value="mahmoud">محمود محمد - الصف الحادي عشر</option>
                     </select>
                 </div>
             </div>
@@ -122,20 +122,6 @@
     </div>
 
     <script src="~/js/Parent/parent_script.js"></script>
-    <script>
-        function changeChild() {
-            const selectedChild = document.getElementById('child-select').value;
-            localStorage.setItem('selectedChild', selectedChild);
-            location.reload();
-        }
-
-        document.addEventListener('DOMContentLoaded', function () {
-            const savedChild = localStorage.getItem('selectedChild');
-            if (savedChild) {
-                document.getElementById('child-select').value = savedChild;
-            }
-        });
-    </script>
 </body>
 
 </html>
