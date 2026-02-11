@@ -1,1 +1,3 @@
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\images\Screenshot 2026-01-27 091515.png
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Main\main_styles.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Parent\parent_styles.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Student\student_styles.css

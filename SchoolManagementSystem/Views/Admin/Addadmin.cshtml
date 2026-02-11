@@ -14,50 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>إضافة مدير</title>
 
-       <style>
-    .nav-links {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
- .nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    margin: 5px 0;
-}
-
-.nav-links a {
-    display: flex !important;
-    align-items: center !important;
-    padding: 15px 20px !important;
-    color: white !important;
-    text-decoration: none !important;
-    transition: var(--transition) !important;
-    font-size: 16px;
-    border-right: 4px solid transparent !important;
-}
-
-
-
-.nav-links i {
-    margin-left: 10px !important;
-    width: 25px !important;
-    text-align: center !important;
-}
-
-    .nav-links a.logout:hover {
-        background-color: rgba(255, 0, 0, 0.15);
-        border-right-color: red;
-    }
-    </style>
+    
 
 </head>
 <body>
-    <nav class="sidebar">
-        <div class="logo">
+  <aside class="sidebar">    
+  <div class="logo">
             <div class="user-info">
                 <div class="user-avatar">ص</div>
                 <span>صالح الشمري</span>  
@@ -74,9 +36,14 @@
     <li><a asp-controller="Admin" asp-action="Supervisors">المشرفين</a></li>
     <li><a asp-controller="Admin" asp-action="Addadmin" class="active">اضافة مدير</a></li>
     <li><a asp-controller="Admin" asp-action="Editdata">تعديل البيانات</a></li>
-    <li><a asp-controller="Admin" asp-action="Logout">تسجيل الخروج</a></li>
 </ul>
-    </nav>
+
+<a asp-controller="Home"
+               asp-action="Index"
+               class="logout">
+                تسجيل الخروج
+            </a>
+        </aside>
 
     <main class="main-content">
         <header class="content-header">
@@ -88,7 +55,7 @@
 
         <div class="content-body">
             <div class="add-admin-form">
-                <form id="adminForm">
+                <form id="adminForm" asp-action="AddAdmin">
                     <!-- Full name in single field -->
                     <div class="form-row">
                         <div class="form-group full-width">

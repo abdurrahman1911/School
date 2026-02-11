@@ -7,15 +7,19 @@ wwwroot\css\Admin\students.css
 wwwroot\css\Admin\success.css
 wwwroot\css\Admin\supervisors.css
 wwwroot\css\Admin\teachers.css
+wwwroot\css\Main\index.css
+wwwroot\css\Main\login.css
+wwwroot\css\Parent\parent_styles.css
 wwwroot\css\SchoolManager\attendance.css
-wwwroot\css\SchoolManager\editProfile.css
 wwwroot\css\SchoolManager\home.css
 wwwroot\css\SchoolManager\schoolManagerProfile.css
+wwwroot\css\SchoolManager\sidebar-layout.css
 wwwroot\css\SchoolManager\students.css
 wwwroot\css\SchoolManager\successFailure.css
 wwwroot\css\SchoolManager\supervisors.css
 wwwroot\css\SchoolManager\teachers.css
 wwwroot\css\site.css
+wwwroot\css\Student\student_styles.css
 wwwroot\css\Supervisor\editProfile.css
 wwwroot\css\Supervisor\notes.css
 wwwroot\css\Supervisor\studentPage.css
@@ -26,27 +30,24 @@ wwwroot\css\Supervisor\teacherPerformance.css
 wwwroot\css\Supervisor\teachersAbsence.css
 wwwroot\css\Supervisor\teachersPage.css
 wwwroot\css\Supervisor\teachersTable.css
-wwwroot\css\Teacher\assignments.css
-wwwroot\css\Teacher\attendance.css
-wwwroot\css\Teacher\exams.css
-wwwroot\css\Teacher\grades.css
 wwwroot\css\Teacher\logout.css
-wwwroot\css\Teacher\main.css
-wwwroot\css\Teacher\schedule.css
-wwwroot\css\Teacher\setting.css
-wwwroot\css\Teacher\students.css
-wwwroot\css\Teacher\teacher-dashboard.css
 wwwroot\favicon.ico
+wwwroot\images\logo.png
+wwwroot\images\name.png
+wwwroot\images\schoolimg.jpg
 wwwroot\images\schoolManagerImage.jpg
 wwwroot\images\studentsTable.png
 wwwroot\images\supervisorImage.jpg
 wwwroot\images\teachersTable.png
 wwwroot\images\teachertable.png
 wwwroot\js\Admin\attendance.js
+wwwroot\js\Admin\edit-data.js
 wwwroot\js\Admin\students.js
 wwwroot\js\Admin\success.js
 wwwroot\js\Admin\supervisors.js
 wwwroot\js\Admin\teachers.js
+wwwroot\js\Main\main.js
+wwwroot\js\Parent\parent_script.js
 wwwroot\js\SchoolManager\attendance.js
 wwwroot\js\SchoolManager\editProfile.js
 wwwroot\js\SchoolManager\home.js
@@ -55,6 +56,8 @@ wwwroot\js\SchoolManager\successFailure.js
 wwwroot\js\SchoolManager\supervisors.js
 wwwroot\js\SchoolManager\teachers.js
 wwwroot\js\site.js
+wwwroot\js\Student\student_script.js
+wwwroot\js\Student\student_tests_script.js
 wwwroot\js\Supervisor\editProfile.js
 wwwroot\js\Supervisor\studentPage.js
 wwwroot\js\Supervisor\teachersPage.js
@@ -121,120 +124,140 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\students.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\attendance.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\editProfile.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\home.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\schoolManagerProfile.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\students.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\successFailure.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\supervisors.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\teachers.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\site.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\editProfile.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\notes.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentPage.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsAbsence.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsTable.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\supervisorProfile.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teacherPerformance.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersAbsence.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersPage.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersTable.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\assignments.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\attendance.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\exams.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\grades.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\logout.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\main.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\setting.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\students.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\teacher-dashboard.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\favicon.ico
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\attendance.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\students.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\success.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\supervisors.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\teachers.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\attendance.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\editProfile.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\home.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\students.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\successFailure.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\supervisors.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\teachers.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\site.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\editProfile.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\studentPage.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\teachersPage.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\assignments.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\attendance.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\data.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\exams.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\grads.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\students.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\teachers.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\supervisors.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\success.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\logout.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\edit-data.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\dashboard.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\schedule.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\add-admin.css
-C:\Users\yousef\Desktop\final project edit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\attendance.css
+wwwroot\css\SchoolManager\editProfile.css
+wwwroot\css\Teacher\assignments.css
+wwwroot\css\Teacher\attendance.css
+wwwroot\css\Teacher\exams.css
+wwwroot\css\Teacher\grades.css
+wwwroot\css\Teacher\main.css
+wwwroot\css\Teacher\schedule.css
+wwwroot\css\Teacher\setting.css
+wwwroot\css\Teacher\students.css
+wwwroot\css\Teacher\teacher-dashboard.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\add-admin.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\attendance.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\dashboard.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\edit-data.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\logout.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\students.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\success.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\supervisors.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Admin\teachers.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Main\index.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Main\login.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Parent\parent_styles.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\attendance.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\home.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\schoolManagerProfile.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\sidebar-layout.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\students.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\successFailure.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\supervisors.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\teachers.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\site.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Student\student_styles.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\editProfile.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\notes.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentPage.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsAbsence.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\studentsTable.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\supervisorProfile.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teacherPerformance.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersAbsence.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersPage.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Supervisor\teachersTable.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\logout.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\favicon.ico
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\attendance.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\edit-data.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\students.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\success.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\supervisors.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Admin\teachers.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Main\main.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Parent\parent_script.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\attendance.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\editProfile.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\home.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\students.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\successFailure.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\supervisors.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\SchoolManager\teachers.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\site.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Student\student_script.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Student\student_tests_script.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\editProfile.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\studentPage.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Supervisor\teachersPage.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\assignments.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\attendance.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\data.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\exams.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\grads.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Teacher\students.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\SchoolManager\editProfile.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\assignments.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\attendance.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\exams.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\grades.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\main.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\schedule.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\setting.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\students.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\css\Teacher\teacher-dashboard.css

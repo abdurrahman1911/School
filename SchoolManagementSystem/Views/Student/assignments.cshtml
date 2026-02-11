@@ -1,0 +1,259 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الواجبات - محمود محمد</title>
+    <meta name="description" content="الواجبات المدرسية - بوابة الطالب الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Student/student_styles.css" asp-append-version="true">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="user-info">
+                    <div class="user-avatar">م</div>
+                    <span>محمود محمد</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a asp-controller="Student" asp-action="Index">الصفحة الرئيسية</a></li>
+                <li><a asp-controller="Student" asp-action="Schedule">الجدول الدراسي</a></li>
+                <li><a asp-controller="Student" asp-action="Grades">الدرجات</a></li>
+                <li><a asp-controller="Student" asp-action="Attendance">الحضور والغياب</a></li>
+                <li><a asp-controller="Student" asp-action="Tests">الاختبارات</a></li>
+                <li><a asp-controller="Student" asp-action="Level">المستوى</a></li>
+                <li><a asp-controller="Student" asp-action="Assignments" class="active">الواجبات</a></li>
+                <li><a asp-controller="Student" asp-action="Edit">تعديل البيانات</a></li>
+            </ul>
+            <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Assignments Section -->
+            <section class="assignments-section">
+                <!-- Tabs -->
+                <div class="assignment-tabs">
+                    <button class="tab-btn active" data-tab="current">الحالي</button>
+                    <button class="tab-btn" data-tab="completed">المكتمل</button>
+                    <button class="tab-btn" data-tab="late">المتأخر</button>
+                </div>
+
+                <!-- Assignment Cards Container -->
+                <div class="assignments-container">
+                    <!-- Current Assignments -->
+                    <div id="current" class="tab-content active">
+                        <div class="assignment-card">
+                            <div class="assignment-details">
+                                <p class="assignment-info"><span class="info-label">الواجب :</span> التوزيع الكيميائي
+                                </p>
+                                <p class="assignment-info"><span class="info-label">المادة :</span> الكيمياء</p>
+                                <p class="assignment-info"><span class="info-label">اسم المدرس :</span> محمد علي</p>
+                                <p class="assignment-info"><span class="info-label">وقت الانتهاء :</span> 12:00 صباحا
+                                </p>
+                            </div>
+                            <!-- Assignment File Download -->
+                            <div class="assignment-file">
+                                <a href="#" class="file-download-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                        <polyline points="7 10 12 15 17 10" />
+                                        <line x1="12" y1="15" x2="12" y2="3" />
+                                    </svg>
+                                    <span>تحميل ملف الواجب</span>
+                                </a>
+                            </div>
+                            <!-- File Upload Section -->
+                            <div class="file-upload-section">
+                                <label class="file-upload-label">
+                                    <input type="file" class="file-input" accept=".pdf,.doc,.docx,.jpg,.png">
+                                    <span class="upload-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                            <polyline points="17 8 12 3 7 8" />
+                                            <line x1="12" y1="3" x2="12" y2="15" />
+                                        </svg>
+                                        <span>رفع الحل</span>
+                                    </span>
+                                </label>
+                                <span class="file-name"></span>
+                            </div>
+                            <button class="view-assignment-btn submit-btn">تسليم الواجب</button>
+                        </div>
+
+                        <div class="assignment-card">
+                            <div class="assignment-details">
+                                <p class="assignment-info"><span class="info-label">الواجب :</span> الحركة التوافقية</p>
+                                <p class="assignment-info"><span class="info-label">المادة :</span> الفيزياء</p>
+                                <p class="assignment-info"><span class="info-label">اسم المدرس :</span> أحمد سمير</p>
+                                <p class="assignment-info"><span class="info-label">وقت الانتهاء :</span> 11:00 مساءا
+                                </p>
+                            </div>
+                            <!-- Assignment File Download -->
+                            <div class="assignment-file">
+                                <a href="#" class="file-download-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                        <polyline points="7 10 12 15 17 10" />
+                                        <line x1="12" y1="15" x2="12" y2="3" />
+                                    </svg>
+                                    <span>تحميل ملف الواجب</span>
+                                </a>
+                            </div>
+                            <!-- File Upload Section -->
+                            <div class="file-upload-section">
+                                <label class="file-upload-label">
+                                    <input type="file" class="file-input" accept=".pdf,.doc,.docx,.jpg,.png">
+                                    <span class="upload-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                            <polyline points="17 8 12 3 7 8" />
+                                            <line x1="12" y1="3" x2="12" y2="15" />
+                                        </svg>
+                                        <span>رفع الحل</span>
+                                    </span>
+                                </label>
+                                <span class="file-name"></span>
+                            </div>
+                            <button class="view-assignment-btn submit-btn">تسليم الواجب</button>
+                        </div>
+                    </div>
+
+                    <!-- Completed Assignments -->
+                    <div id="completed" class="tab-content">
+                        <div class="assignment-card completed">
+                            <div class="assignment-details">
+                                <p class="assignment-info"><span class="info-label">الواجب :</span> المعادلات الرياضية
+                                </p>
+                                <p class="assignment-info"><span class="info-label">المادة :</span> الرياضيات</p>
+                                <p class="assignment-info"><span class="info-label">اسم المدرس :</span> سارة أحمد</p>
+                                <p class="assignment-info"><span class="info-label">تم التسليم :</span> 10:30 صباحا</p>
+                            </div>
+                            <!-- Uploaded File View -->
+                            <div class="uploaded-file-section">
+                                <p class="uploaded-file-label">الملف المرفوع:</p>
+                                <a href="#" class="uploaded-file-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                        <polyline points="14 2 14 8 20 8" />
+                                        <line x1="16" y1="13" x2="8" y2="13" />
+                                        <line x1="16" y1="17" x2="8" y2="17" />
+                                        <polyline points="10 9 9 9 8 9" />
+                                    </svg>
+                                    <span>حل_المعادلات.pdf</span>
+                                </a>
+                            </div>
+                            <button class="view-assignment-btn completed-btn">تم التسليم ✓</button>
+                        </div>
+                    </div>
+
+                    <!-- Late Assignments -->
+                    <div id="late" class="tab-content">
+                        <div class="assignment-card late">
+                            <div class="assignment-details">
+                                <p class="assignment-info"><span class="info-label">الواجب :</span> قواعد اللغة العربية
+                                </p>
+                                <p class="assignment-info"><span class="info-label">المادة :</span> اللغة العربية</p>
+                                <p class="assignment-info"><span class="info-label">اسم المدرس :</span> منى حسن</p>
+                                <p class="assignment-info late-text"><span class="info-label">انتهى في :</span> أمس
+                                    12:00 صباحا</p>
+                            </div>
+                            <!-- Assignment File Download -->
+                            <div class="assignment-file">
+                                <a href="#" class="file-download-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                        <polyline points="7 10 12 15 17 10" />
+                                        <line x1="12" y1="15" x2="12" y2="3" />
+                                    </svg>
+                                    <span>تحميل ملف الواجب</span>
+                                </a>
+                            </div>
+                            <!-- File Upload Section (Late) -->
+                            <div class="file-upload-section">
+                                <label class="file-upload-label">
+                                    <input type="file" class="file-input" accept=".pdf,.doc,.docx,.jpg,.png">
+                                    <span class="upload-btn late-upload">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                            <polyline points="17 8 12 3 7 8" />
+                                            <line x1="12" y1="3" x2="12" y2="15" />
+                                        </svg>
+                                        <span>رفع الحل (متأخر)</span>
+                                    </span>
+                                </label>
+                                <span class="file-name"></span>
+                            </div>
+                            <button class="view-assignment-btn late-btn">تسليم متأخر</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="~/js/Student/student_script.js"></script>
+    <script>
+        // Tab switching functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                this.classList.add('active');
+                const tabId = this.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // File upload handling
+        const fileInputs = document.querySelectorAll('.file-input');
+        fileInputs.forEach(input => {
+            input.addEventListener('change', function () {
+                const fileName = this.files[0] ? this.files[0].name : '';
+                const fileNameSpan = this.closest('.file-upload-section').querySelector('.file-name');
+                fileNameSpan.textContent = fileName;
+                if (fileName) {
+                    fileNameSpan.classList.add('has-file');
+                } else {
+                    fileNameSpan.classList.remove('has-file');
+                }
+            });
+        });
+
+        // Submit button functionality
+        const submitBtns = document.querySelectorAll('.submit-btn');
+        submitBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                const card = this.closest('.assignment-card');
+                const fileInput = card.querySelector('.file-input');
+                if (fileInput.files.length === 0) {
+                    alert('الرجاء اختيار ملف قبل التسليم');
+                    return;
+                }
+                alert('تم تسليم الواجب بنجاح!');
+            });
+        });
+    </script>
+</body>
+
+</html>

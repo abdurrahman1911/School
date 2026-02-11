@@ -13,7 +13,9 @@
 <body>
     <!-- sidebar -->
 	<nav class="sidebar" id="sidebar">
-        <div class="logo">
+		<aside class="sidebar">
+
+			<div class="logo">
             <div class="user-info">
                 <div class="user-avatar">أ</div>
                 <span>المعلم: يوسف</span>     
@@ -51,11 +53,15 @@
 				   <a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a>
 			   </li>
 			   <li>
-				   <a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a>
-			   </li>
+				  
 
 		   </ul>
     </ul>
+			<a asp-controller="Home"
+               asp-action="Index"
+               class="logout">
+				تسجيل الخروج
+			</a>
 		</nav>
 	
 

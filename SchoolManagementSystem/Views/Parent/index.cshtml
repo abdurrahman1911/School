@@ -1,0 +1,117 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة ولي الأمر - محمد أحمد</title>
+    <meta name="description" content="بوابة ولي الأمر الإلكترونية - نظام إدارة المدرسة">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Parent/parent_styles.css" asp-append-version="true">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="user-info">
+                    <div class="user-avatar">م</div>
+                    <span>محمد أحمد</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a asp-controller="Parent" asp-action="Index" class="active">الصفحة الرئيسية</a></li>
+                <li><a asp-controller="Parent" asp-action="Performance">أداء الطلاب</a></li>
+                <li><a asp-controller="Parent" asp-action="Schedule">الجدول الدراسي</a></li>
+                <li><a asp-controller="Parent" asp-action="Grades">الدرجات</a></li>
+                <li><a asp-controller="Parent" asp-action="Attendance">الحضور</a></li>
+                <li><a asp-controller="Parent" asp-action="Assignments">الواجبات</a></li>
+                <li><a asp-controller="Parent" asp-action="Edit">تعديل البيانات</a></li>
+            </ul>
+            <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Parent Header -->
+            <div class="parent-header">
+                <h1 class="parent-title">ولي الأمر الأستاذ : <span class="parent-name">محمد أحمد خالد</span></h1>
+            </div>
+
+            <!-- Children Cards Section -->
+            <section class="children-section">
+                <div class="children-grid">
+                    <!-- Child 1-->
+                    <div class="child-card" onclick="selectChildLocal('salma')">
+                        <div class="child-image">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face"
+                                alt="سلمى محمد">
+                        </div>
+                        <div class="child-info">
+                            <h3 class="child-name">سلمى محمد</h3>
+                            <p class="child-grade">الصف السادس</p>
+                        </div>
+                    </div>
+
+                    <!-- Child 2-->
+                    <div class="child-card" onclick="selectChildLocal('ahmed')">
+                        <div class="child-image">
+                            <img src="https://images.unsplash.com/photo-1540479859555-17af45c78602?w=150&h=150&fit=crop&crop=face"
+                                alt="أحمد محمد">
+                        </div>
+                        <div class="child-info">
+                            <h3 class="child-name">أحمد محمد</h3>
+                            <p class="child-grade">الصف التاسع</p>
+                        </div>
+                    </div>
+
+                    <!-- Child 3-->
+                    <div class="child-card" onclick="selectChildLocal('mahmoud')">
+                        <div class="child-image">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+                                alt="محمود محمد">
+                        </div>
+                        <div class="child-info">
+                            <h3 class="child-name">محمود محمد</h3>
+                            <p class="child-grade">الصف الحادي عشر</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Bar -->
+            <div class="contact-bar">
+                <div class="contact-info">
+                    <span class="contact-label">للتواصل مع المعلم :</span>
+                    <div class="student-select-wrapper">
+                        <select id="student-select" class="student-select" onchange="syncSelection(this.value)">
+                            <option value="salma">سلمى محمد</option>
+                            <option value="ahmed">أحمد محمد</option>
+                            <option value="mahmoud">محمود محمد</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="phone-info">
+                    <span class="phone-label">رقم الهاتف :</span>
+                    <span class="phone-number">0123456789</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/Parent/parent_script.js"></script>
+    <script>
+        // Override for Index page card logic
+        function selectChildLocal(childId) {
+            selectChild(childId, '@Url.Action("Performance", "Parent")');
+        }
+    </script>
+</body>
+
+</html>

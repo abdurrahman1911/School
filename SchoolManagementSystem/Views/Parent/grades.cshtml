@@ -1,0 +1,127 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدرجات - بوابة ولي الأمر</title>
+    <meta name="description" content="درجات الطلاب - بوابة ولي الأمر الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Parent/parent_styles.css" asp-append-version="true">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="user-info">
+                    <div class="user-avatar">م</div>
+                    <span>محمد أحمد</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a asp-controller="Parent" asp-action="Index">الصفحة الرئيسية</a></li>
+                <li><a asp-controller="Parent" asp-action="Performance">أداء الطلاب</a></li>
+                <li><a asp-controller="Parent" asp-action="Schedule">الجدول الدراسي</a></li>
+                <li><a asp-controller="Parent" asp-action="Grades" class="active">الدرجات</a></li>
+                <li><a asp-controller="Parent" asp-action="Attendance">الحضور</a></li>
+                <li><a asp-controller="Parent" asp-action="Assignments">الواجبات</a></li>
+                <li><a asp-controller="Parent" asp-action="Edit">تعديل البيانات</a></li>
+            </ul>
+            <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">الدرجات</h1>
+                <div class="child-selector">
+                    <label class="child-selector-label">اختر الطالب:</label>
+                    <select id="child-select" class="child-selector-dropdown" onchange="changeChild()">
+                        <option value="salma">سلمى محمد - الصف السادس</option>
+                        <option value="ahmed">أحمد محمد - الصف التاسع</option>
+                        <option value="mahmoud">محمود محمد - الصف الحادي عشر</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Grades Table -->
+            <h2 class="section-title">سجل الدرجات - الفصل الأول</h2>
+            <div class="data-table-wrapper">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>المادة</th>
+                            <th>أعمال السنة</th>
+                            <th>اختبار نصف الفصل</th>
+                            <th>اختبار نهاية الفصل</th>
+                            <th>المجموع</th>
+                            <th>التقدير</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>الرياضيات</td>
+                            <td>28/30</td>
+                            <td>18/20</td>
+                            <td>45/50</td>
+                            <td>91/100</td>
+                            <td><span class="status-badge present">ممتاز</span></td>
+                        </tr>
+                        <tr>
+                            <td>اللغة العربية</td>
+                            <td>27/30</td>
+                            <td>17/20</td>
+                            <td>43/50</td>
+                            <td>87/100</td>
+                            <td><span class="status-badge present">جيد جداً</span></td>
+                        </tr>
+                        <tr>
+                            <td>اللغة الإنجليزية</td>
+                            <td>29/30</td>
+                            <td>19/20</td>
+                            <td>47/50</td>
+                            <td>95/100</td>
+                            <td><span class="status-badge present">ممتاز</span></td>
+                        </tr>
+                        <tr>
+                            <td>الفيزياء</td>
+                            <td>25/30</td>
+                            <td>16/20</td>
+                            <td>40/50</td>
+                            <td>81/100</td>
+                            <td><span class="status-badge late">جيد</span></td>
+                        </tr>
+                        <tr>
+                            <td>الكيمياء</td>
+                            <td>26/30</td>
+                            <td>18/20</td>
+                            <td>44/50</td>
+                            <td>88/100</td>
+                            <td><span class="status-badge present">جيد جداً</span></td>
+                        </tr>
+                        <tr>
+                            <td>الأحياء</td>
+                            <td>28/30</td>
+                            <td>19/20</td>
+                            <td>46/50</td>
+                            <td>93/100</td>
+                            <td><span class="status-badge present">ممتاز</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/Parent/parent_script.js"></script>
+</body>
+
+</html>

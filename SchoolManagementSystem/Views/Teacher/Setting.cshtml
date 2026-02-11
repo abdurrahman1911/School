@@ -5,29 +5,23 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>@ViewData["Title"]</title>
-
-<link rel="stylesheet" href="~/css/Teacher/setting.css"/>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    
-
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>تعديل البيانات</title>
+<link rel="stylesheet" href="~/css/Teacher/setting.css"/></head>
 <body>
-    <!-- Mobile menu button -->
-    <input type="checkbox" id="mobileMenu" class="mobile-menu-checkbox">
-    <label for="mobileMenu" class="menu-toggle" id="menuToggle">
-        <i class="fas fa-bars"></i>
-    </label>
-
     <!-- Side navigation bar -->
-    <nav class="sidebar" id="sidebar">
+     <aside class="sidebar">
+    
+            
+        
         <div class="logo">
             <div class="user-info">
                 <div class="user-avatar">أ</div>
                 <span>المعلم: يوسف</span>     
             </div>
         </div>
+            
         
         <!-- Navigation links -->
          <ul class="nav-links">
@@ -40,43 +34,57 @@
             <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
             <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
             <li><a asp-controller="Teacher" asp-action="Setting" class="active">تعديل البيانات</a></li>
-            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
         </ul>
-    </nav>
+            <a asp-controller="Home"
+               asp-action="Index"
+               class="logout">
+                تسجيل الخروج
+            </a>
+        </aside>
+    
+     <main class="content">
+        <div class="box">
 
-    <!-- Main content -->
-    <div class="main-content" id="mainContent">
-        <div class="page active" id="settings">
-            <div class="header">
-                <h1><i class="fas fa-cog"></i> تعديل البيانات الشخصية</h1>
-            </div>
+            <h3 class="title">تعديل كلمة المرور</h3>
 
-            <!-- Password change form -->
-            <div class="settings-container">
-                <h2> تغيير كلمة المرور</h2>
-                
-                <div class="password-form">
-                    <div class="form-group">
-                        <label for="currentPassword">كلمة المرور الحالية:</label>
-                        <input type="password" id="currentPassword" placeholder="أدخل كلمة المرور الحالية">
+            <form>
+                <div class="form-group">
+                    <label>كلمة المرور الحالية</label>
+                    <div class="password-field">
+                        <input type="password" id="currentPassword" placeholder="ادخل كلمة المرور الحالية">
+                        <span class="toggle" onclick="togglePassword('currentPassword', this)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </span>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="newPassword">كلمة المرور الجديدة:</label>
-                        <input type="password" id="newPassword" placeholder="أدخل كلمة المرور الجديدة">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="confirmPassword">تأكيد كلمة المرور:</label>
-                        <input type="password" id="confirmPassword" placeholder="أكد كلمة المرور الجديدة">
-                    </div>
-                    
-                    <button class="btn save-btn" tabindex="0">
-                        <i class="fas fa-save"></i> حفظ التغييرات
-                    </button>
                 </div>
-            </div>
+
+                <div class="form-group">
+                    <label>كلمة المرور الجديدة</label>
+                    <div class="password-field">
+                        <input type="password" id="newPassword" placeholder="ادخل كلمة المرور الجديدة">
+                        <span class="toggle" onclick="togglePassword('newPassword', this)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>تأكيد كلمة المرور</label>
+                    <div class="password-field">
+                        <input type="password" id="confirmPassword" placeholder="اعد كتابة كلمة المرور الجديدة">
+                        <span class="toggle" onclick="togglePassword('confirmPassword', this)">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <button type="submit" class="save-btn">حفظ التعديلات</button>
+            </form>
+
         </div>
-    </div>
+    </main>
+
+    <script src="~/js/Teacher/edit-data.js"></script>
+
 </body>
 </html>

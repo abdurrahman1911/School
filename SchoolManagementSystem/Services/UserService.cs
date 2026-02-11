@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using SchoolManagementSystem.ViewModel;
@@ -6,6 +6,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace SchoolManagementSystem.Services
 {
+    
     public enum UserTypeEnum
     {
         Student = 1, Teacher, Parent, Admin, Supervisor, Headmaster
@@ -60,7 +61,6 @@ namespace SchoolManagementSystem.Services
               Password = hashedPassword,
               ProfilPhotoURL = model.ProfilePhotoURL,
               SSN = model.SSN,
-              TypeID = typeId,
               BirthDate = model.BirthDate,
               AddedDate = model.AddedDate,
               Governorate = model.Governorate,

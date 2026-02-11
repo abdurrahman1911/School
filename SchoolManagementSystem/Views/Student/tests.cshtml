@@ -1,0 +1,249 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاختبارات - محمود محمد</title>
+    <meta name="description" content="الاختبارات والتقييمات - بوابة الطالب الإلكترونية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Student/student_styles.css" asp-append-version="true">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="user-info">
+                    <div class="user-avatar">م</div>
+                    <span>محمود محمد</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a asp-controller="Student" asp-action="Index">الصفحة الرئيسية</a></li>
+                <li><a asp-controller="Student" asp-action="Schedule">الجدول الدراسي</a></li>
+                <li><a asp-controller="Student" asp-action="Grades">الدرجات</a></li>
+                <li><a asp-controller="Student" asp-action="Attendance">الحضور والغياب</a></li>
+                <li><a asp-controller="Student" asp-action="Tests" class="active">الاختبارات</a></li>
+                <li><a asp-controller="Student" asp-action="Level">المستوى</a></li>
+                <li><a asp-controller="Student" asp-action="Assignments">الواجبات</a></li>
+                <li><a asp-controller="Student" asp-action="Edit">تعديل البيانات</a></li>
+            </ul>
+            <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Tests Section -->
+            <section class="tests-section">
+                <!-- Page Header -->
+                <div class="tests-page-header">
+                    <h1 class="tests-main-title">الاختبارات والتقييمات</h1>
+                    <p class="tests-subtitle">إدارة ومتابعة جميع الاختبارات والتقييمات الخاصة بك</p>
+                </div>
+
+                <!-- Statistics Cards -->
+                <div class="tests-stats-container">
+                    <div class="stat-card stat-upcoming">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="upcoming-count">0</span>
+                            <span class="stat-label">اختبارات قادمة</span>
+                        </div>
+                    </div>
+                    <div class="stat-card stat-active">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="active-count">0</span>
+                            <span class="stat-label">متاحة الآن</span>
+                        </div>
+                    </div>
+                    <div class="stat-card stat-completed">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="completed-count">0</span>
+                            <span class="stat-label">مكتملة</span>
+                        </div>
+                    </div>
+                    <div class="stat-card stat-missed">
+                        <div class="stat-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="missed-count">0</span>
+                            <span class="stat-label">فائتة</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Test Countdown -->
+                <div class="next-test-banner" id="next-test-banner" style="display: none;">
+                    <div class="next-test-info">
+                        <span class="next-test-label">الاختبار القادم</span>
+                        <h3 class="next-test-title" id="next-test-title"></h3>
+                        <span class="next-test-subject" id="next-test-subject"></span>
+                    </div>
+                    <div class="countdown-timer" id="countdown-timer">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="countdown-days">00</span>
+                            <span class="countdown-label">يوم</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="countdown-hours">00</span>
+                            <span class="countdown-label">ساعة</span>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="countdown-minutes">00</span>
+                            <span class="countdown-label">دقيقة</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Filters Section -->
+                <div class="tests-filters">
+                    <!-- Tabs -->
+                    <div class="tests-tabs">
+                        <button class="tests-tab-btn active" data-filter="all">
+                            <span class="tab-icon">📋</span>
+                            الكل
+                        </button>
+                        <button class="tests-tab-btn" data-filter="current">
+                            <span class="tab-icon">⏰</span>
+                            الحالية والقادمة
+                        </button>
+                        <button class="tests-tab-btn" data-filter="completed">
+                            <span class="tab-icon">✅</span>
+                            المكتملة
+                        </button>
+                        <button class="tests-tab-btn" data-filter="missed">
+                            <span class="tab-icon">❌</span>
+                            الفائتة
+                        </button>
+                    </div>
+
+                    <!-- Subject Filter -->
+                    <div class="subject-filter-wrapper">
+                        <label for="subject-filter" class="filter-label">فلترة حسب المادة:</label>
+                        <select id="subject-filter" class="subject-filter">
+                            <option value="all">جميع المواد</option>
+                        </select>
+                    </div>
+
+                    <!-- Search Box -->
+                    <div class="tests-search-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" class="search-icon">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="tests-search" class="tests-search" placeholder="ابحث عن اختبار...">
+                    </div>
+                </div>
+
+                <!-- Tests Grid -->
+                <div id="tests-container" class="tests-grid">
+                    <!-- Content will be injected by JavaScript -->
+                </div>
+
+                <!-- Empty State (in case there is no tests in any category) -->
+                <div id="empty-state" class="empty-state" style="display: none;">
+                    <div class="empty-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"></path>
+                            <rect x="9" y="3" width="6" height="4" rx="1"></rect>
+                            <path d="M9 14l2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="empty-title">لا توجد اختبارات</h3>
+                    <p class="empty-message">لا توجد اختبارات متاحة في هذا التصنيف حالياً</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Test Details Modal -->
+    <div id="test-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">×</button>
+            <div class="modal-header">
+                <span class="modal-badge" id="modal-badge"></span>
+                <h2 class="modal-title" id="modal-title"></h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-info-grid">
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">المادة</span>
+                        <span class="modal-info-value" id="modal-subject"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">نوع الاختبار</span>
+                        <span class="modal-info-value" id="modal-type"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">التاريخ</span>
+                        <span class="modal-info-value" id="modal-date"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">الوقت</span>
+                        <span class="modal-info-value" id="modal-time"></span>
+                    </div>
+                    <div class="modal-info-item">
+                        <span class="modal-info-label">المدة</span>
+                        <span class="modal-info-value" id="modal-duration"></span>
+                    </div>
+                    <div class="modal-info-item" id="modal-grade-container" style="display: none;">
+                        <span class="modal-info-label">الدرجة</span>
+                        <span class="modal-info-value modal-grade" id="modal-grade"></span>
+                    </div>
+                </div>
+                <div class="modal-instructions" id="modal-instructions">
+                    <h4>تعليمات الاختبار</h4>
+                    <ul id="modal-instructions-list"></ul>
+                </div>
+            </div>
+            <div class="modal-footer" id="modal-footer">
+                <!-- Action button will be injected -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Link the script -->
+    <script src="~/js/Student/student_script.js"></script>
+    <script src="~/js/Student/student_tests_script.js"></script>
+</body>
+
+</html>

@@ -23,18 +23,18 @@
     </label>
 
     <!-- Side navigation bar -->
-    <nav class="sidebar" id="sidebar">
+    <aside class="sidebar">
         <div class="logo">
             <div class="user-info">
                 <div class="user-avatar">أ</div>
-                <span>المعلم: يوسف</span>     
+                <span>المعلم: يوسف</span>
             </div>
         </div>
-        
+
         <!-- Navigation links -->
-       <ul class="nav-links">
+        <ul class="nav-links">
             <li><a asp-controller="Teacher" asp-action="Teacherdashboard">الصفحة الرئيسية</a></li>
-            <li><a asp-controller="Teacher" asp-action="Main"class="active">الملاحظات والتنبيهات</a></li>
+            <li><a asp-controller="Teacher" asp-action="Main" class="active">الملاحظات والتنبيهات</a></li>
             <li><a asp-controller="Teacher" asp-action="Students">الطلاب</a></li>
             <li><a asp-controller="Teacher" asp-action="Schedule">الجدول الدراسي</a></li>
             <li><a asp-controller="Teacher" asp-action="Grades">الدرجات</a></li>
@@ -42,9 +42,9 @@
             <li><a asp-controller="Teacher" asp-action="Assignments">الواجبات</a></li>
             <li><a asp-controller="Teacher" asp-action="Exams">الاختبارات</a></li>
             <li><a asp-controller="Teacher" asp-action="Setting">تعديل البيانات</a></li>
-            <li><a asp-controller="Teacher" asp-action="Logout">تسجيل الخروج</a></li>
         </ul>
-    </nav>
+        <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
+    </aside>
 
     <!-- Main content -->
     <div class="main-content" id="mainContent">
