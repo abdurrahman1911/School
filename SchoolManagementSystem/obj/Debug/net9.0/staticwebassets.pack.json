@@ -5,6 +5,42 @@
       "PackagePath": "staticwebassets\\SchoolManagementSystem.obhsv3xtbe.bundle.scp.css"
     },
     {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\add-admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\add-admin.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\attendance.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\attendance.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\dashboard.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\edit-data.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\edit-data.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\logout.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\logout.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\students.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\students.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\success.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\success.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\supervisors.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\supervisors.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Admin\\teachers.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\teachers.css"
+    },
+    {
       "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
       "PackagePath": "staticwebassets\\css\\SchoolManager\\attendance.css"
     },
@@ -81,6 +117,46 @@
       "PackagePath": "staticwebassets\\css\\Supervisor\\teachersTable.css"
     },
     {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\assignments.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\assignments.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\attendance.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\attendance.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\exams.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\exams.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\grades.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\grades.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\logout.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\logout.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\main.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\main.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\schedule.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\schedule.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\setting.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\setting.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\students.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\students.css"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Teacher\\teacher-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Teacher\\teacher-dashboard.css"
+    },
+    {
       "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -103,6 +179,30 @@
     {
       "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\teachersTable.png",
       "PackagePath": "staticwebassets\\images\\teachersTable.png"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\teachertable.png",
+      "PackagePath": "staticwebassets\\images\\teachertable.png"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Admin\\attendance.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\attendance.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Admin\\students.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\students.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Admin\\success.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\success.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Admin\\supervisors.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\supervisors.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Admin\\teachers.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\teachers.js"
     },
     {
       "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
@@ -143,6 +243,30 @@
     {
       "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Supervisor\\teachersPage.js",
       "PackagePath": "staticwebassets\\js\\Supervisor\\teachersPage.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Teacher\\assignments.js",
+      "PackagePath": "staticwebassets\\js\\Teacher\\assignments.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Teacher\\attendance.js",
+      "PackagePath": "staticwebassets\\js\\Teacher\\attendance.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Teacher\\data.js",
+      "PackagePath": "staticwebassets\\js\\Teacher\\data.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Teacher\\exams.js",
+      "PackagePath": "staticwebassets\\js\\Teacher\\exams.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Teacher\\grads.js",
+      "PackagePath": "staticwebassets\\js\\Teacher\\grads.js"
+    },
+    {
+      "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\Teacher\\students.js",
+      "PackagePath": "staticwebassets\\js\\Teacher\\students.js"
     },
     {
       "Id": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",

@@ -59,6 +59,19 @@ input[type="checkbox"] {
     height: 18px;
 }
 
+.btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #8aa9c2;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .btn:hover {
+        background: #7696b2;
+    }
+
 /* القائمة الجانبية */
 
 /* القائمة الجانبية */

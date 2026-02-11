@@ -3,100 +3,32 @@
   "WorkspaceRootPath": "D:\\Final Project\\SchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\attendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\supervisor\\studentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\supervisor\\studentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\supervisor\\studentsabsence.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\supervisor\\studentsabsence.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\supervisor\\studentsabsence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\supervisor\\studentsabsence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\schoolmanagerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\schoolmanagerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\supervisor\\studentstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\supervisor\\studentstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\supervisor\\teachersabsence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\supervisor\\teachersabsence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\successfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\successfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\supervisor\\teachersabsence.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\supervisor\\teachersabsence.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\supervisors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\supervisors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\attendance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\attendance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\views\\schoolmanager\\teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\schoolmanager\\teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\attendance.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\attendance.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\editprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\schoolmanagerprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\schoolmanagerprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\students.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\students.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\successfailure.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\successfailure.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\supervisors.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\supervisors.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\teachers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\teachers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\teachers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\teachers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\supervisors.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\supervisors.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\successfailure.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\successfailure.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\students.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\students.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\editprofile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\js\\schoolmanager\\editprofile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\sidebar-layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\schoolmanager\\sidebar-layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\final project\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\css\\supervisor\\studentpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{10BA525A-4766-452F-9BBD-D1E349D41D02}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\css\\supervisor\\studentpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,314 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Home.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\Home.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Home.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\Home.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:23:36.427Z",
+              "DocumentIndex": 1,
+              "Title": "studentsAbsence.css",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsAbsence.css",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsAbsence.css",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsAbsence.css",
+              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentsAbsence.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-11T22:53:09.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Students.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Students.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\Students.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Students.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\Students.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "StudentsAbsence.cshtml",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\StudentsAbsence.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Supervisor\\StudentsAbsence.cshtml",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\StudentsAbsence.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Views\\Supervisor\\StudentsAbsence.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:23:23.196Z",
+              "WhenOpened": "2026-02-11T22:52:34.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SchoolManagerProfile.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\SchoolManagerProfile.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\SchoolManagerProfile.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\SchoolManagerProfile.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\SchoolManagerProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Title": "StudentsTable.cshtml",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\StudentsTable.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Supervisor\\StudentsTable.cshtml",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\StudentsTable.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Views\\Supervisor\\StudentsTable.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:23:31.126Z",
+              "WhenOpened": "2026-02-11T22:52:16.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Supervisors.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Supervisors.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\Supervisors.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Supervisors.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\Supervisors.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TeachersAbsence.cshtml",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersAbsence.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Supervisor\\TeachersAbsence.cshtml",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\TeachersAbsence.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Views\\Supervisor\\TeachersAbsence.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:22:59.85Z",
+              "WhenOpened": "2026-02-11T22:48:24.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SuccessFailure.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\SuccessFailure.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\SuccessFailure.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\SuccessFailure.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\SuccessFailure.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:23:15.686Z",
+              "Title": "teachersAbsence.css",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersAbsence.css",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersAbsence.css",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersAbsence.css",
+              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\Supervisor\\teachersAbsence.css",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-11T22:48:15.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditProfile.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\EditProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:23:43.109Z",
+              "DocumentIndex": 6,
+              "Title": "studentPage.css",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentPage.css",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentPage.css",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentPage.css",
+              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\Supervisor\\studentPage.css",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-11T22:47:47.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Attendance.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\Attendance.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Title": "StudentPage.cshtml",
+              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\StudentPage.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Supervisor\\StudentPage.cshtml",
+              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Supervisor\\StudentPage.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Views\\Supervisor\\StudentPage.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:23:53.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "attendance.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\attendance.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:25:43.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Teachers.cshtml",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Teachers.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\SchoolManager\\Teachers.cshtml",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\SchoolManager\\Teachers.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\SchoolManager\\Teachers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-03T19:22:33.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "attendance.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\attendance.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:46:42.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "home.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\home.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\home.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\home.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:46:11.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "schoolManagerProfile.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\schoolManagerProfile.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\schoolManagerProfile.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\schoolManagerProfile.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\schoolManagerProfile.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:45:52.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "students.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\students.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\students.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\students.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\students.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:45:43.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "successFailure.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\successFailure.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\successFailure.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\successFailure.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\successFailure.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:45:29.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "teachers.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\teachers.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\teachers.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\teachers.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\teachers.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:45:10.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "teachers.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\teachers.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\teachers.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\teachers.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\teachers.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:45:05.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "supervisors.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\supervisors.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\supervisors.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\supervisors.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\supervisors.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:44:57.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "successFailure.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\successFailure.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\successFailure.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\successFailure.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\successFailure.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:44:47.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "editProfile.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\editProfile.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:28:58.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "students.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\students.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\students.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\students.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\students.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:44:45.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "home.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\home.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\home.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\home.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\home.js",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:44:40.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "supervisors.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\supervisors.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\supervisors.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\supervisors.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\supervisors.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:43:20.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "sidebar-layout.css",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\sidebar-layout.css",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\sidebar-layout.css",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\sidebar-layout.css",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\css\\SchoolManager\\sidebar-layout.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-03T19:31:59.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "editProfile.js",
-              "DocumentMoniker": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\editProfile.js",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\editProfile.js",
-              "ToolTip": "D:\\Final Project\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\editProfile.js",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\js\\SchoolManager\\editProfile.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-03T19:26:51.336Z",
+              "WhenOpened": "2026-02-11T22:46:55.033Z",
               "EditorCaption": ""
             }
           ]
