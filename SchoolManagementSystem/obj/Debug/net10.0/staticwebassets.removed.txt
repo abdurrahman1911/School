@@ -1,0 +1,3 @@
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Main\main_styles.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Parent\parent_styles.css
+C:\Users\yousef\Desktop\finalprojectedit\SchoolManagementSystem\SchoolManagementSystem\wwwroot\js\Student\student_styles.css

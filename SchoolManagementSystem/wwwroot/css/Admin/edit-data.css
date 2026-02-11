@@ -138,79 +138,106 @@ body {
 
 
 
-    /* ===== المحتوى ===== */
     .content {
     flex: 1;
     background-color: #eef3f6;
     padding: 30px;
-    margin-right: 230px;
-    height: 100vh;
-    overflow-y: auto; /* التمرير فقط على المحتوى */
+    margin-right: 230px; /* عشان sidebar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+/* صندوق تعديل البيانات */
+.box {
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 25px;
+    color: #1b3a57;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* الفورم */
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    direction: rtl;
+    gap: 18px;
+}
+
+.form-group {
     text-align: right;
 }
 
-/* ===== العنوان + الفلاتر ===== */
-.top-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 20px;
+    .form-group label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #1b3a57;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+
+        .form-group input:focus {
+            border-color: #7a97ad;
+            box-shadow: 0 0 5px rgba(122,151,173,0.4);
+        }
+
+/* حقل كلمة المرور مع أيقونة العين */
+.password-field {
+    position: relative;
 }
 
-.top-bar h2 {
-    background-color: #9fbad0;
-    padding: 8px 25px;
-    border-radius: 8px;
-    font-size: 16px;
-}
+    .password-field .toggle {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 18px;
+    }
 
-.filters {
-    display: flex;
-    gap: 10px;
-}
+        .password-field .toggle i {
+            color: #555;
+        }
 
-.filters select {
-    padding: 8px 14px;
-    border-radius: 8px;
+            .password-field .toggle i:hover {
+                color: #1b3a57;
+            }
+
+/* زر الحفظ */
+.save-btn {
+    padding: 14px;
+    background:  #2a719d;
+    color: #fff;
     border: none;
-    background-color: #dbe8f1;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 14px;
-    direction: rtl;
-    text-align: right;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-/* ===== الجراف ===== */
-.chart-card {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    width: 65%;
-    max-width: 650px;
-}
-
-.chart-card canvas {
-    height: 280px !important;
-}
-
-/* ===== Responsive ===== */
-@media screen and (max-width: 1200px) {
-    .chart-card {
-        width: 75%;
-        max-width: 600px;
+    .save-btn:hover {
+        background:  #2a719db2;
     }
 
-    .top-bar h2 {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 992px) {
+/* ========== Responsive ================= */
+@media (max-width: 768px) {
     .layout {
         flex-direction: column;
     }
@@ -220,77 +247,30 @@ body {
         width: 100%;
         height: auto;
         flex-direction: row;
-        overflow-x: auto;
-        padding: 10px;
+        align-items: center;
+        gap: 10px;
     }
 
     .menu {
         flex-direction: row;
-        gap: 10px;
         overflow-x: auto;
     }
 
-    .logout-container {
-        margin-left: auto;
-        margin-top: 0;
-        padding: 0;
-    }
-
     .content {
-        margin: 0;
-        padding: 20px;
-        align-items: stretch;
-        height: auto;
-        overflow-y: visible;
         margin-right: 0;
-    }
-
-    .chart-card {
-        width: 90%;
-        max-width: 550px;
+        width: 100%;
+        padding: 20px;
+        align-items: flex-start; /* عشان يكون فوق في الموبايل */
     }
 }
 
-@media screen and (max-width: 768px) {
-    .chart-card {
-        width: 100%;
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    .chart-card canvas {
-        height: 220px !important;
-    }
-
-    .top-bar h2 {
-        font-size: 14px;
-        padding: 6px 15px;
-    }
-
-    .filters select {
-        font-size: 13px;
-        padding: 6px 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .chart-card canvas {
-        height: 180px !important;
-    }
-
-    .top-bar h2 {
-        font-size: 13px;
-        padding: 5px 10px;
-    }
-
-    .filters {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .filters select {
-        width: 100%;
-    }
+body {
+    display: flex;
+    justify-content: center; /* التوسط العرضي */
+    align-items: center;     /* التوسط الطولي */
+    min-height: 100vh;       /* عشان ياخد طول الشاشة كلها */
+    margin: 0;
+    background-color: #f0f2f5; /* نفس لون الخلفية اللي في الصورة تقريباً */
 }
 
 ol,
