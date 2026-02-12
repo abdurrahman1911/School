@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="~/css/Student/student_styles.css" asp-append-version="true">
 </head>
 
-<body>
+<body style="background-color:  #dce6ec;">
     <div class="container">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
@@ -39,58 +39,38 @@
         </aside>
 
         <!-- Main Content -->
-        <main class="main-content">
+        <main class="main-content edit-page-bg">
             <!-- Edit Section -->
             <section class="edit-section">
-                <!-- Change Password Button -->
-                <button class="change-password-btn">تغيير كلمة المرور</button>
+                <!-- Password Change Card -->
+                <div class="edit-card">
+                    <h2 class="edit-card-title">تعديل كلمة المرور</h2>
 
-                <!-- Password Change Form -->
-                <div class="password-form">
-                    <div class="form-group">
-                        <label class="form-label">كلمة المرور الحالية :</label>
-                        <div class="input-wrapper">
-                            <input type="password" class="form-input" id="currentPassword" placeholder="">
-                            <button type="button" class="toggle-password" data-target="currentPassword">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg>
-                            </button>
+                    <div class="password-form show">
+                        <div class="form-group">
+                            <label class="form-label">كلمة المرور الحالية</label>
+                            <div class="input-wrapper">
+                                <input type="password" class="form-input" id="currentPassword" placeholder="ادخل كلمة المرور الحالية">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="form-label">كلمة المرور الجديدة :</label>
-                        <div class="input-wrapper">
-                            <input type="password" class="form-input" id="newPassword" placeholder="">
-                            <button type="button" class="toggle-password" data-target="newPassword">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg>
-                            </button>
+                        <div class="form-group">
+                            <label class="form-label">كلمة المرور الجديدة</label>
+                            <div class="input-wrapper">
+                                <input type="password" class="form-input" id="newPassword" placeholder="ادخل كلمة المرور الجديدة">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label class="form-label">تأكيد كلمة المرور :</label>
-                        <div class="input-wrapper">
-                            <input type="password" class="form-input" id="confirmPassword" placeholder="">
-                            <button type="button" class="toggle-password" data-target="confirmPassword">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
-                                    stroke="currentColor" stroke-width="2">
-                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                                    <circle cx="12" cy="12" r="3" />
-                                </svg>
-                            </button>
+                        <div class="form-group">
+                            <label class="form-label">تأكيد كلمة المرور</label>
+                            <div class="input-wrapper">
+                                <input type="password" class="form-input" id="confirmPassword" placeholder="اعد تأكيد كلمة المرور الجديدة">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="save-btn-wrapper">
-                        <button class="save-btn" id="savePassword">حفظ</button>
+                        <div class="save-btn-wrapper">
+                            <button class="save-btn" id="savePassword">حفظ البيانات</button>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* Reset and Base Styles for all student pages */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +7,9 @@
 
 body {
     font-family: 'Cairo', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     min-height: 100vh;
+    font-size: 16px;
     direction: rtl;
 }
 
@@ -64,7 +65,7 @@ body {
     list-style: none !important;
     display: flex !important;
     flex-direction: column !important;
-    gap: 14px !important;
+    gap: 10px !important;
     flex: 1 !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -79,15 +80,15 @@ body {
 
 .nav-links li a {
     display: block !important;
-    padding: 12px !important;
+    padding: 8px !important;
     background: #2a719d !important;
     color: #fff !important;
     text-align: center !important;
     border-radius: 6px !important;
     text-decoration: none !important;
     transition: 0.3s !important;
-    font-size: 14px !important;
-    font-weight: 500 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
 }
 
 .nav-links li a.active {
@@ -111,8 +112,8 @@ body {
     border-radius: 6px !important;
     text-decoration: none !important;
     cursor: pointer !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
     display: block !important;
 }
 
@@ -517,135 +518,123 @@ body {
     border-bottom: 2px solid #b8d4da;
 }
 
-/* Edit Page Styles */
+/* //////////////////////// Edit Page Styles ///////////////////////*/
+/* Edit Page Background */
+.edit-page-bg {
+    background-color: #dce6ec !important;
+    padding: 40px !important;
+}
+
+/* Edit Section */
 .edit-section {
-    padding-top: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
 }
 
-.change-password-btn {
-    padding: 12px 30px;
-    font-family: 'Cairo', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #4a5568;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 30px;
-    align-self: flex-start;
+/* Edit Card */
+.edit-card {
+    background: #fff;
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.change-password-btn:hover {
-    background-color: #2d3748;
+.edit-card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1b3a57;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
 }
 
+/* Password Form */
 .password-form {
     width: 100%;
-    max-width: 500px;
-    display: flex;
+    display: none;
     flex-direction: column;
-    gap: 20px;
-    align-self: flex-start;
+    gap: 12px;
+}
+
+.password-form.show {
+    display: flex;
 }
 
 .form-group {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .form-label {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    color: #333;
-    white-space: nowrap;
-    min-width: 140px;
+    color: #555;
     text-align: right;
 }
 
 .input-wrapper {
     position: relative;
-    flex: 1;
 }
 
 .form-input {
     width: 100%;
-    padding: 10px 15px;
-    padding-left: 40px;
+    padding: 6px 5px;
     font-family: 'Cairo', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
     outline: none;
     text-align: right;
-    direction: ltr;
+    direction: rtl;
     transition: border-color 0.3s ease;
 }
 
+.form-input::placeholder {
+    color: #aaa;
+    font-size: 12px;
+}
+
 .form-input:focus {
-    border-color: #5d9ecf;
+    border-bottom-color: #4387AB;
 }
 
-.toggle-password {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #888;
-    padding: 0;
-    display: flex;
-    align-items: center;
-}
-
-.toggle-password:hover {
-    color: #555;
-}
-
-.toggle-password svg {
-    width: 18px;
-    height: 18px;
-}
-
-.toggle-password.active {
-    color: #5d9ecf;
-}
-
+/* Save Button */
 .save-btn-wrapper {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 .save-btn {
-    padding: 10px 40px;
+    padding: 7px 0;
+    width: 100%;
     font-family: 'Cairo', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: #333;
-    background-color: transparent;
-    border: 2px solid #b8d4da;
+    color: #fff;
+    background-color: #2c5f7c;
+    border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .save-btn:hover {
-    background-color: rgba(129, 172, 205, 0.2);
-    border-color: #5d9ecf;
+    background-color: #1e4a63;
 }
 
-/* Attendance Section */
+/* ///////////////////// Attendance Section /////////////////////*/
 .attendance-section {
     padding-top: 20px;
 }
@@ -717,4 +706,54 @@ body {
 
 .status-icon.absent svg {
     color: #c62828;
+}
+
+/* Weekly Schedule Table */
+.weekly-schedule-wrapper {
+    overflow-x: auto;
+}
+
+.weekly-schedule-table {
+    width: 100%;
+    border: 3px solid #b8d4da;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+.weekly-schedule-table thead th {
+    background-color: #ffffff;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 8px;
+    text-align: center;
+    border: 1px solid #b8d4da;
+}
+
+.weekly-schedule-table thead th:first-child {
+    background-color: #ffffff;
+}
+
+.weekly-schedule-table tbody td {
+    padding: 10px 8px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #b8d4da;
+    background-color: #ffffff;
+}
+
+.weekly-schedule-table tbody td.day-cell {
+    background-color: rgba(129, 172, 205, 0.25);
+    font-weight: 600;
+    color: #333;
+}
+
+.weekly-schedule-table tbody td.break-cell {
+    background-color: #ffffff;
+    color: #666;
+}
+
+.weekly-schedule-table tbody tr:hover td:not(.day-cell) {
+    background-color: rgba(129, 172, 205, 0.1);
 }
