@@ -176,10 +176,13 @@ nav {
     cursor: pointer;
     border-radius: 5px;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
 
     .logout:hover {
         background: #395c76;
+        color: #fff;
     }
 
 /* Responsive */

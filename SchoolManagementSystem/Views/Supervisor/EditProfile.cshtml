@@ -12,11 +12,12 @@
 
             <h3 class="title">تعديل كلمة المرور</h3>
 
-            <form method="post">
+            <form asp-action="EditProfile" method="post">
+
                 <div class="form-group">
                     <label>كلمة المرور الحالية</label>
                     <div class="password-field">
-                        <input type="password" id="currentPassword" placeholder="ادخل كلمة المرور الحالية">
+                        <input type="password" id="currentPassword" name="CurrentPassword" placeholder="ادخل كلمة المرور الحالية" />
                         <span class="toggle" onclick="togglePassword('currentPassword', this)">
                             <i class="fa-solid fa-eye-slash"></i>
                         </span>
@@ -26,7 +27,7 @@
                 <div class="form-group">
                     <label>كلمة المرور الجديدة</label>
                     <div class="password-field">
-                        <input type="password" id="newPassword" placeholder="ادخل كلمة المرور الجديدة">
+                        <input type="password" id="newPassword" name="NewPassword" placeholder="ادخل كلمة المرور الجديدة" />
                         <span class="toggle" onclick="togglePassword('newPassword', this)">
                             <i class="fa-solid fa-eye-slash"></i>
                         </span>
@@ -36,7 +37,7 @@
                 <div class="form-group">
                     <label>تأكيد كلمة المرور</label>
                     <div class="password-field">
-                        <input type="password" id="confirmPassword" placeholder="اعد كتابة كلمة المرور الجديدة">
+                        <input type="password" id="confirmPassword" name="ConfirmPassword" placeholder="اعد كتابة كلمة المرور الجديدة" />
                         <span class="toggle" onclick="togglePassword('confirmPassword', this)">
                             <i class="fa-solid fa-eye-slash"></i>
                         </span>
@@ -44,6 +45,7 @@
                 </div>
 
                 <button type="submit" class="save-btn">حفظ التعديلات</button>
+
             </form>
 
         </div>
@@ -101,10 +103,7 @@
             </a>
         </nav>
 
-        <button class="logout"
-                onclick="location.href='@Url.Action("Index","Home")'">
-            تسجيل الخروج
-        </button>
+        <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
 
     </aside>
 
@@ -114,6 +113,22 @@
 @section Scripts {
     <script src="~/js/Supervisor/editProfile.js"></script>
 }
+<script>
+    function togglePassword(inputId, toggleSpan) {
+        const input = document.getElementById(inputId);
+        const icon = toggleSpan.querySelector("i");
+
+        if (input.type === "password") {
+            input.type = "text";
+            icon.classList.remove("fa-eye-slash");
+            icon.classList.add("fa-eye");
+        } else {
+            input.type = "password";
+            icon.classList.remove("fa-eye");
+            icon.classList.add("fa-eye-slash");
+        }
+    }
+</script>
 
 
 

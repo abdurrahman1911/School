@@ -92,10 +92,8 @@
             </a>
         </nav>
 
-        <button class="logout"
-                onclick="location.href='@Url.Action("Index","Home")'">
-            تسجيل الخروج
-        </button>
+        <a asp-controller="Account" asp-action="Logout" class="logout">تسجيل الخروج</a>
+
 
     </aside>
 

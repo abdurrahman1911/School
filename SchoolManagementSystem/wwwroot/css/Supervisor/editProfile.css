@@ -95,42 +95,50 @@ nav {
     cursor: pointer;
     border-radius: 5px;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
 
     .logout:hover {
         background: #395c76;
+        color: #fff;
     }
 
 /* المحتوى */
 .content {
-    margin-right: 250px;
     flex: 1;
-    overflow-y: auto;
+    background-color: #eef3f6;
+    padding: 30px;
+    margin-right: 230px; /* عشان sidebar */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    overflow-y: auto;
 }
 
-/* الصندوق */
+/* صندوق تعديل البيانات */
 .box {
     background: #fff;
-    padding: 30px;
+    padding: 40px 30px;
     width: 100%;
-    max-width: 500px;
-    border-radius: 8px;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     text-align: center;
 }
 
 .title {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #1b3a57;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 /* الفورم */
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
 }
 
 .form-group {
@@ -139,51 +147,60 @@ form {
 
     .form-group label {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #1b3a57;
     }
 
     .form-group input {
         width: 100%;
-        padding: 10px;
-        border-radius: 5px;
+        padding: 12px;
+        border-radius: 8px;
         border: 1px solid #ccc;
+        outline: none;
     }
 
-/* حقل كلمة المرور */
+        .form-group input:focus {
+            border-color: #7a97ad;
+            box-shadow: 0 0 5px rgba(122,151,173,0.4);
+        }
+
+/* حقل كلمة المرور مع أيقونة العين */
 .password-field {
     position: relative;
 }
 
-    .password-field input {
-        padding-left: 35px;
+    .password-field .toggle {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 18px;
     }
 
-.toggle {
-    position: absolute;
-    left: 10px;
-    top: 38px;
-    cursor: pointer;
-    font-size: 18px;
-    color: #555;
-}
+        .password-field .toggle i {
+            color: #555;
+        }
 
-    .toggle:hover {
-        color: #000;
-    }
+            .password-field .toggle i:hover {
+                color: #1b3a57;
+            }
 
 /* زر الحفظ */
 .save-btn {
-    padding: 12px;
+    padding: 14px;
     background: #7a97ad;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.3s;
 }
 
     .save-btn:hover {
-        background: #6b8697;
+        background: #7696b2;
     }
 
 /* Responsive */
