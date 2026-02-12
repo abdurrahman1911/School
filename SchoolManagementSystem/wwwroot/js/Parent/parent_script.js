@@ -1,10 +1,27 @@
 /**
  * Global Child Selection Logic for Parent Dashboard
+ * Handles syncing selected child across all Parent pages via localStorage
  */
 
 // Initialize selection on page load
 document.addEventListener('DOMContentLoaded', function () {
     syncUIWithSelection();
+
+    // Listen for changes on all child-select and student-select dropdowns
+    const childSelect = document.getElementById('child-select');
+    if (childSelect) {
+        childSelect.addEventListener('change', function () {
+            localStorage.setItem('selectedChild', this.value);
+        });
+    }
+
+    const studentSelect = document.getElementById('student-select');
+    if (studentSelect) {
+        studentSelect.addEventListener('change', function () {
+            localStorage.setItem('selectedChild', this.value);
+            syncUIWithSelection();
+        });
+    }
 });
 
 // Sync UI elements with the current value in localStorage
@@ -17,44 +34,45 @@ function syncUIWithSelection() {
         localStorage.setItem('selectedChild', savedChild);
     }
 
-    // Update all dropdowns on the page (child-select on data pages, student-select on Index page)
-    const dropdownIds = ['child-select', 'student-select'];
-    dropdownIds.forEach(id => {
-        const el = document.getElementById(id);
-        if (el) {
+    // Update all dropdowns on the page
+    const allSelects = document.querySelectorAll('#child-select, #student-select');
+    allSelects.forEach(function (el) {
+        // Check if the value exists in the dropdown options
+        const optionExists = Array.from(el.options).some(function (opt) {
+            return opt.value === savedChild;
+        });
+        if (optionExists) {
             el.value = savedChild;
         }
     });
 
     // Highlight cards on Index page
     const cards = document.querySelectorAll('.child-card');
-    cards.forEach(card => {
+    cards.forEach(function (card) {
         card.classList.remove('selected');
         const onclickAttr = card.getAttribute('onclick');
-        if (onclickAttr && onclickAttr.includes(`'${savedChild}'`)) {
+        if (onclickAttr && onclickAttr.indexOf("'" + savedChild + "'") !== -1) {
             card.classList.add('selected');
         }
     });
 }
 
 // Global function for card clicks (Index page)
+// Saves selection and optionally redirects
 function selectChild(childId, performanceUrl) {
     localStorage.setItem('selectedChild', childId);
+    syncUIWithSelection();
     if (performanceUrl) {
         window.location.href = performanceUrl + '?child=' + childId;
-    } else {
-        syncUIWithSelection();
     }
 }
 
 // Global function for dropdown changes (Data pages)
 function changeChild() {
-    const childSelect = document.getElementById('child-select');
+    var childSelect = document.getElementById('child-select');
     if (childSelect) {
-        const selectedId = childSelect.value;
-        localStorage.setItem('selectedChild', selectedId);
-        // Reload to update dynamic data (if any)
-        location.reload();
+        localStorage.setItem('selectedChild', childSelect.value);
+        syncUIWithSelection();
     }
 }
 
