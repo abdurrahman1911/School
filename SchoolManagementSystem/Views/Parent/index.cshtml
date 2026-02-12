@@ -90,16 +90,19 @@
                 <div class="contact-info">
                     <span class="contact-label">للتواصل مع المعلم :</span>
                     <div class="student-select-wrapper">
-                        <select id="student-select" class="student-select" onchange="syncSelection(this.value)">
-                            <option value="salma">سلمى محمد</option>
-                            <option value="ahmed">أحمد محمد</option>
-                            <option value="mahmoud">محمود محمد</option>
+                        <select id="teacher-select" class="student-select" onchange="updateTeacherPhone()">
+                            <option value="0123456789">أ/ أحمد محمود - الرياضيات</option>
+                            <option value="0112345678">أ/ سارة علي - اللغة العربية</option>
+                            <option value="0109876543">أ/ محمد حسن - العلوم</option>
+                            <option value="0156789012">أ/ فاطمة خالد - اللغة الإنجليزية</option>
+                            <option value="0198765432">أ/ عمر يوسف - الدراسات الاجتماعية</option>
+                            <option value="0134567890">أ/ نورا إبراهيم - التربية الدينية</option>
                         </select>
                     </div>
                 </div>
                 <div class="phone-info">
                     <span class="phone-label">رقم الهاتف :</span>
-                    <span class="phone-number">0123456789</span>
+                    <span class="phone-number" id="teacher-phone">0123456789</span>
                 </div>
             </div>
         </main>
@@ -107,10 +110,74 @@
 
     <script src="~/js/Parent/parent_script.js"></script>
     <script>
+        // Teachers data per child
+        var teachersByChild = {
+            'salma': [
+                { name: 'أ/ أحمد محمود', subject: 'الرياضيات', phone: '0123456789' },
+                { name: 'أ/ سارة علي', subject: 'اللغة العربية', phone: '0112345678' },
+                { name: 'أ/ محمد حسن', subject: 'العلوم', phone: '0109876543' },
+                { name: 'أ/ فاطمة خالد', subject: 'اللغة الإنجليزية', phone: '0156789012' },
+                { name: 'أ/ نورا إبراهيم', subject: 'التربية الدينية', phone: '0134567890' },
+                { name: 'أ/ عمر يوسف', subject: 'الدراسات الاجتماعية', phone: '0198765432' }
+            ],
+            'ahmed': [
+                { name: 'أ/ خالد عبدالله', subject: 'الرياضيات', phone: '0101234567' },
+                { name: 'أ/ هدى محمود', subject: 'اللغة العربية', phone: '0111234567' },
+                { name: 'أ/ ياسر حسين', subject: 'الفيزياء', phone: '0121234567' },
+                { name: 'أ/ منى سعيد', subject: 'الكيمياء', phone: '0151234567' },
+                { name: 'أ/ طارق رمضان', subject: 'اللغة الإنجليزية', phone: '0191234567' },
+                { name: 'أ/ أمل عادل', subject: 'الأحياء', phone: '0131234567' }
+            ],
+            'mahmoud': [
+                { name: 'أ/ حسام الدين', subject: 'الرياضيات', phone: '0104567890' },
+                { name: 'أ/ ريم أحمد', subject: 'اللغة العربية', phone: '0114567890' },
+                { name: 'أ/ وليد سامي', subject: 'الفيزياء', phone: '0124567890' },
+                { name: 'أ/ سمية كمال', subject: 'الكيمياء', phone: '0154567890' },
+                { name: 'أ/ مصطفى نبيل', subject: 'اللغة الإنجليزية', phone: '0194567890' },
+                { name: 'أ/ داليا حسن', subject: 'الأحياء', phone: '0134567891' }
+            ]
+        };
+
+        // Update teacher dropdown based on selected child
+        function updateTeachersList() {
+            var savedChild = localStorage.getItem('selectedChild') || 'salma';
+            var teachers = teachersByChild[savedChild] || teachersByChild['salma'];
+            var select = document.getElementById('teacher-select');
+            var phoneSpan = document.getElementById('teacher-phone');
+
+            if (!select || !phoneSpan) return;
+
+            // Clear and repopulate
+            select.innerHTML = '';
+            teachers.forEach(function (t) {
+                var opt = document.createElement('option');
+                opt.value = t.phone;
+                opt.textContent = t.name + ' - ' + t.subject;
+                select.appendChild(opt);
+            });
+
+            // Set phone to first teacher
+            phoneSpan.textContent = teachers[0].phone;
+        }
+
+        // Update phone number when teacher is selected
+        function updateTeacherPhone() {
+            var select = document.getElementById('teacher-select');
+            var phoneSpan = document.getElementById('teacher-phone');
+            phoneSpan.textContent = select.value;
+        }
+
         // Override for Index page card logic
         function selectChildLocal(childId) {
-            selectChild(childId, '@Url.Action("Performance", "Parent")');
+            localStorage.setItem('selectedChild', childId);
+            syncUIWithSelection();
+            updateTeachersList();
         }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            updateTeachersList();
+        });
     </script>
 </body>
 
