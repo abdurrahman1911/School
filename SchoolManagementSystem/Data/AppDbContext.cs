@@ -8,7 +8,7 @@ namespace SchoolManagementSystem.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = "Server=DESKTOP-H9CT4I0\\SQLEXPRESS;Database=SchoolManagementSystem;Integrated Security=SSPI;TrustServerCertificate=True";
+            var connectionString = "Server=.;Database=SchoolManagementSystem;Integrated Security=SSPI;TrustServerCertificate=True";
             optionsBuilder.UseSqlServer(connectionString, sqlOptions => 
             {
                 sqlOptions.EnableRetryOnFailure();
