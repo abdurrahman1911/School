@@ -8,11 +8,6 @@ namespace SchoolManagementSystem.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = "Server=.;Database=SchoolManagementSystem;Integrated Security=SSPI;TrustServerCertificate=True";
-            optionsBuilder.UseSqlServer(connectionString, sqlOptions => 
-            {
-                sqlOptions.EnableRetryOnFailure();
-            });
         }
         public DbSet<User> Users { get; set; }
         public DbSet<UserType> UserTypes { get; set; }
